@@ -158,6 +158,23 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [121.4809045, 24.9948149]
+      },
+      "properties": {
+        "id": "6453",
+        "url": "http://unluckyhouse.com/showthread.php?t=6453",
+        "news": "",
+        "address": "新北市中和區員山路",
+        "event": "34歲男子上吊",
+        "datetime": "2015-09-03 19:00:00",
+        "marker-color": "#b00000",
+        "marker-symbol": "cross"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [121.508034, 24.9992771]
       },
       "properties": {
@@ -167,6 +184,23 @@
         "address": "新北市中和區景安路19號",
         "event": "58歲女子墜樓",
         "datetime": "2015-07-27 05:00:00",
+        "marker-color": "#b00000",
+        "marker-symbol": "danger"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.466415, 24.9955532]
+      },
+      "properties": {
+        "id": "6214",
+        "url": "http://unluckyhouse.com/showthread.php?t=6214",
+        "news": "",
+        "address": "新北市中和區壽德新村甲區",
+        "event": "62歲婦人跳樓",
+        "datetime": "2015-05-17 06:00:00",
         "marker-color": "#b00000",
         "marker-symbol": "danger"
       }
