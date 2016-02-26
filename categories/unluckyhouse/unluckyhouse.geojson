@@ -10,6 +10,8 @@
       "properties": {
         "id": "7285",
         "url": "http://unluckyhouse.com/showthread.php?t=7285",
+        "news": "",
+        "address": "中和區永貞路370號",
         "event": "28歲男子跳樓",
         "datetime": "2016-02-15 21:00:00",
         "marker-color": "#b00000",
@@ -25,7 +27,9 @@
       "properties": {
         "id": "7282",
         "url": "http://unluckyhouse.com/showthread.php?t=7282",
-        "event": "中和區連勝街57巷XX號6樓",
+        "news": "",
+        "address": "中和區連勝街57巷XX號6樓",
+        "event": "37歲男子跳樓",
         "datetime": "2016-02-15 02:00:00",
         "marker-color": "#b00000",
         "marker-symbol": "danger"
@@ -40,6 +44,7 @@
       "properties": {
         "id": "6886",
         "url": "http://unluckyhouse.com/showthread.php?t=6886",
+        "news": "",
         "address": "新北市中和區南工路94巷10號3樓",
         "event": "53歲女子遭丈夫殺害",
         "datetime": "2015-12-25 17:35:00",
@@ -54,9 +59,9 @@
         "coordinates": [121.5108255, 24.9974823]
       },
       "properties": {
-        "marker-size": "medium",
         "id": 6885,
         "url": "http://unluckyhouse.com/showthread.php?t=6885",
+        "news": "",
         "address": "新北市中和區宜安路",
         "event": "39歲男子施打毒品過量死亡",
         "datetime": "2015-12-23 20:00:00",
@@ -68,11 +73,29 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [121.4796783,25.0021168]
+      },
+      "properties": {
+        "id": 6762,
+        "url": "http://unluckyhouse.com/showthread.php?t=6762",
+        "news": "",
+        "address": "新北市中和區員山路327巷78號4樓",
+        "event": "發生死亡案件",
+        "datetime": "2009-10-21 00:00:00",
+        "marker-color": "#b00000",
+        "marker-symbol": "danger"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [121.505637, 24.9996987]
       },
       "properties": {
         "id": "6536",
         "url": "http://unluckyhouse.com/showthread.php?t=6536",
+        "news": "",
         "address": "新北市中和區中和路210號14樓",
         "event": "夫妻相繼跳樓",
         "datetime": "2015-10-12 00:00:00",
@@ -89,6 +112,7 @@
       "properties": {
         "id": "6536",
         "url": "http://unluckyhouse.com/showthread.php?t=6536",
+        "news": "",
         "address": "新北市中和區中正路839巷8號9樓",
         "event": "40歲男子墜樓",
         "datetime": "2015-09-17 02:00:00",
@@ -105,6 +129,7 @@
       "properties": {
         "id": "6353",
         "url": "http://unluckyhouse.com/showthread.php?t=6353",
+        "news": "",
         "address": "新北市中和區景安路19號",
         "event": "58歲女子墜樓",
         "datetime": "2015-07-27 05:00:00",
@@ -121,6 +146,7 @@
       "properties": {
         "id": "5991",
         "url": "http://unluckyhouse.com/showthread.php?t=5991",
+        "news": "",
         "address": "新北市中和區永和路8巷8號5F",
         "event": "14歲男少年墜樓",
         "datetime": "2015-02-01 05:00:00",
