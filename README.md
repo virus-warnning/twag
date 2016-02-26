@@ -17,7 +17,7 @@
 ##### 現有資料
 資料類型 | 資料來源 | 網址 | 授權
 ---- | ---- | ---- | ----
-凶宅 | 台灣凶宅網 | [HTML](http://unluckyhouse.com/showthread.php?t=7281) / [RSS 2.0](http://unluckyhouse.com/external.php) | ?
+非自然死亡 | 台灣凶宅網 | [HTML](http://unluckyhouse.com/showthread.php?t=7281) / [RSS 2.0](http://unluckyhouse.com/external.php) | ?
 地籍資料 | 內政部 | [系統](http://easymap.land.moi.gov.tw/R02/Index) | ?
 實價登錄 | 內政部 | [CSV](http://plvr.land.moi.gov.tw/DownloadOpenData) | [政1](http://data.gov.tw/?q=principle)
 易發生婦幼被害犯罪地點 | 內政部 | [CSV](http://data.moi.gov.tw/MoiOD/Data/DataDetail.aspx?oid=DBB18796-8A89-4917-B4AB-D0AF26FAFEDC) | [政1](http://data.gov.tw/?q=principle)
