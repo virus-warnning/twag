@@ -13,10 +13,9 @@
 * 避免評論
 
 ##### 現有資料
-資料類型 | 資料來源 | 網址 | 授權
+資料類型/格式 | 資料來源 | 網址 | 授權
 ---- | ---- | ---- | ----
-凶宅 | 台灣凶宅網 | http://unluckyhouse.com/showthread.php?t={討論串編號} |
-天然災害 | | |
+凶宅<br>HTML/RSS | 台灣凶宅網 | http://unluckyhouse.com/showthread.php?t={討論串編號}<br>http://unluckyhouse.com/external.php | 需要問一下站長
 地籍資料 | 內政部 | http://easymap.land.moi.gov.tw/R02/Index |
 實價登錄 | 內政部 | http://plvr.land.moi.gov.tw/DownloadOpenData | [政府開放資料授權 v1](http://data.gov.tw/?q=principle)
 台北市建物模型 GeoJSON | Ronny Wang | https://github.com/sheethub/tpe3d | [政府開放資料授權 v1](http://data.gov.tw/?q=principle)
