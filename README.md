@@ -18,4 +18,4 @@
 凶宅 | 台灣凶宅網 | http://unluckyhouse.com/showthread.php?t={討論串編號} |
 天然災害 | | |
 地籍資料 | 內政部 | http://easymap.land.moi.gov.tw/R02/Index |
-實價登錄 | 內政部 | http://lvr.land.moi.gov.tw/homePage.action | [政府開放資料授權 v1](http://data.gov.tw/?q=principle)
+實價登錄 | 內政部 | http://plvr.land.moi.gov.tw/DownloadOpenData | [政府開放資料授權 v1](http://data.gov.tw/?q=principle)
