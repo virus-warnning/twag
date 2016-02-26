@@ -39,3 +39,4 @@ KMT 黨產 | kmt-exposed | [GeoJSON](https://github.com/kmt-exposed/kmt-exposed.
 ##### 輔助資源
 * [GeoJSON 效果預覽](http://geojson.io/)
 * [針對 Leaflet 最佳化](http://leafletjs.com/examples/geojson.html)
+* [針對 Mapbox 最佳化](https://www.mapbox.com/help/markers/#customizing-markers)
