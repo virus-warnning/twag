@@ -15,8 +15,8 @@
 ##### 現有資料
 資料類型 | 資料來源 | 網址 | 授權
 ---- | ---- | ---- | ----
-凶宅 | 台灣凶宅網 | [HTML](http://unluckyhouse.com/showthread.php?t=7281) / [RSS 2.0](http://unluckyhouse.com/external.php) | 需要問一下站長
-地籍資料 | 內政部 | [不確定](http://easymap.land.moi.gov.tw/R02/Index) |
+凶宅 | 台灣凶宅網 | [HTML](http://unluckyhouse.com/showthread.php?t=7281) / [RSS 2.0](http://unluckyhouse.com/external.php) | ?
+地籍資料 | 內政部 | [系統](http://easymap.land.moi.gov.tw/R02/Index) | ?
 實價登錄 | 內政部 | [CSV](http://plvr.land.moi.gov.tw/DownloadOpenData) | [政1](http://data.gov.tw/?q=principle)
 台北市建物模型 GeoJSON | sheethub | [GeoJSON](https://github.com/sheethub/tpe3d/tree/master/geojsons) | [政1](http://data.gov.tw/?q=principle)
 台北市公立托嬰中心 | 台北市資訊局 | [XML](http://data.taipei/opendata/datalist/datasetMeta?oid=01ac5a1d-dfc3-44c7-84a7-6d76bcb2879b) | [政1](http://data.gov.tw/?q=principle)
