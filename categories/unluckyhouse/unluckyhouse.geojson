@@ -43,10 +43,60 @@
         "url": "http://unluckyhouse.com/showthread.php?t=6536",
         "address": "新北市中和區中和路210號14樓",
         "event": "夫妻相繼跳樓",
-        "datetime": "2015-10-12 ",
+        "datetime": "2015-10-12 00:00:00",
         "marker-color": "#b00000",
         "marker-symbol": "danger"
       }
     },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.4842157,25.0024326]
+      },
+      "properties": {
+        "id": "6536",
+        "url": "http://unluckyhouse.com/showthread.php?t=6536",
+        "address": "新北市中和區中正路839巷8號9樓",
+        "event": "40歲男子墜樓",
+        "datetime": "2015-09-17 02:00:00",
+        "marker-color": "#b00000",
+        "marker-symbol": "danger"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.508034,24.9992771]
+      },
+      "properties": {
+        "id": "6353",
+        "url": "http://unluckyhouse.com/showthread.php?t=6353",
+        "address": "新北市中和區景安路19號",
+        "event": "58歲女子墜樓",
+        "datetime": "2015-07-27 05:00:00",
+        "marker-color": "#b00000",
+        "marker-symbol": "danger"
+      }
+    },
+    /*
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0,0]
+      },
+      "properties": {
+        "id": "0000",
+        "url": "http://unluckyhouse.com/showthread.php?t=0000",
+        "address": "----",
+        "event": "----",
+        "datetime": "2015-09-17 02:00:00",
+        "marker-color": "#b00000",
+        "marker-symbol": "danger"
+      }
+    }
+    */
   ]
 }
