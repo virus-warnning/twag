@@ -107,11 +107,45 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [121.4930737, 25.0073795]
+      },
+      "properties": {
+        "id": "6504",
+        "url": "http://unluckyhouse.com/showthread.php?t=6504",
+        "news": "",
+        "address": "新北市中和區永和路1XX號",
+        "event": "2個月大女嬰窒息死亡",
+        "datetime": "2015-09-17 02:00:00",
+        "marker-color": "#b00000",
+        "marker-symbol": "cross"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.5008163, 24.9914716]
+      },
+      "properties": {
+        "id": "6500",
+        "url": "http://unluckyhouse.com/showthread.php?t=6500",
+        "news": "",
+        "address": "新北市中和區中興街",
+        "event": "49歲女子上吊",
+        "datetime": "2015-09-16 03:00:00",
+        "marker-color": "#b00000",
+        "marker-symbol": "danger"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [121.4842157, 25.0024326]
       },
       "properties": {
-        "id": "6536",
-        "url": "http://unluckyhouse.com/showthread.php?t=6536",
+        "id": "6499",
+        "url": "http://unluckyhouse.com/showthread.php?t=6499",
         "news": "",
         "address": "新北市中和區中正路839巷8號9樓",
         "event": "40歲男子墜樓",
