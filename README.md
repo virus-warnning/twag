@@ -19,3 +19,6 @@
 天然災害 | | |
 地籍資料 | 內政部 | http://easymap.land.moi.gov.tw/R02/Index |
 實價登錄 | 內政部 | http://plvr.land.moi.gov.tw/DownloadOpenData | [政府開放資料授權 v1](http://data.gov.tw/?q=principle)
+台北市建物模型 GeoJSON | Ronny Wang | https://github.com/sheethub/tpe3d | [政府開放資料授權 v1](http://data.gov.tw/?q=principle)
+台北市公立托嬰中心 | | http://data.taipei/opendata/datalist/datasetMeta?oid=01ac5a1d-dfc3-44c7-84a7-6d76bcb2879b | [政府開放資料授權 v1](http://data.gov.tw/?q=principle)
+台北市私立托嬰中心 | | http://data.taipei/opendata/datalist/datasetMeta?oid=081df75e-85c7-464c-b125-546920911c5c | [政府開放資料授權 v1](http://data.gov.tw/?q=principle)
