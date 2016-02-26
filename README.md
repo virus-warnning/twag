@@ -6,7 +6,7 @@
 * 資料具有歷史考證價值
 
 ##### 資料蒐集標準
-* 通通變成 GeoJSON
+* 通通變成 [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON)
 * 具備資料來源
 * 避免因果關係與評論，確保資料中立
 
