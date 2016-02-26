@@ -323,6 +323,23 @@
         "marker-color": "#b00000",
         "marker-symbol": "danger"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.5008686, 25.003683]
+      },
+      "properties": {
+        "id": "5977",
+        "url": "http://unluckyhouse.com/showthread.php?t=5977",
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150128/549979",
+        "address": "新北市中和區永和路8巷23弄1號頂樓加蓋",
+        "event": "22歲男子火災死亡",
+        "datetime": "2015-01-28 06:00:00",
+        "marker-color": "#b00000",
+        "marker-symbol": "danger"
+      }
     }
   ]
 }
