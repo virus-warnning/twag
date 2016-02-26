@@ -36,5 +36,6 @@ KMT 黨產 | kmt-exposed | [GeoJSON](https://github.com/kmt-exposed/kmt-exposed.
 ##### 願望
 * 賄選事件
 
-##### 輔助工具
+##### 輔助資源
 * [GeoJSON 效果預覽](http://geojson.io/)
+* [針對 Leaflet 最佳化](http://leafletjs.com/examples/geojson.html)
