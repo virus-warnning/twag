@@ -209,6 +209,108 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [121.466415, 24.9955532]
+      },
+      "properties": {
+        "id": "6195",
+        "url": "http://unluckyhouse.com/showthread.php?t=6195",
+        "news": "",
+        "address": "新北市中和區壽德新村甲區",
+        "event": "62歲婦人跳樓",
+        "datetime": "2015-05-17 06:00:00",
+        "marker-color": "#b00000",
+        "marker-symbol": "danger"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.5188933,24.9937992]
+      },
+      "properties": {
+        "id": "6158",
+        "url": "http://unluckyhouse.com/showthread.php?t=6158",
+        "news": "",
+        "address": "新北市中和區大仁街",
+        "event": "60~70歲老翁墜樓",
+        "datetime": "2015-04-18 08:00:00",
+        "marker-color": "#b00000",
+        "marker-symbol": "cross"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.4806387, 24.9993847]
+      },
+      "properties": {
+        "id": "6141",
+        "url": "http://unluckyhouse.com/showthread.php?t=6141",
+        "news": "",
+        "address": "新北市中和區民利街14巷",
+        "event": "67歲老翁上吊",
+        "datetime": "2015-04-12 13:20:00",
+        "marker-color": "#b00000",
+        "marker-symbol": "cross"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.4806387, 24.9993847]
+      },
+      "properties": {
+        "id": "6056",
+        "url": "http://unluckyhouse.com/showthread.php?t=6056",
+        "news": "",
+        "address": "新北市中和區壽德新村",
+        "event": "54歲男子內科疾病死亡",
+        "datetime": "2015-03-05 00:00:00",
+        "marker-color": "#b00000",
+        "marker-symbol": "cross"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.508137, 24.9839138]
+      },
+      "properties": {
+        "id": "6053",
+        "url": "http://unluckyhouse.com/showthread.php?t=6053",
+        "news": "",
+        "address": "新北市中和區華新街",
+        "event": "50歲男子燒炭自殺",
+        "datetime": "2015-03-05 00:00:00",
+        "marker-color": "#b00000",
+        "marker-symbol": "cross"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.493025, 25.0060668]
+      },
+      "properties": {
+        "id": "6029",
+        "url": "http://unluckyhouse.com/showthread.php?t=6029",
+        "news": "http://www.mingpaocanada.com/VAN/htm/News/20150218/tccd1_r.htm",
+        "address": "新北市中和區橋和路某大樓13樓",
+        "event": "46歲女子上吊自殺",
+        "datetime": "2015-02-17 00:00:00",
+        "marker-color": "#b00000",
+        "marker-symbol": "cross"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [121.5002292, 25.0031691]
       },
       "properties": {
