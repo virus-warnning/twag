@@ -31,3 +31,21 @@ marker-symbol | 圖釘圖示，確定地點使用 danger，不確定地點使用
       }
     }
 ```
+
+### 資料產出流程
+#### 自動化增加資料
+1. 先產出 id, url 欄位
+1. marker-symbol 預設 cross
+1. marker-color 預設 #b00000
+1. address、event、news 欄位空白
+1. coordinates 暫定 ```[119.5, 25.0]``` (在海上)
+
+#### 人工確認新聞
+1. 確認人 (年齡、性別)
+1. 確認是發時間 (datetime)
+1. 確認事件 (死亡方式)
+
+#### 精確定位
+1. 追蹤新聞照片或影片
+1. 利用街景服務取得經緯度與方位角
+1. 確定精確位置後 marker-symbol 改為 danger
