@@ -9,6 +9,7 @@ news | 新聞連結
 url | 台灣凶宅網連結
 address | 事發地址 (通常是不完整地址)
 datetime | 事發時間，使用 ISO 8601 格式台灣時間
+state | 資料完整度 0~2，0: 機器人蒐集到 id、1: 整理事件資訊、2: 補充精確座標
 marker-color | 圖釘顏色，一律使用 #b00000
 marker-symbol | 圖釘圖示，確定地點使用 danger，不確定地點使用 
 
