@@ -248,10 +248,16 @@ for t in todolist:
 		conn.request('GET', uri % t)
 		resp = conn.getresponse()
 		if resp.status==200:
-			content = resp.read()
+			content = resp.read(5)
 			clen = len(content)
 			if clen>0:
+				content = content + resp.read()
 				analyze(con, t, content)
+			else:
+				sql = 'UPDATE unluckyhouse SET state=-1 WHERE id=?'
+				con.execute(sql, (t,))
+				con.commit()
+				print('%d 為被刪除文章' % t)
 		conn.close()
 	except Exception as e:
 		print('解析發生錯誤: %s' % e)
