@@ -1,26 +1,23 @@
 #!../../../bin/python
-# -.- encoding: utf-8 -.-
+# coding: utf-8
 
-import httplib
 import re
-import sqlite3
-from xml.etree.ElementTree import ElementTree
-from bs4 import BeautifulSoup
+import smart_http
+import smart_dbapi
 from datetime import date, datetime, timedelta
 
-def dict_factory(cursor, row):  
-    d = {}  
-    for idx, col in enumerate(cursor.description):
-        d[col[0]] = row[idx]
-    return d 
-
-def analyze(con, topic_id, content):
+def analyze(con, topic_id, soup):
 	execnt = 0
 
-	# TODO: 中文數值轉阿拉伯數值
-
-	# 利用 Beautiful 4.x 挖出討論串的 post 內文
-	soup = BeautifulSoup(content, 'html.parser')
+	# 排除 "站務服務中心"、"其他" 兩個分類
+	# div#navbar > a:nth-child(2)
+	branch = soup.find(id="navbar").find_all('a')[1].get_text()
+	if branch == u'站務服務中心' or branch == u'其他':
+		sql = 'UPDATE unluckyhouse SET state=-2 WHERE id=?'
+		con.execute(sql, (t,))
+		con.commit()
+		print(u'%d 非凶宅文章 (分類: %s)' % (topic_id, branch))
+		return
 
 	all_node = soup.find_all('div', {'class': 'posttext'})
 	all_post = []
@@ -74,9 +71,9 @@ def analyze(con, topic_id, content):
 	# - 自殺類: 跳樓、燒炭、上吊 (依熱門程度排序)
 	# - 意外類: 火警、火災、墜樓
 	# - 他殺類: 虐童、勒死、殺害
-	pattern = re.compile(u'跳樓|燒炭|上吊|自刎|火警|火災|墜樓|窒息|猝死|虐童|殺害|行凶|毒手')
+	pattern = re.compile(u'跳樓|跳下|燒炭|上吊|自刎|火警|火災|墜樓|窒息|猝死|虐童|殺害|行凶|毒手')
 	all_approach = pattern.findall(all_post[0])
-	if set(all_approach) == set([u'跳樓', u'墜樓']):
+	if set(all_approach) == set([u'跳樓', u'跳下', u'墜樓']):
 		all_approach = [u'跳樓']
 	if set(all_approach) == set([u'上吊', u'窒息']):
 		all_approach = [u'上吊']
@@ -184,7 +181,7 @@ def analyze(con, topic_id, content):
 		# 特例:
 		# * 討論串 6509 - 台北市健康路今午2時許，發生1起墜樓案件
 		# TODO: 中文數值辨識
-		m = re.search(u'([昨今前]?)天?([凌清早]晨|[上下]?午|傍晚|晚間|深夜)(\d+)[時點]', all_post[0])
+		m = re.search(u'([昨今前]?)天?([凌清早]晨|[上下]?午|傍?晚間?|深夜)(\d+)[時點]', all_post[0])
 		if m is not None:
 			doff = 0
 			if m.group(1) == u'昨':
@@ -215,51 +212,36 @@ def analyze(con, topic_id, content):
 
 	con.commit()
 
-# 取得未處理的編號
+# 取得未處理清單
 # unluckyhouse.state=0
-
-ROW_LIMIT = 1
-
-con = sqlite3.connect('unluckyhouse.sqlite')
-con.row_factory = dict_factory
+ROW_LIMIT = 3
+sql = 'SELECT id FROM unluckyhouse WHERE state=0 ORDER BY id DESC LIMIT ?'
+con = smart_dbapi.connect('unluckyhouse.sqlite')
+cur = con.execute(sql, (ROW_LIMIT,))
 
 todolist = []
-sql = 'SELECT id FROM unluckyhouse WHERE state=0 ORDER BY id DESC LIMIT ?'
-
-cur = con.cursor()
-cur.execute(sql, (ROW_LIMIT,))
-
 for row in cur:
 	todolist.append(row['id'])
+print('分析範圍: %d ~ %d' % (todolist[0], todolist[-1]))
+print('******************************')
 
 cur.close()
 
-print('TODO: %d ~ %d' % (todolist[0], todolist[-1]))
-
-# 確認是不是有效文章 (長度>0)
+# 使用 BeautifulSoup 4 分析文章
 # http://unluckyhouse.com/archive/index.php/t-%d.html
-latest_id = -1
 host = 'unluckyhouse.com'
 uri  = '/archive/index.php/t-%d.html'
-conn = httplib.HTTPConnection(host)
 
 for t in todolist:
 	try:
-		conn.request('GET', uri % t)
-		resp = conn.getresponse()
-		if resp.status==200:
-			content = resp.read(5)
-			clen = len(content)
-			if clen>0:
-				content = content + resp.read()
-				analyze(con, t, content)
-			else:
-				sql = 'UPDATE unluckyhouse SET state=-1 WHERE id=?'
-				con.execute(sql, (t,))
-				con.commit()
-				print('%d 為被刪除文章' % t)
-		conn.close()
+		soup = smart_http.request(host, uri % t)
+		if soup != False:
+			analyze(con, t, soup)
+		else:
+			con.execute('UPDATE unluckyhouse SET state=-1 WHERE id=?', (t,))
+			print('主題 %d 已刪除' % t)
 	except Exception as e:
-		print('解析發生錯誤: %s' % e)
+		print('分析過程發生錯誤: %s' % e)
 
+con.commit()
 con.close()
