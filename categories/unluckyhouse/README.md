@@ -14,9 +14,9 @@ datetime | 事發時間，使用 ISO 8601 格式台灣時間，含時區標記 +
 state | 資料完整度 -3~3 (見下表)
 lat | 緯度
 lng | 經度
-vplat | 觀察點緯度
-vplng | 觀察點經度
-vpazu | 觀察點方位角
+vlat | 觀察點緯度
+vlng | 觀察點經度
+vazu | 觀察點方位角
 mtime | 資料更新時間
 
 #### 資料完整度 (state) 說明:
