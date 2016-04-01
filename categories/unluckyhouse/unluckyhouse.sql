@@ -10,9 +10,11 @@ CREATE TABLE `unluckyhouse` (
 	`address`	VARCHAR(255),
 	`datetime`	DATETIME,
 	`state`	INTEGER DEFAULT 0,
-	`lat`	DOUBLE DEFAULT 25.0,
-	`lng`	DOUBLE DEFAULT 119.5,
-	`azimuth`	INTEGER DEFAULT 0,
+	`lat`	REAL DEFAULT 25.0,
+	`lng`	REAL DEFAULT 119.5,
+	`vlat`	REAL DEFAULT 25.0,
+	`vlng`	REAL DEFAULT 119.5,
+	`vazu`	INTEGER DEFAULT 0,
 	`mtime`	DATETIME DEFAULT (datetime('now','localtime')),
 	PRIMARY KEY(id)
 );
