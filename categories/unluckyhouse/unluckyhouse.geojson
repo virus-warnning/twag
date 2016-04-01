@@ -1,2471 +1,2474 @@
-[
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.0115261, 
-        24.7845931
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-02-03 15:00:00", 
-      "address": "\u65b0\u7af9\u5e02\u6771\u5340\u79d1\u5b78\u5712\u8def107\u5df711\u865f (\u65b0\u7af9\u5e02\u79c1\u7acb\u675c\u66fc\u5e7c\u5152\u5712)", 
-      "news": "http://www.appledaily.com.tw/appledaily/article/headline/20150206/36373420/7%E6%9C%88%E5%AC%B0%E8%A2%AB%E4%BF%9D%E6%AF%8D%E8%93%8B%E5%B0%BF%E5%B8%83%E6%82%B6%E6%AD%BB", 
-      "approach": "\u610f\u5916 \u7a92\u606f", 
-      "id": 6009
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.976722, 
-        24.8055671
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2012-12-14 01:00:00", 
-      "address": "\u65b0\u7af9\u5e02\u4e2d\u83ef\u8def\u4e8c\u6bb5224\u865f3\u6a13 (\u8b19\u83ef\u52d5\u7269\u91ab\u9662)", 
-      "news": "http://www.appledaily.com.tw/appledaily/article/headline/20121216/34708950", 
-      "approach": "\u4ed6\u6bba \u51f6\u6bba", 
-      "id": 6010
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.7447883, 
-        25.1309301
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2011-12-16 00:00:00", 
-      "address": "\u57fa\u9686\u5e02\u4e2d\u6b63\u5340\u4fe1\u4e00\u8def177\u865f (\u9e97\u69ae\u7687\u51a0\u5927\u6a13)", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150210/557722/%E7%94%B7%E5%AD%90%E7%9C%8B%E5%B1%8B%E5%A2%9C%E6%A8%93%E4%BA%A1%E3%80%80%E7%AE%A1%E5%A7%94%E6%9C%83%E9%81%AD%E5%88%A4%E5%88%91", 
-      "approach": "\u610f\u5916 \u589c\u6a13", 
-      "id": 6015
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.5830054, 
-        25.0504789
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2003-01-01 00:00:00", 
-      "address": "\u81fa\u5317\u5e02\u5357\u6e2f\u5340\u6771\u65b0\u88578\u4e4b5\u865f2\u6a13", 
-      "news": "http://aomp.judicial.gov.tw/abbs/wkw/WHD2ASHOW.jsp?rowid=%2Fsld%2F10402%2F04161119793.003", 
-      "approach": "\u610f\u5916 \u4e0a\u540a", 
-      "id": 6016
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.5781949, 
-        25.038382
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-02-22 09:00:00", 
-      "address": "\u53f0\u5317\u5e02\u4fe1\u7fa9\u5340\u677e\u5c71\u8def519\u865f", 
-      "news": "http://udn.com/news/story/7316/719480-%E5%A4%A9%E9%99%8D%E7%81%AB%E7%90%83%E2%80%A6%E5%95%8A%EF%BC%81%E6%9C%89%E4%BA%BA%E8%B7%B3%E6%A8%93", 
-      "approach": "\u81ea\u6bba None", 
-      "id": 6033
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.7072956, 
-        24.239593
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2012-11-16 10:00:00", 
-      "address": "\u53f0\u4e2d\u5e02\u8c50\u539f\u5340\u5408\u4f5c\u885797\u5df718\u865f", 
-      "news": "http://news.ltn.com.tw/news/society/paper/633432", 
-      "approach": "\u81ea\u6bba \u71d2\u70ad", 
-      "id": 6035
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.4985839, 
-        25.0673525
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-02-26 09:00:00", 
-      "address": "\u65b0\u5317\u5e02\u4e09\u91cd\u5340\u6587\u5316\u5317\u8def85\u5df714\u865f3\u6a13", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150226/564912/", 
-      "approach": "\u610f\u5916 \u706b\u707d", 
-      "id": 6040
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.7207821, 
-        25.146971
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "1926-03-03 20:00:00", 
-      "address": "\u57fa\u9686\u5e02\u4e2d\u5c71\u5340\u4e2d\u548c\u8def87\u865f2F", 
-      "news": "http://udn.com/news/story/2/742608", 
-      "approach": "\u81ea\u6bba \u4e0a\u540a", 
-      "id": 6054
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.2979582, 
-        22.9741935
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-03-05 09:00:00", 
-      "address": "\u53f0\u5357\u5e02\u6b78\u4ec1\u5340\u516b\u7532\u91cc\u5927\u660e\u4e09\u88578\u865f", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150305/568471/%E3%80%90%E6%9B%B4%E6%96%B0%E3%80%91%E5%8D%97%E5%B8%82%E6%B0%91%E5%AE%85%E6%A7%8D%E9%9F%BF1%E6%AD%BB1%E9%87%8D%E5%82%B7%E3%80%80%E5%89%8D%E7%94%B7%E5%8F%8B%E6%B6%89%E9%87%8D%E5%AB%8C", 
-      "approach": "\u81ea\u6bba \u51f6\u6bba", 
-      "id": 6057
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.5580547, 
-        25.0486614
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-03-05 20:00:00", 
-      "address": "\u53f0\u5317\u5e02\u677e\u5c71\u5340\u5149\u5fa9\u5317\u8def3-5\u865f (\u96d9\u661f\u5137\u5ec8)", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/new/20150307/569853/2%E6%97%A5%E7%B1%8D%E5%A5%B3%E5%A4%A7%E7%94%9F%E4%B8%80%E6%B0%A7%E5%8C%96%E7%A2%B3%E4%B8%AD%E6%AF%92%E3%80%801%E6%AD%BB1%E5%91%BD%E5%8D%B1", 
-      "approach": "\u610f\u5916 CO\u4e2d\u6bd2", 
-      "id": 6063
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.4153313, 
-        25.0292474
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-03-13 20:00:00", 
-      "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u5929\u7965\u885781\u5df72\u865f1\u6a13", 
-      "news": "http://news.ltn.com.tw/news/society/paper/862714", 
-      "approach": "\u81ea\u6bba \u958b\u74e6\u65af\u81ea\u6bba", 
-      "id": 6070
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.5228364, 
-        25.146255
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-03-14 23:30:00", 
-      "address": "\u53f0\u5317\u5e02\u5317\u6295\u5340\u6771\u6607\u8def12\u5df717\u865f (\u5927\u540c\u4e4b\u5bb6)", 
-      "news": "http://news.ltn.com.tw/news/society/paper/862707", 
-      "approach": "\u4ed6\u6bba \u51f6\u6bba", 
-      "id": 6071
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.5317087, 
-        25.1196616
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-03-13 12:00:00", 
-      "address": "\u53f0\u5317\u5e02\u58eb\u6797\u5340\u4e2d\u5c71\u5317\u8def\u4e03\u6bb538\u5df712\u5f042\u865f", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1255872", 
-      "approach": "\u610f\u5916 \u589c\u6a13", 
-      "id": 6072
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.563549, 
-        25.041991
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-03-14 15:00:00", 
-      "address": "\u53f0\u5317\u5e02\u4fe1\u7fa9\u5340\u5fe0\u5b5d\u6771\u8def\u56db\u6bb5559\u5df71\u865f", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150313/573808/%E5%8C%97%E5%B8%82%E5%A4%A7%E6%A8%93%E7%9F%B3%E7%A3%9A%E6%8E%89%E8%90%BD%E7%A0%B8%E4%BA%BA%E3%80%80%E6%BD%94%E5%93%A5%EF%BC%9A%E5%A4%AA%E5%8F%AF%E6%80%95%E4%BA%86%EF%BC%81", 
-      "approach": "\u610f\u5916 \u5916\u7246\u82b1\u5d17\u5ca9\u7838\u6b7b", 
-      "id": 6073
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.359703, 
-        23.499172
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-03-14 20:00:00", 
-      "address": "\u5609\u7fa9\u7e23\u592a\u4fdd\u5e02\u904e\u6e9d\u91cc\u904e\u6e9d19\u4e4b28\u865f1\u6a13 (\u900f\u5929)", 
-      "news": "http://www.appledaily.com.tw/appledaily/article/headline/20150315/36437586/", 
-      "approach": "\u4ed6\u6bba \u51f6\u6bba", 
-      "id": 6074
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.3048885, 
-        22.6227685
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-03-19 12:40:00", 
-      "address": "\u9ad8\u96c4\u5e02\u65b0\u8208\u5340\u65b0\u7530\u8def96\u865f12\u6a13 (\u65b0\u7530\u4eac\u57ce)", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150319/577176/%E3%80%90%E6%9B%B4%E6%96%B0%E3%80%91%E7%9B%B8%E9%9A%949%E5%80%8B%E6%9C%88%E3%80%80%E9%AC%B1%E7%94%B7%E5%92%8C%E4%BA%A1%E7%88%B6%E5%90%8C%E5%9C%B0%E9%BB%9E%E8%B7%B3%E6%A8%93", 
-      "approach": "\u81ea\u6bba \u8df3\u6a13", 
-      "id": 6097
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.4523022, 
-        25.0478068
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-03-20 17:00:00", 
-      "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u4e2d\u6e2f\u8def427\u865f5\u6a13", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1263298", 
-      "approach": "\u81ea\u6bba \u71d2\u70ad", 
-      "id": 6100
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.324577, 
-        23.8550408
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-03-27 19:00:00", 
-      "address": "\u5f70\u5316\u7e23\u5927\u57ce\u9109\u5317\u5e73\u8def189\u865f", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/new/20150327/582410/", 
-      "approach": "\u610f\u5916 \u706b\u707d", 
-      "id": 6111
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.4535175, 
-        25.17622
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2014-01-01 00:00:00", 
-      "address": "\u65b0\u5317\u5e02\u6de1\u6c34\u5340\u6c34\u6e90\u8857\u4e8c\u6bb5177\u5df763\u865f6\u6a13", 
-      "news": "http://aomp.judicial.gov.tw/abbs/wkw/WHD2ASHOW.jsp?rowid", 
-      "approach": "\u81ea\u6bba \u4e0d\u660e", 
-      "id": 6114
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.8099875, 
-        24.6805269
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "1926-04-02 17:20:00", 
-      "address": "\u5b9c\u862d\u7e23\u4e94\u7d50\u9109\u5b5d\u5a01\u5357\u8def19\u865f", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/new/20150402/585915/", 
-      "approach": "\u610f\u5916 \u589c\u6a13", 
-      "id": 6123
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.5854596, 
-        24.1818184
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2003-12-07 20:00:00", 
-      "address": "\u53f0\u4e2d\u5e02\u9f8d\u4e95\u5340\u65b0\u8208\u8def65\u865f", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/new/20150406/587110/", 
-      "approach": "\u4ed6\u6bba \u51f6\u6bba", 
-      "id": 6127
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.2470725, 
-        23.015925
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2014-09-01 00:00:00", 
-      "address": "\u53f0\u5357\u5e02\u5fa9\u83ef\u4e03\u8857117\u5df740\u865f1\u6a13", 
-      "approach": "\u81ea\u6bba \u4e0d\u660e", 
-      "id": 6128
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.543138, 
-        24.9634289
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "address": "\u65b0\u5317\u5e02\u65b0\u5e97\u5340\u6ab3\u6994\u8def41\u5df76\u865f5\u6a13 (\u9802\u6a13\u589e\u5efa)", 
-      "news": "http://aomp.judicial.gov.tw/abbs/wkw/WHD2ASHOW.jsp?rowid", 
-      "approach": "\u81ea\u6bba \u4e0d\u660e", 
-      "id": 6135
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.2872474, 
-        22.6676546
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-04-14 00:00:00", 
-      "address": "\u9ad8\u96c4\u5e02\u9f13\u5c71\u5340\u4e5d\u5982\u56db\u8def2014\u5df729\u865f", 
-      "news": "http://udn.com/news/story/2/836206", 
-      "approach": "\u81ea\u6bba \u51f6\u6bba", 
-      "id": 6144
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.524774, 
-        25.0593307
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-04-17 02:30:00", 
-      "address": "\u53f0\u5317\u5e02\u4e2d\u5c71\u5340\u9326\u5dde\u885730\u5df713\u865f8\u6a13", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1289604", 
-      "approach": "\u81ea\u6bba \u8df3\u6a13", 
-      "id": 6147
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.7543447, 
-        24.7613598
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2006-02-18 06:00:00", 
-      "address": "\u5b9c\u862d\u7e23\u5b9c\u862d\u5e02\u6771\u5f8c\u885744\u865f5\u6a13", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150420/595442/%E3%80%90%E5%87%B6%E5%AE%85%E6%89%93%E5%8D%A1%E3%80%91%E6%9A%97%E5%B1%8B%E7%99%BD%E9%AA%A8%E4%B8%80%E5%B9%B4%E5%BE%8C%E7%9A%84%E5%B1%8D%E9%AB%94", 
-      "approach": "\u81ea\u6bba \u71d2\u70ad", 
-      "id": 6159
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.3236, 
-        22.6054715
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-04-21 03:00:00", 
-      "address": "\u9ad8\u96c4\u5e02\u524d\u93ae\u5340\u4e00\u5fc3\u4e00\u8def53\u5df71\u865f1\u6a13", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1293102", 
-      "approach": "\u610f\u5916 \u731d\u6b7b", 
-      "id": 6161
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.261087, 
-        24.964947
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-04-23 04:00:00", 
-      "address": "\u6843\u5712\u5e02\u4e2d\u58e2\u5340\u69ae\u6c11\u8def240\u865f", 
-      "news": "http://udn.com/news/story/7316/859105-%E5%A4%9C%E5%8D%8A%E7%81%AB%E7%87%92%E5%8E%9D-%E5%8F%94%E5%A7%AA%E9%9B%99%E4%BA%A1", 
-      "approach": "\u81ea\u6bba \u706b\u8b66", 
-      "id": 6167
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.4674882, 
-        25.0154656
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-04-23 09:00:00", 
-      "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u7e23\u6c11\u5927\u9053\u4e8c\u6bb5116\u865f", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1295819", 
-      "approach": "\u81ea\u6bba \u9673\u5c4d", 
-      "id": 6168
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.314807, 
-        22.683445
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-04-22 21:00:00", 
-      "address": "\u9ad8\u96c4\u5e02\u5de6\u71df\u5340\u81ea\u7531\u56db\u8def225\u865f", 
-      "news": "http://www.chinatimes.com/realtimenews/20150423004228-260402", 
-      "approach": "\u81ea\u6bba \u6c34\u5854\u6eba\u6583", 
-      "id": 6169
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.6853714, 
-        24.1042415
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-04-26 00:00:00", 
-      "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u65b0\u82b3\u8def107-3\u865f", 
-      "news": "http://www.chinatimes.com/newspapers/20150427001110-260102", 
-      "approach": "\u81ea\u6bba \u71d2\u70ad", 
-      "id": 6172
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.5188568, 
-        25.0741206
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-04-28 00:00:00", 
-      "address": "\u53f0\u5317\u5e02\u5927\u540c\u5340\u54c8\u5bc6\u885740\u865f1\u6a13", 
-      "news": "http://www.chinatimes.com/realtimenews/20150428004669-260401", 
-      "approach": "\u81ea\u6bba ", 
-      "id": 6176
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.4805208, 
-        25.0756584
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2014-05-17 16:00:00", 
-      "address": "\u65b0\u5317\u5e02\u4e09\u91cd\u5340\u529b\u884c\u8def\u4e8c\u6bb5136\u5df733\u5f0411\u865f6\u6a13", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1010167", 
-      "approach": "\u81ea\u6bba \u4e0a\u540a", 
-      "id": 6177
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.6830105, 
-        25.1759264
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "address": "\u65b0\u5317\u5e02\u842c\u91cc\u5340\u5b5d\u4e03\u88579\u865f(\u5317\u57fa\u793e\u5340)", 
-      "news": "http://www.cna.com.tw/news/asoc/201505010047-1.aspx", 
-      "approach": "\u4ed6\u6bba \u51f6\u6bba", 
-      "id": 6183
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.1950724, 
-        22.9899928
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "approach": "\u81ea\u6bba None", 
-      "marker-color": "#b00000", 
-      "id": 6184, 
-      "marker-symbol": "danger", 
-      "address": "\u53f0\u5357\u5e02\u4e2d\u897f\u5340\u6d77\u5b89\u8def\u4e00\u6bb597\u865f"
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.7151993, 
-        24.2383672
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-05-03 07:00:00", 
-      "address": "\u53f0\u4e2d\u5e02\u8c50\u539f\u5340\u8c50\u5357\u885792\u5df741\u5f0443\u865f2\u6a13", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1305173", 
-      "approach": "\u610f\u5916 \u706b\u707d", 
-      "id": 6187
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.3187639, 
-        22.682525
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2014-02-01 00:00:00", 
-      "address": "\u9ad8\u96c4\u5e02\u5de6\u71df\u5340\u6587\u6148\u8def192\u5df732\u865f", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1307420", 
-      "approach": "\u81ea\u6bba \u4e0a\u540a", 
-      "id": 6190
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.5325567, 
-        25.2776743
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "approach": "\u81ea\u6bba None", 
-      "marker-color": "#b00000", 
-      "id": 6192, 
-      "marker-symbol": "danger", 
-      "address": "\u65b0\u5317\u5e02\u77f3\u9580\u5340\u5bcc\u57fa\u91cc1\u9130\u5d01\u5b50\u817358\u4e4b9\u865f(\u900f\u5929)"
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.3942554, 
-        24.9728632
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "approach": "\u81ea\u6bba None", 
-      "marker-color": "#b00000", 
-      "id": 6198, 
-      "marker-symbol": "danger", 
-      "address": "\u65b0\u5317\u5e02\u6a39\u6797\u5340\u5c71\u4f73\u88577\u865f"
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.960239, 
-        24.800858
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-05-12 10:00:00", 
-      "address": "\u65b0\u7af9\u5e02\u5317\u5340\u56db\u7dad\u8def89\u5df72-1\u865f4\u6a13", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1315597", 
-      "approach": "\u4ed6\u6bba \u51f6\u6bba", 
-      "id": 6200
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.905954, 
-        24.68472
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-05-12 12:30:00", 
-      "address": "\u82d7\u6817\u7e23\u982d\u4efd\u93ae\u4e2d\u83ef\u8def951\u865f", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1315949", 
-      "approach": "\u610f\u5916 \u99ac\u4e0a\u98a8", 
-      "id": 6204
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.6505251, 
-        24.1636385
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-05-14 02:00:00", 
-      "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u6587\u5fc3\u8def\u4e09\u6bb56\u865f12\u6a13(\u4e16\u754c\u4e4b\u5fc3)", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150515/611123/%E7%9C%9F%E7%9A%84%E6%8B%89%E4%B8%8D%E4%BD%8F%EF%BC%81%E3%80%80%E5%A5%B9%E5%80%91%E7%9C%BC%E7%9D%9C%E7%9D%9C%E7%9C%8B%E9%96%A8%E8%9C%9C%E8%B7%B3%E6%A8%93", 
-      "approach": "\u81ea\u6bba \u8df3\u6a13", 
-      "id": 6205
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.4429736, 
-        25.0493114
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u5e78\u798f\u8def874\u865f4\u6a13", 
-      "news": "http://www.ycassets.com/productdetail-4644.html", 
-      "approach": "\u81ea\u6bba None", 
-      "id": 6217
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.4630576, 
-        25.0782642
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-05-18 11:00:00", 
-      "address": "\u65b0\u5317\u5e02\u8606\u6d32\u5340\u6c38\u5b89\u5357\u8def\u4e8c\u6bb5104\u865f6\u6a13", 
-      "news": "http://news.ltn.com.tw/news/society/paper/881870", 
-      "approach": "\u81ea\u6bba \u589c\u6a13", 
-      "id": 6218
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.6502766, 
-        24.1774978
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-05-21 13:00:00", 
-      "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u9022\u5927\u8def125\u865f13F (\u5927\u9d6c\u65b0\u57ce)", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150521/614436/%E3%80%90%E6%9B%B4%E6%96%B0%E3%80%91%E3%80%8C%E6%AD%BB%E6%98%AF%E6%88%91%E8%BF%BD%E6%B1%82%E7%9A%84%E5%BF%AB%E6%A8%82%E3%80%8D%E3%80%80%E9%80%A2%E7%94%B2%E5%A5%B3%E5%A4%A7%E7%94%9F%E8%B7%B3%E6%A8%93", 
-      "approach": "\u81ea\u6bba \u8df3\u6a13", 
-      "id": 6221
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.3025564, 
-        22.614681
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-05-24 13:00:00", 
-      "address": "\u9ad8\u96c4\u5e02\u82d3\u96c5\u5340\u4ec1\u5fb7\u885727\u865f (\u7422\u771f\u5712)", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1327443", 
-      "approach": "\u81ea\u6bba \u8df3\u6a13", 
-      "id": 6223
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.5014577, 
-        25.0601244
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2013-08-30 00:00:00", 
-      "address": "\u65b0\u5317\u5e02\u4e09\u91cd\u5340\u4e2d\u592e\u5357\u8def111\u865f8\u6a13\u4e4b2", 
-      "news": "http://aomp.judicial.gov.tw/abbs/wkw/WHD2ASHOW.jsp?rowid", 
-      "approach": "\u81ea\u6bba \u8df3\u6a13", 
-      "id": 6249
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.5324021, 
-        25.0478468
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-06-05 00:00:00", 
-      "address": "\u53f0\u5317\u5e02\u4e2d\u5c71\u5340\u677e\u6c5f\u8def46\u5df78\u865f2\u6a13", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/new/20150605/623085/", 
-      "approach": "\u610f\u5916 \u7a92\u606f", 
-      "id": 6254
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.5512862, 
-        25.085111
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-06-09 16:00:00", 
-      "address": "\u53f0\u5317\u5e02\u4e2d\u5c71\u5340\u660e\u6c34\u8def769\u865f2\u6a13", 
-      "news": "https://tw.news.yahoo.com/%E7%94%B7%E5%AD%90%E9%99%B3%E5%B1%8D%E6%98%8E%E6%B0%B4%E8%B7%AF%E6%B0%91%E5%AE%85-%E7%96%91%E8%87%AA%E6%88%95%E9%A0%AD%E9%83%A8%E4%B8%AD%E5%BD%88-144834094.html", 
-      "approach": "\u81ea\u6bba \u6301\u69cd\u81ea\u76e1", 
-      "id": 6258
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.472949, 
-        25.0801349
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "address": "\u65b0\u5317\u5e02\u8606\u6d32\u5340\u4e2d\u5c71\u4e00\u8def257\u865f4\u6a13", 
-      "news": "http://aomp.judicial.gov.tw/abbs/wkw/WHD2ASHOW.jsp?rowid", 
-      "approach": "\u81ea\u6bba \u4e0a\u540a", 
-      "id": 6260
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.5512862, 
-        25.085111
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-06-09 16:00:00", 
-      "address": "\u53f0\u5317\u5e02\u4e2d\u5c71\u5340\u660e\u6c34\u8def769\u865f2\u6a13", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1343823", 
-      "approach": "\u81ea\u6bba \u6301\u69cd\u81ea\u76e1", 
-      "id": 6263
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.4999111, 
-        25.0271022
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-06-13 00:00:00", 
-      "address": "\u53f0\u5317\u5e02\u842c\u83ef\u5340\u842c\u5927\u8def218\u5df720\u865f", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150613/628212/", 
-      "approach": "\u81ea\u6bba \u4e0a\u540a", 
-      "id": 6265
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.3071623, 
-        25.0031285
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-06-15 04:00:00", 
-      "address": "\u6843\u5712\u5e02\u6843\u5712\u5340\u5317\u57d4\u8def65\u865f7\u6a13", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1349477", 
-      "approach": "\u4ed6\u6bba \u51f6\u6bba", 
-      "id": 6267
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.5612825, 
-        23.9727936
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2006-09-08 00:00:00", 
-      "address": "\u82b1\u84ee\u7e23\u5409\u5b89\u9109\u5409\u5b89\u6751\u5409\u660c\u4e00\u8857258\u5df725\u865f (\u900f\u5929)", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150615/628891/%E3%80%90%E5%87%B6%E5%AE%85%E6%89%93%E5%8D%A1%E3%80%91%E7%B4%99%E7%B4%AE%E8%A7%80%E9%9F%B3%E9%9B%A3%E9%8E%AE%E7%85%9E%E3%80%80%E4%BA%94%E5%AD%90%E5%A4%9C%E5%95%BC%E8%A8%B4%E5%86%A4%E6%9B%B2", 
-      "approach": "\u81ea\u6bba \u51f6\u6bba", 
-      "id": 6269
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.9668091, 
-        24.7974136
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2007-08-22 00:00:00", 
-      "address": "\u65b0\u7af9\u5e02\u6771\u5340\u8208\u5b78\u885760\u865f4+5\u6a13", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150624/631756/%E3%80%90%E5%87%B6%E5%AE%85%E6%89%93%E5%8D%A1%E5%8B%95%E7%95%AB%E7%89%88%E3%80%91%E5%8D%88%E5%A4%9C%E9%AB%98%E8%B7%9F%E9%9E%8B", 
-      "approach": "\u4ed6\u6bba \u51f6\u6bba", 
-      "id": 6279
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.5306445, 
-        25.0479068
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-07-06 10:00:00", 
-      "address": "\u53f0\u5317\u5e02\u4e2d\u5c71\u5340\u65b0\u751f\u5317\u8def1\u6bb547\u5df712\u865f2\u6a13", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1370395", 
-      "approach": "\u81ea\u6bba \u8209\u69cd\u81ea\u76e1", 
-      "id": 6304
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.4497885, 
-        25.0490791
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-07-20 12:00:00", 
-      "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u5e78\u798f\u8def711\u865f3\u6a13", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1384873", 
-      "approach": "\u81ea\u6bba \u8209\u69cd\u81ea\u76e1", 
-      "id": 6342
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.305935, 
-        24.996936
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-07-25 17:00:00", 
-      "address": "\u6843\u5712\u5e02\u6843\u5712\u5340\u6c38\u5b89\u8def135\u865f", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/new/20150725/655342/", 
-      "approach": "\u610f\u5916 \u706b\u707d", 
-      "id": 6347
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.305935, 
-        24.996936
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-07-26 17:00:00", 
-      "address": "\u6843\u5712\u5e02\u6843\u5712\u5340\u6c38\u5b89\u8def135\u865f", 
-      "news": "http://udn.com/news/story/7316/1079732-%E9%8B%B0%E9%9B%BB%E6%B1%A0%E5%BC%95%E7%99%BC%E5%A4%A7%E7%81%AB-%E9%AC%A7%E5%8D%80%E6%B0%91%E5%AE%852%E6%AD%BB", 
-      "approach": "\u610f\u5916 \u706b\u707d", 
-      "id": 6348
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.2988207, 
-        24.9554715
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-07-26 10:00:00", 
-      "address": "\u6843\u5712\u5e02\u516b\u5fb7\u5340\u4ecb\u58fd\u8def\u4e8c\u6bb5102\u865f", 
-      "news": "http://news.ltn.com.tw/news/society/paper/901134", 
-      "approach": "\u4ed6\u6bba \u51f6\u6bba", 
-      "id": 6349
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.1852171, 
-        24.9161186
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2007-02-10 00:00:00", 
-      "address": "\u6843\u5712\u5e02\u694a\u6885\u5340\u6587\u5316\u885711\u865f", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150727/655867/%E3%80%90%E5%87%B6%E5%AE%85%E6%89%93%E5%8D%A1%E3%80%91%E9%82%AA%E9%AD%94%E6%AE%BA%E4%BA%BA%E8%BC%AA%E8%BF%B4", 
-      "approach": "\u81ea\u6bba \u51f6\u6bba", 
-      "id": 6350
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.4610651, 
-        25.021033
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-08-06 00:00:00", 
-      "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u5e78\u798f\u8def32\u5df75\u5f041\u865f\u9802\u6a13\u52a0\u84cb", 
-      "news": "https://tw.news.yahoo.com/%E6%9D%BF%E6%A9%8B%E6%B0%91%E5%AE%85-3%E5%A5%B3%E7%9B%B8%E7%B4%84%E7%87%92%E7%82%AD%E5%91%BD%E5%8D%B1-220000477.html", 
-      "approach": "\u81ea\u6bba \u71d2\u70ad", 
-      "id": 6367
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.6967263, 
-        24.0801689
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-08-21 10:00:00", 
-      "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u6771\u5357\u8def44\u865f3\u6a13", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1419530", 
-      "approach": "\u81ea\u6bba \u8df3\u6a13", 
-      "id": 6405
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.4330771, 
-        24.9931773
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2008-06-23 00:00:00", 
-      "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u91d1\u9580\u885748\u865f6\u6a13", 
-      "news": "http://www.tpkonsale.moj.gov.tw/TPKOnSale/56683.doc", 
-      "approach": "\u81ea\u6bba \u4e0d\u660e", 
-      "id": 6449
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.4637573, 
-        25.0294503
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-09-11 20:00:00", 
-      "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6c11\u751f\u8def\u4e09\u6bb5263\u5df78\u865f2\u6a13", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1442082", 
-      "approach": "\u81ea\u6bba \u51f6\u6bba", 
-      "id": 6488
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.4787719, 
-        22.6635996
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-06-01 00:00:00", 
-      "address": "\u5c4f\u6771\u7e23\u5c4f\u6771\u5e02\u83ef\u76db\u88573\u865f(\u5d07\u5927\u65b0\u57ce)", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1441602", 
-      "approach": "\u4ed6\u6bba \u88ab\u4e1f\u4e0b\u6a13", 
-      "id": 6490
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.45045, 
-        25.048398
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-09-10 19:00:00", 
-      "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u4e2d\u8aa0\u885770\u5df715\u865f", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150911/689361/%E6%83%85%E4%BE%B6%E7%87%92%E7%82%AD%E9%9B%99%E4%BA%A1%E3%80%80%E7%95%99%E7%B4%99%E6%A2%9D%EF%BC%9A%E3%80%8C%E8%A6%81%E7%81%AB%E8%91%AC%E3%80%8D", 
-      "approach": "\u81ea\u6bba \u71d2\u70ad", 
-      "id": 6491
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.1367373, 
-        24.9115589
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-09-12 04:46:00", 
-      "address": "\u6843\u5712\u5e02\u694a\u6885\u5340\u694a\u6e56\u8def\u4e00\u6bb5280\u5df721\u865f (\u900f\u5929)", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1442164", 
-      "approach": "\u610f\u5916 \u706b\u707d", 
-      "id": 6492
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.6749928, 
-        24.1260781
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2008-11-07 00:00:00", 
-      "address": "\u53f0\u4e2d\u5e02\u5357\u5340\u5b78\u5e9c\u8def75\u865f (\u7f8e\u570b\u62cd\u62d6\u5ee3\u5834)", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150914/690939/", 
-      "approach": "\u4ed6\u6bba \u85e5\u7269\u6bd2\u6bba", 
-      "id": 6495
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.4841908, 
-        25.0025751
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-09-17 02:00:00", 
-      "address": "\u65b0\u5317\u5e02\u4e2d\u548c\u5340\u4e2d\u6b63\u8def839\u5df78\u865f", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150917/693362/", 
-      "approach": "\u610f\u5916 \u589c\u6a13", 
-      "id": 6499
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.2133166, 
-        24.9505708
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2013-09-19 20:00:00", 
-      "address": "\u6843\u5712\u5e02\u5e73\u93ae\u5e02\u5ef6\u5e73\u8def\u4e8c\u6bb529\u865f (\u6642\u4ee3\u5ee3\u5834\u793e\u5340)", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150921/695748/", 
-      "approach": "\u4ed6\u6bba \u51f6\u6bba", 
-      "id": 6502
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.458024, 
-        25.0210118
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-09-24 14:00:00", 
-      "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u91d1\u83ef\u885785\u5df75\u865f2\u6a13", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1455340", 
-      "approach": "\u81ea\u6bba \u51f6\u6bba", 
-      "id": 6507
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.3876097, 
-        22.6185252
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-10-03 03:00:00", 
-      "address": "\u9ad8\u96c4\u5e02\u5927\u5bee\u5340\u4e2d\u6b63\u8def24\u865f (\u900f\u5929)", 
-      "news": "http://www.cna.com.tw/news/asoc/201510030278-1.aspx", 
-      "approach": "\u4ed6\u6bba \u51f6\u6bba", 
-      "id": 6526
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.811026, 
-        25.1078434
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-10-25 11:00:00", 
-      "address": "\u65b0\u5317\u5e02\u745e\u82b3\u5340\u660e\u71c8\u8def\u4e8c\u6bb531\u865f1\u6a13 (\u900f\u5929)", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20151025/718582/%E7%88%B6%E7%84%A1%E5%8A%9B%E6%92%AB%E9%A4%8A%E7%B2%BE%E9%9A%9C%E5%AD%90%E3%80%80%E7%95%99%E9%81%BA%E6%9B%B8%E7%87%92%E7%82%AD%E9%9B%99%E4%BA%A1", 
-      "approach": "\u81ea\u6bba \u71d2\u70ad", 
-      "id": 6549
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.2286749, 
-        24.8718001
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2005-01-01 00:00:00", 
-      "address": "\u6843\u5712\u5e02\u9f8d\u6f6d\u5340\u4e2d\u8208\u8def461\u5df72\u5f045\u865f", 
-      "approach": "\u81ea\u6bba None", 
-      "id": 6550
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.7512074, 
-        25.1300687
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-04-05 11:00:00", 
-      "address": "\u57fa\u9686\u5e02\u4fe1\u7fa9\u5340\u7fa9\u516d\u8def93\u865f", 
-      "news": "http://i.imgur.com/VGw3pj0.jpg", 
-      "approach": "\u81ea\u6bba \u4e0a\u540a", 
-      "id": 6552
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.9741912, 
-        24.8168659
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2004-01-29 07:10:00", 
-      "address": "\u65b0\u7af9\u5e02\u5149\u83ef\u4e8c\u88573\u6a131315\u865f (\u683c\u745e\u7d72\u5927\u6a13)", 
-      "news": "http://www.appledaily.com.tw/appledaily/article/headline/20040130/679056/", 
-      "approach": "\u4ed6\u6bba \u51f6\u6bba", 
-      "id": 6554
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.5027499, 
-        25.1265615
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-11-02 18:00:00", 
-      "address": "\u81fa\u5317\u5e02\u5317\u6295\u5340\u4e09\u5408\u88572\u6bb5423\u865f2\u6a13", 
-      "news": "http://udn.com/news/story/2/1288549", 
-      "approach": "\u4ed6\u6bba \u51f6\u6bba", 
-      "id": 6558
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.742581, 
-        24.7457051
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-11-10 00:00:00", 
-      "address": "\u5b9c\u862d\u7e23\u5b9c\u862d\u5e02\u5973\u4e2d\u8def\u4e09\u6bb512\u865f", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1503650", 
-      "approach": "\u81ea\u6bba \u9673\u5c4d", 
-      "id": 6587
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.4870628, 
-        25.0516639
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-11-15 14:00:00", 
-      "address": "\u65b0\u5317\u5e02\u4e09\u91cd\u5340\u6210\u529f\u8def110\u865f", 
-      "news": "http://news.ltn.com.tw/news/society/paper/932650", 
-      "approach": "\u81ea\u6bba \u8df3\u6a13", 
-      "id": 6597
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.6873262, 
-        24.2972829
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-11-19 00:00:00", 
-      "address": "\u53f0\u4e2d\u5e02\u540e\u91cc\u5340\u4e09\u91cd\u4e8c\u8def303\u865f\u865f1\u6a13 (\u4e09\u5408\u9662)", 
-      "news": "http://udn.com/news/story/2/1325443", 
-      "approach": "\u81ea\u6bba \u9673\u5c4d", 
-      "id": 6641
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.4323089, 
-        23.7075415
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-11-23 17:00:00", 
-      "address": "\u96f2\u6797\u7e23\u864e\u5c3e\u93ae\u897f\u5b89\u88573\u865f", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20151123/738599/%E7%96%91%E5%92%8C%E5%89%8D%E5%A4%AB%E7%88%AD%E5%9F%B7%E3%80%80%E5%A5%B3%E5%A2%9C5%E6%A8%93%E8%BA%AB%E4%BA%A1", 
-      "approach": "\u81ea\u6bba \u8df3\u6a13", 
-      "id": 6652
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.333856, 
-        22.59494
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-11-25 00:00:00", 
-      "address": "\u9ad8\u96c4\u5e02\u9cf3\u5c71\u5340\u6797\u68ee\u8def185\u5df722\u865f3\u6a13", 
-      "news": "http://news.ltn.com.tw/news/society/paper/935496", 
-      "approach": "\u81ea\u6bba \u8df3\u6a13", 
-      "id": 6654
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.4576845, 
-        25.045416
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-11-26 03:00:00", 
-      "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u798f\u6a02\u885729\u865f4\u6a13", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1520853", 
-      "approach": "\u81ea\u6bba \u5f15\u7206\u74e6\u65af", 
-      "id": 6655
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.5196468, 
-        24.0619978
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "approach": "\u81ea\u6bba \u8df3\u6a13", 
-      "marker-color": "#b00000", 
-      "id": 6675, 
-      "marker-symbol": "danger", 
-      "address": "\u5f70\u5316\u5e02\u5f70\u6c34\u8def33\u5df72\u4e4b1\u865f"
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.6111525, 
-        24.1932633
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-10-01 00:00:00", 
-      "address": "\u53f0\u4e2d\u5e02\u570b\u5b89\u4e00\u8def206\u5df724\u865f\u4e09\u6a13\u4e4b5", 
-      "approach": "\u81ea\u6bba \u71d2\u70ad", 
-      "id": 6679
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.7248716, 
-        25.1438783
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "approach": "\u81ea\u6bba \u5438\u6bd2\u66b4\u6583", 
-      "marker-color": "#b00000", 
-      "id": 6684, 
-      "marker-symbol": "danger", 
-      "address": "\u57fa\u9686\u5e02\u4e2d\u5c71\u5340\u4e2d\u548c\u8def8\u865f"
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.5475831, 
-        25.0814169
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-12-07 20:00:00", 
-      "address": "\u53f0\u5317\u5e02\u4e2d\u5c71\u5340\u5317\u5b89\u8def573\u5df719\u865f1\u6a13 (\u5713\u5c71\u5225\u5885)", 
-      "news": "http://udn.com/news/story/2/1362758-%E5%8C%97%E5%B8%82%E7%99%8C%E6%9C%AB%E6%AF%8D%E8%87%AA%E6%AE%BA%E5%AD%90%E8%BF%BD%E9%9A%A8-%E8%AD%A6%E5%88%B0%E5%A0%B4%E9%91%91%E8%AD%98", 
-      "approach": "\u81ea\u6bba \u4e0a\u540a", 
-      "id": 6713
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.6448302, 
-        24.2293223
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-12-09 05:00:00", 
-      "address": "\u53f0\u4e2d\u5e02\u5927\u96c5\u5340\u96c5\u74b0\u8def\u4e09\u6bb574\u865f2\u6a13 (4\u6a13\u900f\u5929)", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1533960", 
-      "approach": "\u81ea\u6bba \u71d2\u70ad", 
-      "id": 6716
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.479567, 
-        25.0022569
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2009-10-21 00:00:00", 
-      "address": "\u65b0\u5317\u5e02\u4e2d\u548c\u5340\u54e1\u5c71\u8def327\u5df778\u865f4\u6a13", 
-      "news": "http://aomp.judicial.gov.tw/abbs/wkw/WHD2ASHOW.jsp?rowid=%2Fpcd%2F10412%2F11135920595.000", 
-      "approach": "\u81ea\u6bba \u4e0d\u660e", 
-      "id": 6762
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.0095153, 
-        24.8264853
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2014-06-05 04:00:00", 
-      "address": "\u65b0\u7af9\u7e23\u7af9\u5317\u5e02\u7e23\u653f\u4e5d\u8def80\u865f7\u6a13\u67d0\u6236", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20151221/757271/%E3%80%90%E5%87%B6%E5%AE%85%E6%89%93%E5%8D%A1%E3%80%91250%E5%85%AC%E9%87%8C%E6%BB%85%E5%B1%8D%E3%80%80%E9%98%BF%E9%87%8C%E5%B1%B1%E7%99%BD%E9%AA%A8%E5%B9%BD%E9%AD%82", 
-      "approach": "\u4ed6\u6bba \u51f6\u6bba", 
-      "id": 6817
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.5054553, 
-        25.0001326
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-12-25 17:35:00", 
-      "address": "\u65b0\u5317\u5e02\u4e2d\u548c\u5340\u5357\u5de5\u8def94\u5df710\u865f3\u6a13", 
-      "news": "http://www.cna.com.tw/news/firstnews/201512250332-1.aspx", 
-      "approach": "\u4ed6\u6bba \u51f6\u6bba", 
-      "id": 6886
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.5334268, 
-        25.0415995
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-12-25 06:00:00", 
-      "address": "\u53f0\u5317\u5e02\u5927\u5b89\u5340\u5fe0\u5b5d\u6771\u8def\u4e09\u6bb510\u5df710\u865f6\u6a13", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20151225/760669/%E5%A9%A6%E4%BA%BA6%E6%A8%93%E5%A2%9C%E4%B8%8B%E3%80%80%E6%91%941%E6%A8%93%E9%81%AE%E9%9B%A8%E6%A3%9A%E6%AD%BB%E4%BA%A1", 
-      "approach": "\u81ea\u6bba \u8df3\u6a13", 
-      "id": 6887
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.5016297, 
-        25.068783
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-12-25 00:00:00", 
-      "address": "\u65b0\u5317\u5e02\u4e09\u91cd\u5340\u9577\u58fd\u885786\u865f", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20151225/760590/%E7%94%B7%E5%AD%90%E4%BD%8F%E5%AE%B6%E4%B8%8A%E5%90%8A%E8%BA%AB%E4%BA%A1%E3%80%80%E8%AD%A6%E5%B0%81%E7%8F%BE%E5%A0%B4%E8%AA%BF%E6%9F%A5%E4%B8%AD", 
-      "approach": "\u81ea\u6bba \u4e0a\u540a", 
-      "id": 6888
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.1459395, 
-        23.4552605
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2015-12-26 15:45:00", 
-      "address": "\u5609\u7fa9\u7e23\u6771\u77f3\u9109\u6771\u77f3\u67517-10\u865f3\u6a13", 
-      "news": "http://udn.com/news/story/2/1403002-%E5%98%89%E7%BE%A9%E6%9D%B1%E7%9F%B3%E7%81%AB%E8%AD%A6-68%E6%AD%B2%E7%8D%A8%E5%B1%85%E8%80%81%E4%BA%BA%E6%AD%BB%E4%BA%A1", 
-      "approach": "\u610f\u5916 \u706b\u707d", 
-      "id": 6899
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.7192556, 
-        25.1477282
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2004-05-31 00:00:00", 
-      "address": "\u57fa\u9686\u5e02\u4e2d\u5c71\u5340\u4e2d\u548c\u8def85\u5df7 (\u559c\u5e02)", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160111/771904/%E3%80%90%E5%87%B6%E5%AE%85%E6%89%93%E5%8D%A1%E3%80%91%E9%B8%9A%E9%B5%A1%E5%87%B6%E5%85%86%E3%80%80%E7%8B%A0%E7%88%B6%E8%99%90%E6%AE%BA%E5%85%A9%E5%AD%90%E5%A5%B3", 
-      "approach": "\u4ed6\u6bba \u51cc\u8650", 
-      "id": 7002
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.8035249, 
-        25.1082378
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2016-01-12 07:00:00", 
-      "address": "\u65b0\u5317\u5e02\u745e\u82b3\u5340\u4e00\u5751\u8def (\u5bcc\u8cb4\u5ead\u5712\u793e\u5340)", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160112/772866/%E7%96%91%E4%B9%85%E7%97%85%E5%8E%AD%E4%B8%96%E3%80%80%E5%A9%A6%E4%BA%BA8%E6%A8%93%E8%B7%B3%E4%B8%8B%E4%B8%8D%E6%B2%BB", 
-      "approach": "\u81ea\u6bba \u8df3\u6a13", 
-      "id": 7015
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.5704069, 
-        23.9957556
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "approach": "\u81ea\u6bba \u5851\u81a0\u888b\u5957\u982d", 
-      "marker-color": "#b00000", 
-      "id": 7016, 
-      "marker-symbol": "danger", 
-      "address": "\u82b1\u84ee\u7e23\u82b1\u84ee\u5e02\u5efa\u5fb7\u8857\u4e03\u5df74\u865f"
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.503602, 
-        24.9419002
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2014-01-01 00:00:00", 
-      "address": "\u65b0\u5317\u5e02\u65b0\u5e97\u5340\u9054\u89c0\u8def14\u5df72\u865f10\u6a13-5 (\u9054\u89c0\u93ae)", 
-      "news": "http://www.appledaily.com.tw/appledaily/article/headline/20130303/34863002/", 
-      "approach": "\u81ea\u6bba \u71d2\u70ad", 
-      "id": 7037
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.9531196, 
-        23.9676267
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2013-06-27 09:00:00", 
-      "address": "\u5357\u6295\u7e23\u57d4\u91cc\u93ae\u5357\u5b89\u8defX\u865f6\u6a13 (\u5bb6\u5929\u4e0b\u83ef\u5ec8)", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160118/777483/%E3%80%90%E5%87%B6%E5%AE%85%E6%89%93%E5%8D%A1%E3%80%91%E6%BB%B2%E8%A1%80%E8%A1%8C%E6%9D%8E%E7%AE%B1%E4%B9%8B%E4%BA%BA%E7%8A%AC%E7%AE%B1%E5%B1%8D%E6%A1%88", 
-      "approach": "\u4ed6\u6bba \u51f6\u6bba", 
-      "id": 7058
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.5426339, 
-        25.03291
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2016-01-26 01:00:00", 
-      "address": "\u53f0\u5317\u5e02\u5927\u5b89\u5340\u5fa9\u8208\u5357\u8def\u4e8c\u6bb512\u5df715\u865f2\u6a13", 
-      "news": "http://www.setn.com/News.aspx?NewsID=120739", 
-      "approach": "\u610f\u5916 \u706b\u707d", 
-      "id": 7188
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.4664031, 
-        22.6096723
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2016-01-27 18:00:00", 
-      "address": "\u5c4f\u6771\u7e23\u842c\u4e39\u9109\u65b0\u539d\u8defXX\u865f (\u900f\u5929)", 
-      "news": "http://news.ltn.com.tw/news/society/paper/953405", 
-      "approach": "\u4ed6\u6bba \u51f6\u6bba", 
-      "id": 7210
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.4985579, 
-        25.0718354
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2016-01-29 20:00:00", 
-      "address": "\u65b0\u5317\u5e02\u4e09\u91cd\u5340\u79c0\u6c5f\u885716X\u865f (2\u5c64\u900f\u5929)", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160129/785875/%E2%80%8B%E7%96%91%E7%97%85%E9%AD%94%E7%BA%8F%E8%BA%AB%E5%A4%9A%E5%B9%B4%E3%80%80%E7%94%B7%E7%87%92%E7%82%AD%E8%BC%95%E7%94%9F%E4%BA%A1", 
-      "approach": "\u81ea\u6bba \u71d2\u70ad", 
-      "id": 7211
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.4762422, 
-        25.0225578
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2016-01-28 03:00:00", 
-      "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u7e23\u6c11\u5927\u90533\u6bb5103\u5df7 (\u65b0\u7ad9\u6676\u83ef)", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160128/785108/%E5%8D%8A%E5%A4%9C%E5%B7%A8%E9%9F%BF%E3%80%80%E7%94%B7%E5%AD%90%E5%A2%9C%E6%A8%93%E9%80%81%E9%86%AB%E4%B8%8D%E6%B2%BB", 
-      "approach": "\u81ea\u6bba \u589c\u6a13", 
-      "id": 7212
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.704459, 
-        24.1462016
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2004-01-05 07:20:00", 
-      "address": "\u53f0\u4e2d\u5e02\u6771\u5340\u6771\u82f1\u5341\u4e94\u8857286\u865f9\u6a13", 
-      "news": "http://www.appletw.cn/local/2016-02-01/13629.html", 
-      "approach": "\u4ed6\u6bba \u60c5\u6bba", 
-      "id": 7230
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.4344621, 
-        25.0893729
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2016-02-09 18:00:00", 
-      "address": "\u65b0\u5317\u5e02\u4e94\u80a1\u5340\u4e94\u798f\u8def32\u5df79\u865f2\u6a13", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/new/20160209/793409/", 
-      "approach": "\u610f\u5916 \u706b\u707d", 
-      "id": 7259
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.2126469, 
-        24.8797231
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2016-02-07 19:00:00", 
-      "address": "\u6843\u5712\u5e02\u9f8d\u6f6d\u5340\u4e2d\u8c50\u8def360\u5df730\u865f", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1598360", 
-      "approach": "\u4ed6\u6bba \u7e31\u706b", 
-      "id": 7260
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.302727, 
-        24.9878959
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2016-02-10 17:00:00", 
-      "address": "\u6843\u5712\u5e02\u6843\u5712\u5340\u5927\u540c\u897f\u8def55\u865f2\u6a13", 
-      "news": "http://www.udn.com/news/story/2/1496684", 
-      "approach": "\u4ed6\u6bba \u52d2\u9838", 
-      "id": 7262
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.4979386, 
-        24.996893
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2016-02-15 02:00:00", 
-      "address": "\u65b0\u5317\u5e02\u4e2d\u548c\u5340\u9023\u52dd\u885757\u5df7XX\u865f6\u6a13", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1602868", 
-      "approach": "\u81ea\u6bba \u8df3\u6a13", 
-      "id": 7282
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.7856406, 
-        25.1354522
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2016-02-17 00:00:00", 
-      "address": "\u57fa\u9686\u5e02\u4e2d\u6b63\u5340\u65b0\u8c50\u8857XX\u865f15\u6a13 (\u53f0\u5317\u5df4\u585e\u9686\u7d0d)", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160217/797207/%E5%A5%B3%E8%80%81%E5%B8%AB%E5%A2%9C%E6%A8%93%E4%BA%A1%E3%80%80%E6%82%B2%EF%BC%81%E8%80%81%E7%88%B6%E6%89%9B%E5%B1%8D%E7%8B%82%E5%A5%94%E7%99%BE%E5%85%AC%E5%B0%BA", 
-      "approach": "\u81ea\u6bba \u8df3\u6a13", 
-      "id": 7284
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.509899, 
-        25.0067835
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2016-02-26 21:00:00", 
-      "address": "\u65b0\u5317\u5e02\u4e2d\u548c\u5340\u6c38\u8c9e\u8def370\u5df7", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160216/796369/%E7%94%B7%E5%AD%9014%E6%A8%93%E5%A2%9C%E8%90%BD%E8%BA%AB%E4%BA%A1%E3%80%80%E8%AD%A6%E5%B0%81%E7%8F%BE%E5%A0%B4%E8%AA%BF%E6%9F%A5", 
-      "approach": "\u81ea\u6bba \u8df3\u6a13", 
-      "id": 7285
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.481521, 
-        25.185378
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2014-04-07 00:00:00", 
-      "address": "\u65b0\u5317\u5e02\u6de1\u6c34\u5340\u5317\u65b0\u8def\u4e8c\u6bb579\u4e4b3\u865f9\u6a13", 
-      "news": "http://aomp.judicial.gov.tw/abbs/wkw/WHD2ASHOW.jsp?rowid=%2Fsld%2F10502%2F04105633260.019", 
-      "approach": "\u81ea\u6bba \u4e0a\u540a", 
-      "id": 7287
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.3666736, 
-        24.9999513
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2016-02-26 00:30:00", 
-      "address": "\u6843\u5712\u5e02\u9f9c\u5c71\u5340\u5bf6\u77f3\u885719\u865f3\u6a13", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1613772", 
-      "approach": "\u610f\u5916 \u706b\u707d", 
-      "id": 7289
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.5892774, 
-        25.0465905
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2016-02-24 03:00:00", 
-      "address": "\u53f0\u5317\u5e02\u5357\u6e2f\u5340\u6771\u65b0\u885797\u865fX\u6a13", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1612182", 
-      "approach": "\u81ea\u6bba \u5851\u81a0\u888b\u5957\u982d\u7a92\u606f", 
-      "id": 7290
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.46332, 
-        25.079485
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2016-02-23 02:00:00", 
-      "address": "\u65b0\u5317\u5e02\u8606\u6d32\u5340\u9577\u5b89\u885747\u865f", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1610735", 
-      "approach": "\u81ea\u6bba \u8df3\u6a13", 
-      "id": 7291
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.4877076, 
-        25.0762111
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2016-02-26 04:00:00", 
-      "address": "\u65b0\u5317\u5e02\u4e09\u91cd\u5340\u4e09\u548c\u8def\u56db\u6bb59X-X\u865f", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160226/803558/%E7%96%91%E8%88%87%E7%94%B7%E5%8F%8B%E7%88%AD%E5%90%B5%E3%80%80%E5%A5%B3%E5%AD%90%E7%87%92%E7%82%AD%E8%BA%AB%E4%BA%A1", 
-      "approach": "\u81ea\u6bba \u71d2\u70ad", 
-      "id": 7294
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.6237266, 
-        25.0413603
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2014-01-01 00:00:00", 
-      "address": "\u65b0\u5317\u5e02\u6c50\u6b62\u5340\u6797\u68ee\u885773\u5df761\u865f6\u6a13", 
-      "news": "http://aomp.judicial.gov.tw/abbs/wkw/WHD2ASHOW.jsp?rowid=%2Fsld%2F10502%2F18155741520.008", 
-      "approach": "\u81ea\u6bba \u4e0d\u660e", 
-      "id": 7315
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.25102, 
-        24.96915
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2016-02-29 09:00:00", 
-      "address": "\u6843\u5712\u5dff\u4e2d\u58e2\u5340\u4e2d\u83ef\u8def\u4e00\u6bb5619\u5df77\u865f", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/new/20160301/805740/", 
-      "approach": "\u4ed6\u6bba \u51f6\u6bba", 
-      "id": 7358
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.6540958, 
-        25.0656944
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2016-03-03 15:00:00", 
-      "address": "\u65b0\u5317\u5e02\u6c50\u6b62\u5340\u5927\u540c\u8def\u4e8c\u6bb524X\u865f", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1620280", 
-      "approach": "\u81ea\u6bba \u589c\u6a13", 
-      "id": 7363
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.7155584, 
-        24.1182838
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2012-10-04 00:00:00", 
-      "address": "\u53f0\u4e2d\u5e02\u592a\u5e73\u5340\u6c38\u6210\u5317\u8defX\u865f3F (\u5c71\u4e4b\u6751\u52a0\u6c34\u7ad9\u6a13\u4e0a)", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160307/809341/%E3%80%90%E5%87%B6%E5%AE%85%E6%89%93%E5%8D%A1%E3%80%91%E5%A6%99%E9%BD%A1%E5%A5%B3%E8%99%90%E6%AE%BA%E6%A1%88%E7%B6%B2%E8%AA%8C%E9%A0%90%E5%91%8A%E6%AD%BB%E4%BA%A1", 
-      "approach": "\u4ed6\u6bba \u51f6\u6bba", 
-      "id": 7365
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        120.239924, 
-        23.320348
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2016-03-10 00:00:00", 
-      "address": "\u53f0\u5357\u5e02\u9e7d\u6c34\u5340\u4e0b\u4e2d\u91cc3\u865f(\u5e73\u623f)", 
-      "news": "http://news.ltn.com.tw/news/society/paper/966806", 
-      "approach": "\u81ea\u6bba \u71d2\u70ad", 
-      "id": 7382
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.423048, 
-        24.9983589
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2012-04-07 00:00:00", 
-      "address": "\u65b0\u5317\u5e02\u6a39\u6797\u5340\u5927\u5b89\u8def89\u865f3\u6a13 (\u5927\u5b89\u6566\u5357\u793e\u5340)", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160314/814077/", 
-      "approach": "\u4ed6\u6bba \u51f6\u6bba", 
-      "id": 7383
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.7577152, 
-        25.1002915
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "address": "\u57fa\u9686\u5e02\u6696\u6696\u5340\u6e90\u9060\u8def325\u5df748-3\u865f", 
-      "news": "http://aomp.judicial.gov.tw/abbs/wkw/WHD2ASHOW.jsp?rowid", 
-      "approach": "\u81ea\u6bba \u4e0a\u540a", 
-      "id": 7401
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.4486742, 
-        25.0513216
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2016-03-18 22:30:00", 
-      "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u4e2d\u4fe1\u885766\u865f5\u6a13", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1637132", 
-      "approach": "\u610f\u5916 \u589c\u6a13", 
-      "id": 7406
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.2105906, 
-        24.9475328
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2016-03-19 04:00:00", 
-      "address": "\u6843\u5712\u5e02\u5e73\u93ae\u5340\u5ef6\u5e73\u8def\u4e8c\u6bb516X\u865f (\u5927\u82b3\u8f2a\u80ce)", 
-      "news": "http://www.cna.com.tw/news/asoc/201603190029-1.aspx", 
-      "approach": "\u610f\u5916 \u706b\u707d", 
-      "id": 7407
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.5874599, 
-        25.0673474
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2016-03-19 12:00:00", 
-      "address": "\u53f0\u5317\u5e02\u5167\u6e56\u5340\u6c11\u6b0a\u6771\u8def\u516d\u6bb5120\u5df79\u5f044\u865f2\u6a13", 
-      "news": "http://news.ltn.com.tw/news/society/paper/970454", 
-      "approach": "\u610f\u5916 CO\u4e2d\u6bd2", 
-      "id": 7408
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.785241, 
-        25.1264217
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2008-12-08 22:00:00", 
-      "address": "\u57fa\u9686\u5e02\u4fe1\u7fa9\u5340\u6df1\u6fb3\u5751\u8def\u5927\u9999\u6e2f\u793e\u5340A\u68df5\u6a13\u4e4b22\u865f", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160321/819274/%E3%80%90%E5%87%B6%E5%AE%85%E6%89%93%E5%8D%A1%E3%80%91%E5%9F%BA%E9%9A%86%E5%A5%B3%E5%B8%AB%E6%9C%A8%E4%B9%83%E4%BC%8A%E5%BC%8F%E5%91%BD%E6%A1%88", 
-      "approach": "\u4ed6\u6bba \u51f6\u6bba", 
-      "id": 7409
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.4955841, 
-        25.07065
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2016-03-23 01:00:00", 
-      "address": "\u65b0\u5317\u5e02\u4e09\u91cd\u5340\u4e09\u5b89\u91cc\u516d\u5f35\u885712\u865f", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1641935", 
-      "approach": "\u81ea\u6bba \u706b\u8b66", 
-      "id": 7465
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.7642448, 
-        25.1342739
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2016-03-23 00:00:00", 
-      "address": "\u57fa\u9686\u5e02\u4fe1\u7fa9\u5340\u82b1\u6e90\u4e00\u8857N\u865f4\u6a13", 
-      "news": "http://news.ltn.com.tw/news/society/breakingnews/1641385", 
-      "approach": "\u81ea\u6bba \u8df3\u6a13", 
-      "id": 7466
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.45568, 
-        25.053272
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2016-03-24 15:00:00", 
-      "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u660c\u5e73\u885782\u5df713\u5f04N\u865f9\u6a13", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160324/823769/%E8%80%81%E8%88%8A%E5%BB%B6%E9%95%B7%E7%B7%9A%E9%81%8E%E7%86%B1%E9%87%80%E7%81%AB%E7%81%BD%E3%80%80%E5%AE%B3%E6%A8%93%E4%B8%8A%E5%A9%A6%E4%BA%BA%E5%97%86%E6%AD%BB", 
-      "approach": "\u610f\u5916 \u706b\u707d", 
-      "id": 7470
-    }
-  }, 
-  {
-    "geometry": {
-      "type": "Point", 
-      "coordinates": [
-        121.7452631, 
-        25.1323222
-      ]
-    }, 
-    "type": "Feature", 
-    "properties": {
-      "marker-color": "#b00000", 
-      "marker-symbol": "danger", 
-      "datetime": "2004-06-16 12:00:00", 
-      "address": "\u57fa\u9686\u5e02\u4e2d\u6b63\u5340\u7fa9\u4e00\u8def26\u865f", 
-      "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160328/824612/%E3%80%90%E5%87%B6%E5%AE%85%E6%89%93%E5%8D%A1%E3%80%91%E9%86%8B%E5%A4%AB%E7%B8%B1%E7%81%AB%E3%80%80%E5%9F%BA%E9%9A%86%E5%8D%A1%E6%8B%89%E5%A4%A7%E7%81%AB%E9%87%805%E6%AD%BB", 
-      "approach": "\u4ed6\u6bba \u7e31\u706b", 
-      "id": 7485
-    }
-  }
-]
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.7452631, 
+          25.1323222
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2004-06-16 12:00:00", 
+        "address": "\u57fa\u9686\u5e02\u4e2d\u6b63\u5340\u7fa9\u4e00\u8def26\u865f", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160328/824612/%E3%80%90%E5%87%B6%E5%AE%85%E6%89%93%E5%8D%A1%E3%80%91%E9%86%8B%E5%A4%AB%E7%B8%B1%E7%81%AB%E3%80%80%E5%9F%BA%E9%9A%86%E5%8D%A1%E6%8B%89%E5%A4%A7%E7%81%AB%E9%87%805%E6%AD%BB", 
+        "approach": "\u4ed6\u6bba \u7e31\u706b", 
+        "id": 7485
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.45568, 
+          25.053272
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2016-03-24 15:00:00", 
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u660c\u5e73\u885782\u5df713\u5f04N\u865f9\u6a13", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160324/823769/%E8%80%81%E8%88%8A%E5%BB%B6%E9%95%B7%E7%B7%9A%E9%81%8E%E7%86%B1%E9%87%80%E7%81%AB%E7%81%BD%E3%80%80%E5%AE%B3%E6%A8%93%E4%B8%8A%E5%A9%A6%E4%BA%BA%E5%97%86%E6%AD%BB", 
+        "approach": "\u610f\u5916 \u706b\u707d", 
+        "id": 7470
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.7642448, 
+          25.1342739
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2016-03-23 00:00:00", 
+        "address": "\u57fa\u9686\u5e02\u4fe1\u7fa9\u5340\u82b1\u6e90\u4e00\u8857N\u865f4\u6a13", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1641385", 
+        "approach": "\u81ea\u6bba \u8df3\u6a13", 
+        "id": 7466
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.4955841, 
+          25.07065
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2016-03-23 01:00:00", 
+        "address": "\u65b0\u5317\u5e02\u4e09\u91cd\u5340\u4e09\u5b89\u91cc\u516d\u5f35\u885712\u865f", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1641935", 
+        "approach": "\u81ea\u6bba \u706b\u8b66", 
+        "id": 7465
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.785241, 
+          25.1264217
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2008-12-08 22:00:00", 
+        "address": "\u57fa\u9686\u5e02\u4fe1\u7fa9\u5340\u6df1\u6fb3\u5751\u8def\u5927\u9999\u6e2f\u793e\u5340A\u68df5\u6a13\u4e4b22\u865f", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160321/819274/%E3%80%90%E5%87%B6%E5%AE%85%E6%89%93%E5%8D%A1%E3%80%91%E5%9F%BA%E9%9A%86%E5%A5%B3%E5%B8%AB%E6%9C%A8%E4%B9%83%E4%BC%8A%E5%BC%8F%E5%91%BD%E6%A1%88", 
+        "approach": "\u4ed6\u6bba \u51f6\u6bba", 
+        "id": 7409
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5874599, 
+          25.0673474
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2016-03-19 12:00:00", 
+        "address": "\u53f0\u5317\u5e02\u5167\u6e56\u5340\u6c11\u6b0a\u6771\u8def\u516d\u6bb5120\u5df79\u5f044\u865f2\u6a13", 
+        "news": "http://news.ltn.com.tw/news/society/paper/970454", 
+        "approach": "\u610f\u5916 CO\u4e2d\u6bd2", 
+        "id": 7408
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.2105906, 
+          24.9475328
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2016-03-19 04:00:00", 
+        "address": "\u6843\u5712\u5e02\u5e73\u93ae\u5340\u5ef6\u5e73\u8def\u4e8c\u6bb516X\u865f (\u5927\u82b3\u8f2a\u80ce)", 
+        "news": "http://www.cna.com.tw/news/asoc/201603190029-1.aspx", 
+        "approach": "\u610f\u5916 \u706b\u707d", 
+        "id": 7407
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.4486742, 
+          25.0513216
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2016-03-18 22:30:00", 
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u4e2d\u4fe1\u885766\u865f5\u6a13", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1637132", 
+        "approach": "\u610f\u5916 \u589c\u6a13", 
+        "id": 7406
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.7577152, 
+          25.1002915
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "address": "\u57fa\u9686\u5e02\u6696\u6696\u5340\u6e90\u9060\u8def325\u5df748-3\u865f", 
+        "news": "http://aomp.judicial.gov.tw/abbs/wkw/WHD2ASHOW.jsp?rowid", 
+        "approach": "\u81ea\u6bba \u4e0a\u540a", 
+        "id": 7401
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.423048, 
+          24.9983589
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2012-04-07 00:00:00", 
+        "address": "\u65b0\u5317\u5e02\u6a39\u6797\u5340\u5927\u5b89\u8def89\u865f3\u6a13 (\u5927\u5b89\u6566\u5357\u793e\u5340)", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160314/814077/", 
+        "approach": "\u4ed6\u6bba \u51f6\u6bba", 
+        "id": 7383
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.239924, 
+          23.320348
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2016-03-10 00:00:00", 
+        "address": "\u53f0\u5357\u5e02\u9e7d\u6c34\u5340\u4e0b\u4e2d\u91cc3\u865f(\u5e73\u623f)", 
+        "news": "http://news.ltn.com.tw/news/society/paper/966806", 
+        "approach": "\u81ea\u6bba \u71d2\u70ad", 
+        "id": 7382
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.7155584, 
+          24.1182838
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2012-10-04 00:00:00", 
+        "address": "\u53f0\u4e2d\u5e02\u592a\u5e73\u5340\u6c38\u6210\u5317\u8defX\u865f3F (\u5c71\u4e4b\u6751\u52a0\u6c34\u7ad9\u6a13\u4e0a)", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160307/809341/%E3%80%90%E5%87%B6%E5%AE%85%E6%89%93%E5%8D%A1%E3%80%91%E5%A6%99%E9%BD%A1%E5%A5%B3%E8%99%90%E6%AE%BA%E6%A1%88%E7%B6%B2%E8%AA%8C%E9%A0%90%E5%91%8A%E6%AD%BB%E4%BA%A1", 
+        "approach": "\u4ed6\u6bba \u51f6\u6bba", 
+        "id": 7365
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.6540958, 
+          25.0656944
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2016-03-03 15:00:00", 
+        "address": "\u65b0\u5317\u5e02\u6c50\u6b62\u5340\u5927\u540c\u8def\u4e8c\u6bb524X\u865f", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1620280", 
+        "approach": "\u81ea\u6bba \u589c\u6a13", 
+        "id": 7363
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.25102, 
+          24.96915
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2016-02-29 09:00:00", 
+        "address": "\u6843\u5712\u5dff\u4e2d\u58e2\u5340\u4e2d\u83ef\u8def\u4e00\u6bb5619\u5df77\u865f", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/new/20160301/805740/", 
+        "approach": "\u4ed6\u6bba \u51f6\u6bba", 
+        "id": 7358
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.6237266, 
+          25.0413603
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2014-01-01 00:00:00", 
+        "address": "\u65b0\u5317\u5e02\u6c50\u6b62\u5340\u6797\u68ee\u885773\u5df761\u865f6\u6a13", 
+        "news": "http://aomp.judicial.gov.tw/abbs/wkw/WHD2ASHOW.jsp?rowid=%2Fsld%2F10502%2F18155741520.008", 
+        "approach": "\u81ea\u6bba \u4e0d\u660e", 
+        "id": 7315
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.4877076, 
+          25.0762111
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2016-02-26 04:00:00", 
+        "address": "\u65b0\u5317\u5e02\u4e09\u91cd\u5340\u4e09\u548c\u8def\u56db\u6bb59X-X\u865f", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160226/803558/%E7%96%91%E8%88%87%E7%94%B7%E5%8F%8B%E7%88%AD%E5%90%B5%E3%80%80%E5%A5%B3%E5%AD%90%E7%87%92%E7%82%AD%E8%BA%AB%E4%BA%A1", 
+        "approach": "\u81ea\u6bba \u71d2\u70ad", 
+        "id": 7294
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.46332, 
+          25.079485
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2016-02-23 02:00:00", 
+        "address": "\u65b0\u5317\u5e02\u8606\u6d32\u5340\u9577\u5b89\u885747\u865f", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1610735", 
+        "approach": "\u81ea\u6bba \u8df3\u6a13", 
+        "id": 7291
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5892774, 
+          25.0465905
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2016-02-24 03:00:00", 
+        "address": "\u53f0\u5317\u5e02\u5357\u6e2f\u5340\u6771\u65b0\u885797\u865fX\u6a13", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1612182", 
+        "approach": "\u81ea\u6bba \u5851\u81a0\u888b\u5957\u982d\u7a92\u606f", 
+        "id": 7290
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.3666736, 
+          24.9999513
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2016-02-26 00:30:00", 
+        "address": "\u6843\u5712\u5e02\u9f9c\u5c71\u5340\u5bf6\u77f3\u885719\u865f3\u6a13", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1613772", 
+        "approach": "\u610f\u5916 \u706b\u707d", 
+        "id": 7289
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.481521, 
+          25.185378
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2014-04-07 00:00:00", 
+        "address": "\u65b0\u5317\u5e02\u6de1\u6c34\u5340\u5317\u65b0\u8def\u4e8c\u6bb579\u4e4b3\u865f9\u6a13", 
+        "news": "http://aomp.judicial.gov.tw/abbs/wkw/WHD2ASHOW.jsp?rowid=%2Fsld%2F10502%2F04105633260.019", 
+        "approach": "\u81ea\u6bba \u4e0a\u540a", 
+        "id": 7287
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.509899, 
+          25.0067835
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2016-02-26 21:00:00", 
+        "address": "\u65b0\u5317\u5e02\u4e2d\u548c\u5340\u6c38\u8c9e\u8def370\u5df7", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160216/796369/%E7%94%B7%E5%AD%9014%E6%A8%93%E5%A2%9C%E8%90%BD%E8%BA%AB%E4%BA%A1%E3%80%80%E8%AD%A6%E5%B0%81%E7%8F%BE%E5%A0%B4%E8%AA%BF%E6%9F%A5", 
+        "approach": "\u81ea\u6bba \u8df3\u6a13", 
+        "id": 7285
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.7856406, 
+          25.1354522
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2016-02-17 00:00:00", 
+        "address": "\u57fa\u9686\u5e02\u4e2d\u6b63\u5340\u65b0\u8c50\u8857XX\u865f15\u6a13 (\u53f0\u5317\u5df4\u585e\u9686\u7d0d)", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160217/797207/%E5%A5%B3%E8%80%81%E5%B8%AB%E5%A2%9C%E6%A8%93%E4%BA%A1%E3%80%80%E6%82%B2%EF%BC%81%E8%80%81%E7%88%B6%E6%89%9B%E5%B1%8D%E7%8B%82%E5%A5%94%E7%99%BE%E5%85%AC%E5%B0%BA", 
+        "approach": "\u81ea\u6bba \u8df3\u6a13", 
+        "id": 7284
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.4979386, 
+          24.996893
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2016-02-15 02:00:00", 
+        "address": "\u65b0\u5317\u5e02\u4e2d\u548c\u5340\u9023\u52dd\u885757\u5df7XX\u865f6\u6a13", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1602868", 
+        "approach": "\u81ea\u6bba \u8df3\u6a13", 
+        "id": 7282
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.302727, 
+          24.9878959
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2016-02-10 17:00:00", 
+        "address": "\u6843\u5712\u5e02\u6843\u5712\u5340\u5927\u540c\u897f\u8def55\u865f2\u6a13", 
+        "news": "http://www.udn.com/news/story/2/1496684", 
+        "approach": "\u4ed6\u6bba \u52d2\u9838", 
+        "id": 7262
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.2126469, 
+          24.8797231
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2016-02-07 19:00:00", 
+        "address": "\u6843\u5712\u5e02\u9f8d\u6f6d\u5340\u4e2d\u8c50\u8def360\u5df730\u865f", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1598360", 
+        "approach": "\u4ed6\u6bba \u7e31\u706b", 
+        "id": 7260
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.4344621, 
+          25.0893729
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2016-02-09 18:00:00", 
+        "address": "\u65b0\u5317\u5e02\u4e94\u80a1\u5340\u4e94\u798f\u8def32\u5df79\u865f2\u6a13", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/new/20160209/793409/", 
+        "approach": "\u610f\u5916 \u706b\u707d", 
+        "id": 7259
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.704459, 
+          24.1462016
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2004-01-05 07:20:00", 
+        "address": "\u53f0\u4e2d\u5e02\u6771\u5340\u6771\u82f1\u5341\u4e94\u8857286\u865f9\u6a13", 
+        "news": "http://www.appletw.cn/local/2016-02-01/13629.html", 
+        "approach": "\u4ed6\u6bba \u60c5\u6bba", 
+        "id": 7230
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.4762422, 
+          25.0225578
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2016-01-28 03:00:00", 
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u7e23\u6c11\u5927\u90533\u6bb5103\u5df7 (\u65b0\u7ad9\u6676\u83ef)", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160128/785108/%E5%8D%8A%E5%A4%9C%E5%B7%A8%E9%9F%BF%E3%80%80%E7%94%B7%E5%AD%90%E5%A2%9C%E6%A8%93%E9%80%81%E9%86%AB%E4%B8%8D%E6%B2%BB", 
+        "approach": "\u81ea\u6bba \u589c\u6a13", 
+        "id": 7212
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.4985579, 
+          25.0718354
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2016-01-29 20:00:00", 
+        "address": "\u65b0\u5317\u5e02\u4e09\u91cd\u5340\u79c0\u6c5f\u885716X\u865f (2\u5c64\u900f\u5929)", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160129/785875/%E2%80%8B%E7%96%91%E7%97%85%E9%AD%94%E7%BA%8F%E8%BA%AB%E5%A4%9A%E5%B9%B4%E3%80%80%E7%94%B7%E7%87%92%E7%82%AD%E8%BC%95%E7%94%9F%E4%BA%A1", 
+        "approach": "\u81ea\u6bba \u71d2\u70ad", 
+        "id": 7211
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.4664031, 
+          22.6096723
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2016-01-27 18:00:00", 
+        "address": "\u5c4f\u6771\u7e23\u842c\u4e39\u9109\u65b0\u539d\u8defXX\u865f (\u900f\u5929)", 
+        "news": "http://news.ltn.com.tw/news/society/paper/953405", 
+        "approach": "\u4ed6\u6bba \u51f6\u6bba", 
+        "id": 7210
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5426339, 
+          25.03291
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2016-01-26 01:00:00", 
+        "address": "\u53f0\u5317\u5e02\u5927\u5b89\u5340\u5fa9\u8208\u5357\u8def\u4e8c\u6bb512\u5df715\u865f2\u6a13", 
+        "news": "http://www.setn.com/News.aspx?NewsID=120739", 
+        "approach": "\u610f\u5916 \u706b\u707d", 
+        "id": 7188
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.9531196, 
+          23.9676267
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2013-06-27 09:00:00", 
+        "address": "\u5357\u6295\u7e23\u57d4\u91cc\u93ae\u5357\u5b89\u8defX\u865f6\u6a13 (\u5bb6\u5929\u4e0b\u83ef\u5ec8)", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160118/777483/%E3%80%90%E5%87%B6%E5%AE%85%E6%89%93%E5%8D%A1%E3%80%91%E6%BB%B2%E8%A1%80%E8%A1%8C%E6%9D%8E%E7%AE%B1%E4%B9%8B%E4%BA%BA%E7%8A%AC%E7%AE%B1%E5%B1%8D%E6%A1%88", 
+        "approach": "\u4ed6\u6bba \u51f6\u6bba", 
+        "id": 7058
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.503602, 
+          24.9419002
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2014-01-01 00:00:00", 
+        "address": "\u65b0\u5317\u5e02\u65b0\u5e97\u5340\u9054\u89c0\u8def14\u5df72\u865f10\u6a13-5 (\u9054\u89c0\u93ae)", 
+        "news": "http://www.appledaily.com.tw/appledaily/article/headline/20130303/34863002/", 
+        "approach": "\u81ea\u6bba \u71d2\u70ad", 
+        "id": 7037
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5704069, 
+          23.9957556
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "approach": "\u81ea\u6bba \u5851\u81a0\u888b\u5957\u982d", 
+        "marker-color": "#b00000", 
+        "id": 7016, 
+        "marker-symbol": "danger", 
+        "address": "\u82b1\u84ee\u7e23\u82b1\u84ee\u5e02\u5efa\u5fb7\u8857\u4e03\u5df74\u865f"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.8035249, 
+          25.1082378
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2016-01-12 07:00:00", 
+        "address": "\u65b0\u5317\u5e02\u745e\u82b3\u5340\u4e00\u5751\u8def (\u5bcc\u8cb4\u5ead\u5712\u793e\u5340)", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160112/772866/%E7%96%91%E4%B9%85%E7%97%85%E5%8E%AD%E4%B8%96%E3%80%80%E5%A9%A6%E4%BA%BA8%E6%A8%93%E8%B7%B3%E4%B8%8B%E4%B8%8D%E6%B2%BB", 
+        "approach": "\u81ea\u6bba \u8df3\u6a13", 
+        "id": 7015
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.7192556, 
+          25.1477282
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2004-05-31 00:00:00", 
+        "address": "\u57fa\u9686\u5e02\u4e2d\u5c71\u5340\u4e2d\u548c\u8def85\u5df7 (\u559c\u5e02)", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160111/771904/%E3%80%90%E5%87%B6%E5%AE%85%E6%89%93%E5%8D%A1%E3%80%91%E9%B8%9A%E9%B5%A1%E5%87%B6%E5%85%86%E3%80%80%E7%8B%A0%E7%88%B6%E8%99%90%E6%AE%BA%E5%85%A9%E5%AD%90%E5%A5%B3", 
+        "approach": "\u4ed6\u6bba \u51cc\u8650", 
+        "id": 7002
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.1459395, 
+          23.4552605
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-12-26 15:45:00", 
+        "address": "\u5609\u7fa9\u7e23\u6771\u77f3\u9109\u6771\u77f3\u67517-10\u865f3\u6a13", 
+        "news": "http://udn.com/news/story/2/1403002-%E5%98%89%E7%BE%A9%E6%9D%B1%E7%9F%B3%E7%81%AB%E8%AD%A6-68%E6%AD%B2%E7%8D%A8%E5%B1%85%E8%80%81%E4%BA%BA%E6%AD%BB%E4%BA%A1", 
+        "approach": "\u610f\u5916 \u706b\u707d", 
+        "id": 6899
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5016297, 
+          25.068783
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-12-25 00:00:00", 
+        "address": "\u65b0\u5317\u5e02\u4e09\u91cd\u5340\u9577\u58fd\u885786\u865f", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20151225/760590/%E7%94%B7%E5%AD%90%E4%BD%8F%E5%AE%B6%E4%B8%8A%E5%90%8A%E8%BA%AB%E4%BA%A1%E3%80%80%E8%AD%A6%E5%B0%81%E7%8F%BE%E5%A0%B4%E8%AA%BF%E6%9F%A5%E4%B8%AD", 
+        "approach": "\u81ea\u6bba \u4e0a\u540a", 
+        "id": 6888
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5334268, 
+          25.0415995
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-12-25 06:00:00", 
+        "address": "\u53f0\u5317\u5e02\u5927\u5b89\u5340\u5fe0\u5b5d\u6771\u8def\u4e09\u6bb510\u5df710\u865f6\u6a13", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20151225/760669/%E5%A9%A6%E4%BA%BA6%E6%A8%93%E5%A2%9C%E4%B8%8B%E3%80%80%E6%91%941%E6%A8%93%E9%81%AE%E9%9B%A8%E6%A3%9A%E6%AD%BB%E4%BA%A1", 
+        "approach": "\u81ea\u6bba \u8df3\u6a13", 
+        "id": 6887
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5054553, 
+          25.0001326
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-12-25 17:35:00", 
+        "address": "\u65b0\u5317\u5e02\u4e2d\u548c\u5340\u5357\u5de5\u8def94\u5df710\u865f3\u6a13", 
+        "news": "http://www.cna.com.tw/news/firstnews/201512250332-1.aspx", 
+        "approach": "\u4ed6\u6bba \u51f6\u6bba", 
+        "id": 6886
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.0095153, 
+          24.8264853
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2014-06-05 04:00:00", 
+        "address": "\u65b0\u7af9\u7e23\u7af9\u5317\u5e02\u7e23\u653f\u4e5d\u8def80\u865f7\u6a13\u67d0\u6236", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20151221/757271/%E3%80%90%E5%87%B6%E5%AE%85%E6%89%93%E5%8D%A1%E3%80%91250%E5%85%AC%E9%87%8C%E6%BB%85%E5%B1%8D%E3%80%80%E9%98%BF%E9%87%8C%E5%B1%B1%E7%99%BD%E9%AA%A8%E5%B9%BD%E9%AD%82", 
+        "approach": "\u4ed6\u6bba \u51f6\u6bba", 
+        "id": 6817
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.479567, 
+          25.0022569
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2009-10-21 00:00:00", 
+        "address": "\u65b0\u5317\u5e02\u4e2d\u548c\u5340\u54e1\u5c71\u8def327\u5df778\u865f4\u6a13", 
+        "news": "http://aomp.judicial.gov.tw/abbs/wkw/WHD2ASHOW.jsp?rowid=%2Fpcd%2F10412%2F11135920595.000", 
+        "approach": "\u81ea\u6bba \u4e0d\u660e", 
+        "id": 6762
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.6448302, 
+          24.2293223
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-12-09 05:00:00", 
+        "address": "\u53f0\u4e2d\u5e02\u5927\u96c5\u5340\u96c5\u74b0\u8def\u4e09\u6bb574\u865f2\u6a13 (4\u6a13\u900f\u5929)", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1533960", 
+        "approach": "\u81ea\u6bba \u71d2\u70ad", 
+        "id": 6716
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5475831, 
+          25.0814169
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-12-07 20:00:00", 
+        "address": "\u53f0\u5317\u5e02\u4e2d\u5c71\u5340\u5317\u5b89\u8def573\u5df719\u865f1\u6a13 (\u5713\u5c71\u5225\u5885)", 
+        "news": "http://udn.com/news/story/2/1362758-%E5%8C%97%E5%B8%82%E7%99%8C%E6%9C%AB%E6%AF%8D%E8%87%AA%E6%AE%BA%E5%AD%90%E8%BF%BD%E9%9A%A8-%E8%AD%A6%E5%88%B0%E5%A0%B4%E9%91%91%E8%AD%98", 
+        "approach": "\u81ea\u6bba \u4e0a\u540a", 
+        "id": 6713
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.7248716, 
+          25.1438783
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "approach": "\u81ea\u6bba \u5438\u6bd2\u66b4\u6583", 
+        "marker-color": "#b00000", 
+        "id": 6684, 
+        "marker-symbol": "danger", 
+        "address": "\u57fa\u9686\u5e02\u4e2d\u5c71\u5340\u4e2d\u548c\u8def8\u865f"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.6111525, 
+          24.1932633
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-10-01 00:00:00", 
+        "address": "\u53f0\u4e2d\u5e02\u570b\u5b89\u4e00\u8def206\u5df724\u865f\u4e09\u6a13\u4e4b5", 
+        "approach": "\u81ea\u6bba \u71d2\u70ad", 
+        "id": 6679
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.5196468, 
+          24.0619978
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "approach": "\u81ea\u6bba \u8df3\u6a13", 
+        "marker-color": "#b00000", 
+        "id": 6675, 
+        "marker-symbol": "danger", 
+        "address": "\u5f70\u5316\u5e02\u5f70\u6c34\u8def33\u5df72\u4e4b1\u865f"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.4576845, 
+          25.045416
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-11-26 03:00:00", 
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u798f\u6a02\u885729\u865f4\u6a13", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1520853", 
+        "approach": "\u81ea\u6bba \u5f15\u7206\u74e6\u65af", 
+        "id": 6655
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.333856, 
+          22.59494
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-11-25 00:00:00", 
+        "address": "\u9ad8\u96c4\u5e02\u9cf3\u5c71\u5340\u6797\u68ee\u8def185\u5df722\u865f3\u6a13", 
+        "news": "http://news.ltn.com.tw/news/society/paper/935496", 
+        "approach": "\u81ea\u6bba \u8df3\u6a13", 
+        "id": 6654
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.4323089, 
+          23.7075415
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-11-23 17:00:00", 
+        "address": "\u96f2\u6797\u7e23\u864e\u5c3e\u93ae\u897f\u5b89\u88573\u865f", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20151123/738599/%E7%96%91%E5%92%8C%E5%89%8D%E5%A4%AB%E7%88%AD%E5%9F%B7%E3%80%80%E5%A5%B3%E5%A2%9C5%E6%A8%93%E8%BA%AB%E4%BA%A1", 
+        "approach": "\u81ea\u6bba \u8df3\u6a13", 
+        "id": 6652
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.6873262, 
+          24.2972829
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-11-19 00:00:00", 
+        "address": "\u53f0\u4e2d\u5e02\u540e\u91cc\u5340\u4e09\u91cd\u4e8c\u8def303\u865f\u865f1\u6a13 (\u4e09\u5408\u9662)", 
+        "news": "http://udn.com/news/story/2/1325443", 
+        "approach": "\u81ea\u6bba \u9673\u5c4d", 
+        "id": 6641
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.4870628, 
+          25.0516639
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-11-15 14:00:00", 
+        "address": "\u65b0\u5317\u5e02\u4e09\u91cd\u5340\u6210\u529f\u8def110\u865f", 
+        "news": "http://news.ltn.com.tw/news/society/paper/932650", 
+        "approach": "\u81ea\u6bba \u8df3\u6a13", 
+        "id": 6597
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.742581, 
+          24.7457051
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-11-10 00:00:00", 
+        "address": "\u5b9c\u862d\u7e23\u5b9c\u862d\u5e02\u5973\u4e2d\u8def\u4e09\u6bb512\u865f", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1503650", 
+        "approach": "\u81ea\u6bba \u9673\u5c4d", 
+        "id": 6587
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5027499, 
+          25.1265615
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-11-02 18:00:00", 
+        "address": "\u81fa\u5317\u5e02\u5317\u6295\u5340\u4e09\u5408\u88572\u6bb5423\u865f2\u6a13", 
+        "news": "http://udn.com/news/story/2/1288549", 
+        "approach": "\u4ed6\u6bba \u51f6\u6bba", 
+        "id": 6558
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.9741912, 
+          24.8168659
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2004-01-29 07:10:00", 
+        "address": "\u65b0\u7af9\u5e02\u5149\u83ef\u4e8c\u88573\u6a131315\u865f (\u683c\u745e\u7d72\u5927\u6a13)", 
+        "news": "http://www.appledaily.com.tw/appledaily/article/headline/20040130/679056/", 
+        "approach": "\u4ed6\u6bba \u51f6\u6bba", 
+        "id": 6554
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.7512074, 
+          25.1300687
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-04-05 11:00:00", 
+        "address": "\u57fa\u9686\u5e02\u4fe1\u7fa9\u5340\u7fa9\u516d\u8def93\u865f", 
+        "news": "http://i.imgur.com/VGw3pj0.jpg", 
+        "approach": "\u81ea\u6bba \u4e0a\u540a", 
+        "id": 6552
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.2286749, 
+          24.8718001
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2005-01-01 00:00:00", 
+        "address": "\u6843\u5712\u5e02\u9f8d\u6f6d\u5340\u4e2d\u8208\u8def461\u5df72\u5f045\u865f", 
+        "approach": "\u81ea\u6bba None", 
+        "id": 6550
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.811026, 
+          25.1078434
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-10-25 11:00:00", 
+        "address": "\u65b0\u5317\u5e02\u745e\u82b3\u5340\u660e\u71c8\u8def\u4e8c\u6bb531\u865f1\u6a13 (\u900f\u5929)", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20151025/718582/%E7%88%B6%E7%84%A1%E5%8A%9B%E6%92%AB%E9%A4%8A%E7%B2%BE%E9%9A%9C%E5%AD%90%E3%80%80%E7%95%99%E9%81%BA%E6%9B%B8%E7%87%92%E7%82%AD%E9%9B%99%E4%BA%A1", 
+        "approach": "\u81ea\u6bba \u71d2\u70ad", 
+        "id": 6549
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.3876097, 
+          22.6185252
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-10-03 03:00:00", 
+        "address": "\u9ad8\u96c4\u5e02\u5927\u5bee\u5340\u4e2d\u6b63\u8def24\u865f (\u900f\u5929)", 
+        "news": "http://www.cna.com.tw/news/asoc/201510030278-1.aspx", 
+        "approach": "\u4ed6\u6bba \u51f6\u6bba", 
+        "id": 6526
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.458024, 
+          25.0210118
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-09-24 14:00:00", 
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u91d1\u83ef\u885785\u5df75\u865f2\u6a13", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1455340", 
+        "approach": "\u81ea\u6bba \u51f6\u6bba", 
+        "id": 6507
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.2133166, 
+          24.9505708
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2013-09-19 20:00:00", 
+        "address": "\u6843\u5712\u5e02\u5e73\u93ae\u5e02\u5ef6\u5e73\u8def\u4e8c\u6bb529\u865f (\u6642\u4ee3\u5ee3\u5834\u793e\u5340)", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150921/695748/", 
+        "approach": "\u4ed6\u6bba \u51f6\u6bba", 
+        "id": 6502
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.4841908, 
+          25.0025751
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-09-17 02:00:00", 
+        "address": "\u65b0\u5317\u5e02\u4e2d\u548c\u5340\u4e2d\u6b63\u8def839\u5df78\u865f", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150917/693362/", 
+        "approach": "\u610f\u5916 \u589c\u6a13", 
+        "id": 6499
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.6749928, 
+          24.1260781
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2008-11-07 00:00:00", 
+        "address": "\u53f0\u4e2d\u5e02\u5357\u5340\u5b78\u5e9c\u8def75\u865f (\u7f8e\u570b\u62cd\u62d6\u5ee3\u5834)", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150914/690939/", 
+        "approach": "\u4ed6\u6bba \u85e5\u7269\u6bd2\u6bba", 
+        "id": 6495
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.1367373, 
+          24.9115589
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-09-12 04:46:00", 
+        "address": "\u6843\u5712\u5e02\u694a\u6885\u5340\u694a\u6e56\u8def\u4e00\u6bb5280\u5df721\u865f (\u900f\u5929)", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1442164", 
+        "approach": "\u610f\u5916 \u706b\u707d", 
+        "id": 6492
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.45045, 
+          25.048398
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-09-10 19:00:00", 
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u4e2d\u8aa0\u885770\u5df715\u865f", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150911/689361/%E6%83%85%E4%BE%B6%E7%87%92%E7%82%AD%E9%9B%99%E4%BA%A1%E3%80%80%E7%95%99%E7%B4%99%E6%A2%9D%EF%BC%9A%E3%80%8C%E8%A6%81%E7%81%AB%E8%91%AC%E3%80%8D", 
+        "approach": "\u81ea\u6bba \u71d2\u70ad", 
+        "id": 6491
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.4787719, 
+          22.6635996
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-06-01 00:00:00", 
+        "address": "\u5c4f\u6771\u7e23\u5c4f\u6771\u5e02\u83ef\u76db\u88573\u865f(\u5d07\u5927\u65b0\u57ce)", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1441602", 
+        "approach": "\u4ed6\u6bba \u88ab\u4e1f\u4e0b\u6a13", 
+        "id": 6490
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.4637573, 
+          25.0294503
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-09-11 20:00:00", 
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6c11\u751f\u8def\u4e09\u6bb5263\u5df78\u865f2\u6a13", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1442082", 
+        "approach": "\u81ea\u6bba \u51f6\u6bba", 
+        "id": 6488
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.4330771, 
+          24.9931773
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2008-06-23 00:00:00", 
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u91d1\u9580\u885748\u865f6\u6a13", 
+        "news": "http://www.tpkonsale.moj.gov.tw/TPKOnSale/56683.doc", 
+        "approach": "\u81ea\u6bba \u4e0d\u660e", 
+        "id": 6449
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.6967263, 
+          24.0801689
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-08-21 10:00:00", 
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u6771\u5357\u8def44\u865f3\u6a13", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1419530", 
+        "approach": "\u81ea\u6bba \u8df3\u6a13", 
+        "id": 6405
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.4610651, 
+          25.021033
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-08-06 00:00:00", 
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u5e78\u798f\u8def32\u5df75\u5f041\u865f\u9802\u6a13\u52a0\u84cb", 
+        "news": "https://tw.news.yahoo.com/%E6%9D%BF%E6%A9%8B%E6%B0%91%E5%AE%85-3%E5%A5%B3%E7%9B%B8%E7%B4%84%E7%87%92%E7%82%AD%E5%91%BD%E5%8D%B1-220000477.html", 
+        "approach": "\u81ea\u6bba \u71d2\u70ad", 
+        "id": 6367
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.1852171, 
+          24.9161186
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2007-02-10 00:00:00", 
+        "address": "\u6843\u5712\u5e02\u694a\u6885\u5340\u6587\u5316\u885711\u865f", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150727/655867/%E3%80%90%E5%87%B6%E5%AE%85%E6%89%93%E5%8D%A1%E3%80%91%E9%82%AA%E9%AD%94%E6%AE%BA%E4%BA%BA%E8%BC%AA%E8%BF%B4", 
+        "approach": "\u81ea\u6bba \u51f6\u6bba", 
+        "id": 6350
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.2988207, 
+          24.9554715
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-07-26 10:00:00", 
+        "address": "\u6843\u5712\u5e02\u516b\u5fb7\u5340\u4ecb\u58fd\u8def\u4e8c\u6bb5102\u865f", 
+        "news": "http://news.ltn.com.tw/news/society/paper/901134", 
+        "approach": "\u4ed6\u6bba \u51f6\u6bba", 
+        "id": 6349
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.305935, 
+          24.996936
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-07-26 17:00:00", 
+        "address": "\u6843\u5712\u5e02\u6843\u5712\u5340\u6c38\u5b89\u8def135\u865f", 
+        "news": "http://udn.com/news/story/7316/1079732-%E9%8B%B0%E9%9B%BB%E6%B1%A0%E5%BC%95%E7%99%BC%E5%A4%A7%E7%81%AB-%E9%AC%A7%E5%8D%80%E6%B0%91%E5%AE%852%E6%AD%BB", 
+        "approach": "\u610f\u5916 \u706b\u707d", 
+        "id": 6348
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.305935, 
+          24.996936
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-07-25 17:00:00", 
+        "address": "\u6843\u5712\u5e02\u6843\u5712\u5340\u6c38\u5b89\u8def135\u865f", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/new/20150725/655342/", 
+        "approach": "\u610f\u5916 \u706b\u707d", 
+        "id": 6347
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.4497885, 
+          25.0490791
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-07-20 12:00:00", 
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u5e78\u798f\u8def711\u865f3\u6a13", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1384873", 
+        "approach": "\u81ea\u6bba \u8209\u69cd\u81ea\u76e1", 
+        "id": 6342
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5306445, 
+          25.0479068
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-07-06 10:00:00", 
+        "address": "\u53f0\u5317\u5e02\u4e2d\u5c71\u5340\u65b0\u751f\u5317\u8def1\u6bb547\u5df712\u865f2\u6a13", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1370395", 
+        "approach": "\u81ea\u6bba \u8209\u69cd\u81ea\u76e1", 
+        "id": 6304
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.9668091, 
+          24.7974136
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2007-08-22 00:00:00", 
+        "address": "\u65b0\u7af9\u5e02\u6771\u5340\u8208\u5b78\u885760\u865f4+5\u6a13", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150624/631756/%E3%80%90%E5%87%B6%E5%AE%85%E6%89%93%E5%8D%A1%E5%8B%95%E7%95%AB%E7%89%88%E3%80%91%E5%8D%88%E5%A4%9C%E9%AB%98%E8%B7%9F%E9%9E%8B", 
+        "approach": "\u4ed6\u6bba \u51f6\u6bba", 
+        "id": 6279
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5612825, 
+          23.9727936
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2006-09-08 00:00:00", 
+        "address": "\u82b1\u84ee\u7e23\u5409\u5b89\u9109\u5409\u5b89\u6751\u5409\u660c\u4e00\u8857258\u5df725\u865f (\u900f\u5929)", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150615/628891/%E3%80%90%E5%87%B6%E5%AE%85%E6%89%93%E5%8D%A1%E3%80%91%E7%B4%99%E7%B4%AE%E8%A7%80%E9%9F%B3%E9%9B%A3%E9%8E%AE%E7%85%9E%E3%80%80%E4%BA%94%E5%AD%90%E5%A4%9C%E5%95%BC%E8%A8%B4%E5%86%A4%E6%9B%B2", 
+        "approach": "\u81ea\u6bba \u51f6\u6bba", 
+        "id": 6269
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.3071623, 
+          25.0031285
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-06-15 04:00:00", 
+        "address": "\u6843\u5712\u5e02\u6843\u5712\u5340\u5317\u57d4\u8def65\u865f7\u6a13", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1349477", 
+        "approach": "\u4ed6\u6bba \u51f6\u6bba", 
+        "id": 6267
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.4999111, 
+          25.0271022
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-06-13 00:00:00", 
+        "address": "\u53f0\u5317\u5e02\u842c\u83ef\u5340\u842c\u5927\u8def218\u5df720\u865f", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150613/628212/", 
+        "approach": "\u81ea\u6bba \u4e0a\u540a", 
+        "id": 6265
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5512862, 
+          25.085111
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-06-09 16:00:00", 
+        "address": "\u53f0\u5317\u5e02\u4e2d\u5c71\u5340\u660e\u6c34\u8def769\u865f2\u6a13", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1343823", 
+        "approach": "\u81ea\u6bba \u6301\u69cd\u81ea\u76e1", 
+        "id": 6263
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.472949, 
+          25.0801349
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "address": "\u65b0\u5317\u5e02\u8606\u6d32\u5340\u4e2d\u5c71\u4e00\u8def257\u865f4\u6a13", 
+        "news": "http://aomp.judicial.gov.tw/abbs/wkw/WHD2ASHOW.jsp?rowid", 
+        "approach": "\u81ea\u6bba \u4e0a\u540a", 
+        "id": 6260
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5512862, 
+          25.085111
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-06-09 16:00:00", 
+        "address": "\u53f0\u5317\u5e02\u4e2d\u5c71\u5340\u660e\u6c34\u8def769\u865f2\u6a13", 
+        "news": "https://tw.news.yahoo.com/%E7%94%B7%E5%AD%90%E9%99%B3%E5%B1%8D%E6%98%8E%E6%B0%B4%E8%B7%AF%E6%B0%91%E5%AE%85-%E7%96%91%E8%87%AA%E6%88%95%E9%A0%AD%E9%83%A8%E4%B8%AD%E5%BD%88-144834094.html", 
+        "approach": "\u81ea\u6bba \u6301\u69cd\u81ea\u76e1", 
+        "id": 6258
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5324021, 
+          25.0478468
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-06-05 00:00:00", 
+        "address": "\u53f0\u5317\u5e02\u4e2d\u5c71\u5340\u677e\u6c5f\u8def46\u5df78\u865f2\u6a13", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/new/20150605/623085/", 
+        "approach": "\u610f\u5916 \u7a92\u606f", 
+        "id": 6254
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5014577, 
+          25.0601244
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2013-08-30 00:00:00", 
+        "address": "\u65b0\u5317\u5e02\u4e09\u91cd\u5340\u4e2d\u592e\u5357\u8def111\u865f8\u6a13\u4e4b2", 
+        "news": "http://aomp.judicial.gov.tw/abbs/wkw/WHD2ASHOW.jsp?rowid", 
+        "approach": "\u81ea\u6bba \u8df3\u6a13", 
+        "id": 6249
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.3025564, 
+          22.614681
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-05-24 13:00:00", 
+        "address": "\u9ad8\u96c4\u5e02\u82d3\u96c5\u5340\u4ec1\u5fb7\u885727\u865f (\u7422\u771f\u5712)", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1327443", 
+        "approach": "\u81ea\u6bba \u8df3\u6a13", 
+        "id": 6223
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.6502766, 
+          24.1774978
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-05-21 13:00:00", 
+        "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u9022\u5927\u8def125\u865f13F (\u5927\u9d6c\u65b0\u57ce)", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150521/614436/%E3%80%90%E6%9B%B4%E6%96%B0%E3%80%91%E3%80%8C%E6%AD%BB%E6%98%AF%E6%88%91%E8%BF%BD%E6%B1%82%E7%9A%84%E5%BF%AB%E6%A8%82%E3%80%8D%E3%80%80%E9%80%A2%E7%94%B2%E5%A5%B3%E5%A4%A7%E7%94%9F%E8%B7%B3%E6%A8%93", 
+        "approach": "\u81ea\u6bba \u8df3\u6a13", 
+        "id": 6221
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.4630576, 
+          25.0782642
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-05-18 11:00:00", 
+        "address": "\u65b0\u5317\u5e02\u8606\u6d32\u5340\u6c38\u5b89\u5357\u8def\u4e8c\u6bb5104\u865f6\u6a13", 
+        "news": "http://news.ltn.com.tw/news/society/paper/881870", 
+        "approach": "\u81ea\u6bba \u589c\u6a13", 
+        "id": 6218
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.4429736, 
+          25.0493114
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u5e78\u798f\u8def874\u865f4\u6a13", 
+        "news": "http://www.ycassets.com/productdetail-4644.html", 
+        "approach": "\u81ea\u6bba None", 
+        "id": 6217
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.6505251, 
+          24.1636385
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-05-14 02:00:00", 
+        "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u6587\u5fc3\u8def\u4e09\u6bb56\u865f12\u6a13(\u4e16\u754c\u4e4b\u5fc3)", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150515/611123/%E7%9C%9F%E7%9A%84%E6%8B%89%E4%B8%8D%E4%BD%8F%EF%BC%81%E3%80%80%E5%A5%B9%E5%80%91%E7%9C%BC%E7%9D%9C%E7%9D%9C%E7%9C%8B%E9%96%A8%E8%9C%9C%E8%B7%B3%E6%A8%93", 
+        "approach": "\u81ea\u6bba \u8df3\u6a13", 
+        "id": 6205
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.905954, 
+          24.68472
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-05-12 12:30:00", 
+        "address": "\u82d7\u6817\u7e23\u982d\u4efd\u93ae\u4e2d\u83ef\u8def951\u865f", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1315949", 
+        "approach": "\u610f\u5916 \u99ac\u4e0a\u98a8", 
+        "id": 6204
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.960239, 
+          24.800858
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-05-12 10:00:00", 
+        "address": "\u65b0\u7af9\u5e02\u5317\u5340\u56db\u7dad\u8def89\u5df72-1\u865f4\u6a13", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1315597", 
+        "approach": "\u4ed6\u6bba \u51f6\u6bba", 
+        "id": 6200
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.3942554, 
+          24.9728632
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "approach": "\u81ea\u6bba None", 
+        "marker-color": "#b00000", 
+        "id": 6198, 
+        "marker-symbol": "danger", 
+        "address": "\u65b0\u5317\u5e02\u6a39\u6797\u5340\u5c71\u4f73\u88577\u865f"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5325567, 
+          25.2776743
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "approach": "\u81ea\u6bba None", 
+        "marker-color": "#b00000", 
+        "id": 6192, 
+        "marker-symbol": "danger", 
+        "address": "\u65b0\u5317\u5e02\u77f3\u9580\u5340\u5bcc\u57fa\u91cc1\u9130\u5d01\u5b50\u817358\u4e4b9\u865f(\u900f\u5929)"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.3187639, 
+          22.682525
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2014-02-01 00:00:00", 
+        "address": "\u9ad8\u96c4\u5e02\u5de6\u71df\u5340\u6587\u6148\u8def192\u5df732\u865f", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1307420", 
+        "approach": "\u81ea\u6bba \u4e0a\u540a", 
+        "id": 6190
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.7151993, 
+          24.2383672
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-05-03 07:00:00", 
+        "address": "\u53f0\u4e2d\u5e02\u8c50\u539f\u5340\u8c50\u5357\u885792\u5df741\u5f0443\u865f2\u6a13", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1305173", 
+        "approach": "\u610f\u5916 \u706b\u707d", 
+        "id": 6187
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.1950724, 
+          22.9899928
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "approach": "\u81ea\u6bba None", 
+        "marker-color": "#b00000", 
+        "id": 6184, 
+        "marker-symbol": "danger", 
+        "address": "\u53f0\u5357\u5e02\u4e2d\u897f\u5340\u6d77\u5b89\u8def\u4e00\u6bb597\u865f"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.6830105, 
+          25.1759264
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "address": "\u65b0\u5317\u5e02\u842c\u91cc\u5340\u5b5d\u4e03\u88579\u865f(\u5317\u57fa\u793e\u5340)", 
+        "news": "http://www.cna.com.tw/news/asoc/201505010047-1.aspx", 
+        "approach": "\u4ed6\u6bba \u51f6\u6bba", 
+        "id": 6183
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.4805208, 
+          25.0756584
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2014-05-17 16:00:00", 
+        "address": "\u65b0\u5317\u5e02\u4e09\u91cd\u5340\u529b\u884c\u8def\u4e8c\u6bb5136\u5df733\u5f0411\u865f6\u6a13", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1010167", 
+        "approach": "\u81ea\u6bba \u4e0a\u540a", 
+        "id": 6177
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5188568, 
+          25.0741206
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-04-28 00:00:00", 
+        "address": "\u53f0\u5317\u5e02\u5927\u540c\u5340\u54c8\u5bc6\u885740\u865f1\u6a13", 
+        "news": "http://www.chinatimes.com/realtimenews/20150428004669-260401", 
+        "approach": "\u81ea\u6bba ", 
+        "id": 6176
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.6853714, 
+          24.1042415
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-04-26 00:00:00", 
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u65b0\u82b3\u8def107-3\u865f", 
+        "news": "http://www.chinatimes.com/newspapers/20150427001110-260102", 
+        "approach": "\u81ea\u6bba \u71d2\u70ad", 
+        "id": 6172
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.314807, 
+          22.683445
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-04-22 21:00:00", 
+        "address": "\u9ad8\u96c4\u5e02\u5de6\u71df\u5340\u81ea\u7531\u56db\u8def225\u865f", 
+        "news": "http://www.chinatimes.com/realtimenews/20150423004228-260402", 
+        "approach": "\u81ea\u6bba \u6c34\u5854\u6eba\u6583", 
+        "id": 6169
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.4674882, 
+          25.0154656
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-04-23 09:00:00", 
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u7e23\u6c11\u5927\u9053\u4e8c\u6bb5116\u865f", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1295819", 
+        "approach": "\u81ea\u6bba \u9673\u5c4d", 
+        "id": 6168
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.261087, 
+          24.964947
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-04-23 04:00:00", 
+        "address": "\u6843\u5712\u5e02\u4e2d\u58e2\u5340\u69ae\u6c11\u8def240\u865f", 
+        "news": "http://udn.com/news/story/7316/859105-%E5%A4%9C%E5%8D%8A%E7%81%AB%E7%87%92%E5%8E%9D-%E5%8F%94%E5%A7%AA%E9%9B%99%E4%BA%A1", 
+        "approach": "\u81ea\u6bba \u706b\u8b66", 
+        "id": 6167
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.3236, 
+          22.6054715
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-04-21 03:00:00", 
+        "address": "\u9ad8\u96c4\u5e02\u524d\u93ae\u5340\u4e00\u5fc3\u4e00\u8def53\u5df71\u865f1\u6a13", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1293102", 
+        "approach": "\u610f\u5916 \u731d\u6b7b", 
+        "id": 6161
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.7543447, 
+          24.7613598
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2006-02-18 06:00:00", 
+        "address": "\u5b9c\u862d\u7e23\u5b9c\u862d\u5e02\u6771\u5f8c\u885744\u865f5\u6a13", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150420/595442/%E3%80%90%E5%87%B6%E5%AE%85%E6%89%93%E5%8D%A1%E3%80%91%E6%9A%97%E5%B1%8B%E7%99%BD%E9%AA%A8%E4%B8%80%E5%B9%B4%E5%BE%8C%E7%9A%84%E5%B1%8D%E9%AB%94", 
+        "approach": "\u81ea\u6bba \u71d2\u70ad", 
+        "id": 6159
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.524774, 
+          25.0593307
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-04-17 02:30:00", 
+        "address": "\u53f0\u5317\u5e02\u4e2d\u5c71\u5340\u9326\u5dde\u885730\u5df713\u865f8\u6a13", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1289604", 
+        "approach": "\u81ea\u6bba \u8df3\u6a13", 
+        "id": 6147
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.2872474, 
+          22.6676546
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-04-14 00:00:00", 
+        "address": "\u9ad8\u96c4\u5e02\u9f13\u5c71\u5340\u4e5d\u5982\u56db\u8def2014\u5df729\u865f", 
+        "news": "http://udn.com/news/story/2/836206", 
+        "approach": "\u81ea\u6bba \u51f6\u6bba", 
+        "id": 6144
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.543138, 
+          24.9634289
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "address": "\u65b0\u5317\u5e02\u65b0\u5e97\u5340\u6ab3\u6994\u8def41\u5df76\u865f5\u6a13 (\u9802\u6a13\u589e\u5efa)", 
+        "news": "http://aomp.judicial.gov.tw/abbs/wkw/WHD2ASHOW.jsp?rowid", 
+        "approach": "\u81ea\u6bba \u4e0d\u660e", 
+        "id": 6135
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.2470725, 
+          23.015925
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2014-09-01 00:00:00", 
+        "address": "\u53f0\u5357\u5e02\u5fa9\u83ef\u4e03\u8857117\u5df740\u865f1\u6a13", 
+        "approach": "\u81ea\u6bba \u4e0d\u660e", 
+        "id": 6128
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.5854596, 
+          24.1818184
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2003-12-07 20:00:00", 
+        "address": "\u53f0\u4e2d\u5e02\u9f8d\u4e95\u5340\u65b0\u8208\u8def65\u865f", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/new/20150406/587110/", 
+        "approach": "\u4ed6\u6bba \u51f6\u6bba", 
+        "id": 6127
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.8099875, 
+          24.6805269
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "1926-04-02 17:20:00", 
+        "address": "\u5b9c\u862d\u7e23\u4e94\u7d50\u9109\u5b5d\u5a01\u5357\u8def19\u865f", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/new/20150402/585915/", 
+        "approach": "\u610f\u5916 \u589c\u6a13", 
+        "id": 6123
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.4535175, 
+          25.17622
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2014-01-01 00:00:00", 
+        "address": "\u65b0\u5317\u5e02\u6de1\u6c34\u5340\u6c34\u6e90\u8857\u4e8c\u6bb5177\u5df763\u865f6\u6a13", 
+        "news": "http://aomp.judicial.gov.tw/abbs/wkw/WHD2ASHOW.jsp?rowid", 
+        "approach": "\u81ea\u6bba \u4e0d\u660e", 
+        "id": 6114
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.324577, 
+          23.8550408
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-03-27 19:00:00", 
+        "address": "\u5f70\u5316\u7e23\u5927\u57ce\u9109\u5317\u5e73\u8def189\u865f", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/new/20150327/582410/", 
+        "approach": "\u610f\u5916 \u706b\u707d", 
+        "id": 6111
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.4523022, 
+          25.0478068
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-03-20 17:00:00", 
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u4e2d\u6e2f\u8def427\u865f5\u6a13", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1263298", 
+        "approach": "\u81ea\u6bba \u71d2\u70ad", 
+        "id": 6100
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.3048885, 
+          22.6227685
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-03-19 12:40:00", 
+        "address": "\u9ad8\u96c4\u5e02\u65b0\u8208\u5340\u65b0\u7530\u8def96\u865f12\u6a13 (\u65b0\u7530\u4eac\u57ce)", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150319/577176/%E3%80%90%E6%9B%B4%E6%96%B0%E3%80%91%E7%9B%B8%E9%9A%949%E5%80%8B%E6%9C%88%E3%80%80%E9%AC%B1%E7%94%B7%E5%92%8C%E4%BA%A1%E7%88%B6%E5%90%8C%E5%9C%B0%E9%BB%9E%E8%B7%B3%E6%A8%93", 
+        "approach": "\u81ea\u6bba \u8df3\u6a13", 
+        "id": 6097
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.359703, 
+          23.499172
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-03-14 20:00:00", 
+        "address": "\u5609\u7fa9\u7e23\u592a\u4fdd\u5e02\u904e\u6e9d\u91cc\u904e\u6e9d19\u4e4b28\u865f1\u6a13 (\u900f\u5929)", 
+        "news": "http://www.appledaily.com.tw/appledaily/article/headline/20150315/36437586/", 
+        "approach": "\u4ed6\u6bba \u51f6\u6bba", 
+        "id": 6074
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.563549, 
+          25.041991
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-03-14 15:00:00", 
+        "address": "\u53f0\u5317\u5e02\u4fe1\u7fa9\u5340\u5fe0\u5b5d\u6771\u8def\u56db\u6bb5559\u5df71\u865f", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150313/573808/%E5%8C%97%E5%B8%82%E5%A4%A7%E6%A8%93%E7%9F%B3%E7%A3%9A%E6%8E%89%E8%90%BD%E7%A0%B8%E4%BA%BA%E3%80%80%E6%BD%94%E5%93%A5%EF%BC%9A%E5%A4%AA%E5%8F%AF%E6%80%95%E4%BA%86%EF%BC%81", 
+        "approach": "\u610f\u5916 \u5916\u7246\u82b1\u5d17\u5ca9\u7838\u6b7b", 
+        "id": 6073
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5317087, 
+          25.1196616
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-03-13 12:00:00", 
+        "address": "\u53f0\u5317\u5e02\u58eb\u6797\u5340\u4e2d\u5c71\u5317\u8def\u4e03\u6bb538\u5df712\u5f042\u865f", 
+        "news": "http://news.ltn.com.tw/news/society/breakingnews/1255872", 
+        "approach": "\u610f\u5916 \u589c\u6a13", 
+        "id": 6072
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5228364, 
+          25.146255
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-03-14 23:30:00", 
+        "address": "\u53f0\u5317\u5e02\u5317\u6295\u5340\u6771\u6607\u8def12\u5df717\u865f (\u5927\u540c\u4e4b\u5bb6)", 
+        "news": "http://news.ltn.com.tw/news/society/paper/862707", 
+        "approach": "\u4ed6\u6bba \u51f6\u6bba", 
+        "id": 6071
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.4153313, 
+          25.0292474
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-03-13 20:00:00", 
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u5929\u7965\u885781\u5df72\u865f1\u6a13", 
+        "news": "http://news.ltn.com.tw/news/society/paper/862714", 
+        "approach": "\u81ea\u6bba \u958b\u74e6\u65af\u81ea\u6bba", 
+        "id": 6070
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5580547, 
+          25.0486614
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-03-05 20:00:00", 
+        "address": "\u53f0\u5317\u5e02\u677e\u5c71\u5340\u5149\u5fa9\u5317\u8def3-5\u865f (\u96d9\u661f\u5137\u5ec8)", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/new/20150307/569853/2%E6%97%A5%E7%B1%8D%E5%A5%B3%E5%A4%A7%E7%94%9F%E4%B8%80%E6%B0%A7%E5%8C%96%E7%A2%B3%E4%B8%AD%E6%AF%92%E3%80%801%E6%AD%BB1%E5%91%BD%E5%8D%B1", 
+        "approach": "\u610f\u5916 CO\u4e2d\u6bd2", 
+        "id": 6063
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.2979582, 
+          22.9741935
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-03-05 09:00:00", 
+        "address": "\u53f0\u5357\u5e02\u6b78\u4ec1\u5340\u516b\u7532\u91cc\u5927\u660e\u4e09\u88578\u865f", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150305/568471/%E3%80%90%E6%9B%B4%E6%96%B0%E3%80%91%E5%8D%97%E5%B8%82%E6%B0%91%E5%AE%85%E6%A7%8D%E9%9F%BF1%E6%AD%BB1%E9%87%8D%E5%82%B7%E3%80%80%E5%89%8D%E7%94%B7%E5%8F%8B%E6%B6%89%E9%87%8D%E5%AB%8C", 
+        "approach": "\u81ea\u6bba \u51f6\u6bba", 
+        "id": 6057
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.7207821, 
+          25.146971
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "1926-03-03 20:00:00", 
+        "address": "\u57fa\u9686\u5e02\u4e2d\u5c71\u5340\u4e2d\u548c\u8def87\u865f2F", 
+        "news": "http://udn.com/news/story/2/742608", 
+        "approach": "\u81ea\u6bba \u4e0a\u540a", 
+        "id": 6054
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.4985839, 
+          25.0673525
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-02-26 09:00:00", 
+        "address": "\u65b0\u5317\u5e02\u4e09\u91cd\u5340\u6587\u5316\u5317\u8def85\u5df714\u865f3\u6a13", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150226/564912/", 
+        "approach": "\u610f\u5916 \u706b\u707d", 
+        "id": 6040
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.7072956, 
+          24.239593
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2012-11-16 10:00:00", 
+        "address": "\u53f0\u4e2d\u5e02\u8c50\u539f\u5340\u5408\u4f5c\u885797\u5df718\u865f", 
+        "news": "http://news.ltn.com.tw/news/society/paper/633432", 
+        "approach": "\u81ea\u6bba \u71d2\u70ad", 
+        "id": 6035
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5781949, 
+          25.038382
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-02-22 09:00:00", 
+        "address": "\u53f0\u5317\u5e02\u4fe1\u7fa9\u5340\u677e\u5c71\u8def519\u865f", 
+        "news": "http://udn.com/news/story/7316/719480-%E5%A4%A9%E9%99%8D%E7%81%AB%E7%90%83%E2%80%A6%E5%95%8A%EF%BC%81%E6%9C%89%E4%BA%BA%E8%B7%B3%E6%A8%93", 
+        "approach": "\u81ea\u6bba None", 
+        "id": 6033
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5830054, 
+          25.0504789
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2003-01-01 00:00:00", 
+        "address": "\u81fa\u5317\u5e02\u5357\u6e2f\u5340\u6771\u65b0\u88578\u4e4b5\u865f2\u6a13", 
+        "news": "http://aomp.judicial.gov.tw/abbs/wkw/WHD2ASHOW.jsp?rowid=%2Fsld%2F10402%2F04161119793.003", 
+        "approach": "\u610f\u5916 \u4e0a\u540a", 
+        "id": 6016
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.7447883, 
+          25.1309301
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2011-12-16 00:00:00", 
+        "address": "\u57fa\u9686\u5e02\u4e2d\u6b63\u5340\u4fe1\u4e00\u8def177\u865f (\u9e97\u69ae\u7687\u51a0\u5927\u6a13)", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150210/557722/%E7%94%B7%E5%AD%90%E7%9C%8B%E5%B1%8B%E5%A2%9C%E6%A8%93%E4%BA%A1%E3%80%80%E7%AE%A1%E5%A7%94%E6%9C%83%E9%81%AD%E5%88%A4%E5%88%91", 
+        "approach": "\u610f\u5916 \u589c\u6a13", 
+        "id": 6015
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.976722, 
+          24.8055671
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2012-12-14 01:00:00", 
+        "address": "\u65b0\u7af9\u5e02\u4e2d\u83ef\u8def\u4e8c\u6bb5224\u865f3\u6a13 (\u8b19\u83ef\u52d5\u7269\u91ab\u9662)", 
+        "news": "http://www.appledaily.com.tw/appledaily/article/headline/20121216/34708950", 
+        "approach": "\u4ed6\u6bba \u51f6\u6bba", 
+        "id": 6010
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.0115261, 
+          24.7845931
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-02-03 15:00:00", 
+        "address": "\u65b0\u7af9\u5e02\u6771\u5340\u79d1\u5b78\u5712\u8def107\u5df711\u865f (\u65b0\u7af9\u5e02\u79c1\u7acb\u675c\u66fc\u5e7c\u5152\u5712)", 
+        "news": "http://www.appledaily.com.tw/appledaily/article/headline/20150206/36373420/7%E6%9C%88%E5%AC%B0%E8%A2%AB%E4%BF%9D%E6%AF%8D%E8%93%8B%E5%B0%BF%E5%B8%83%E6%82%B6%E6%AD%BB", 
+        "approach": "\u610f\u5916 \u7a92\u606f", 
+        "id": 6009
+      }
+    }
+  ]
+}

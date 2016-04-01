@@ -34,14 +34,17 @@ def row_to_geojson(row):
 
 	return geojson
 
-sql = 'SELECT * FROM unluckyhouse WHERE state>1'
+sql = 'SELECT * FROM unluckyhouse WHERE state>1 ORDER BY id DESC'
 con = smart_dbapi.connect('unluckyhouse.sqlite')
 cur = con.execute(sql)
 
-entries = []
+entries = {
+	"type": "FeatureCollection",
+	"features": []
+}
 
 for row in cur:
-	entries.append(row_to_geojson(row))
+	entries["features"].append(row_to_geojson(row))
 
 cur.close()
 con.close()
