@@ -221,7 +221,7 @@ def detect_address(text):
 		suffix = text[m.end():m.end()+10]
 		m = re.search('^\s?\(.+\)', suffix)
 		if m is not None:
-			full = full + m.group(0)
+			full = full + u' ' + m.group(0)
 
 		# 還原部分中文數字
 		# 巷、弄、號、樓、F、鄰保留阿拉伯數字，其餘還原中文字
@@ -398,9 +398,9 @@ def analyze(con, topic_id, soup):
 
 # 取得未處理清單
 # unluckyhouse.state=0
-ROW_LIMIT    = 1
-LATEST_LIMIT = 6099
-BASE_LIMIT   = 5000
+ROW_LIMIT    = 100
+LATEST_LIMIT = 5979
+BASE_LIMIT   = 5900
 sql = 'SELECT id FROM unluckyhouse WHERE state=0 AND id>=? AND id<=? ORDER BY id DESC LIMIT ?'
 con = smart_dbapi.connect('unluckyhouse.sqlite')
 cur = con.execute(sql, (BASE_LIMIT, LATEST_LIMIT, ROW_LIMIT))

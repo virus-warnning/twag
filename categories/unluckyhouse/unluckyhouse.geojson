@@ -5,6 +5,63 @@
       "geometry": {
         "type": "Point", 
         "coordinates": [
+          120.1289093, 
+          23.2480877
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2012-10-23 01:00:00", 
+        "address": "\u53f0\u5357\u5e02\u5317\u9580\u5340\u6eaa\u5e95\u5bee56\u4e4b3\u865f (\u8b77\u7406\u4e4b\u5bb6)", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160404/830628/%E3%80%90%E5%87%B6%E5%AE%85%E6%89%93%E5%8D%A1%E3%80%91%E9%86%AB%E9%99%A2%E7%81%AB%E7%81%BD13%E6%AD%BB%E3%80%80%E5%8C%97%E9%96%80%E9%99%A2%E5%8D%80%E7%86%84%E7%87%88", 
+        "approach": "\u4ed6\u6bba \u7e31\u706b", 
+        "id": 7532
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.2470725, 
+          23.015925
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2014-10-10 00:00:00", 
+        "address": "\u53f0\u5357\u5e02\u6c38\u5eb7\u5340\u5fa9\u83ef\u4e03\u8857117\u5df740\u865f", 
+        "news": "http://www.nextmag.com.tw/breaking-news/news/20151216/31602726", 
+        "approach": "\u81ea\u6bba \u4e0a\u540a", 
+        "id": 7530
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5374606, 
+          25.0081234
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2016-04-01 05:00:00", 
+        "address": "\u53f0\u5317\u5e02\u6587\u5c71\u5340\u6c40\u5dde\u8def\u56db\u6bb573\u865f1\u6a13", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/new/20160401/829477/", 
+        "approach": "\u81ea\u6bba \u9435\u6372\u9580\u58d3\u9838", 
+        "id": 7509
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
           121.7452631, 
           25.1323222
         ]
@@ -2468,6 +2525,234 @@
         "news": "http://www.appledaily.com.tw/appledaily/article/headline/20150206/36373420/7%E6%9C%88%E5%AC%B0%E8%A2%AB%E4%BF%9D%E6%AF%8D%E8%93%8B%E5%B0%BF%E5%B8%83%E6%82%B6%E6%AD%BB", 
         "approach": "\u610f\u5916 \u7a92\u606f", 
         "id": 6009
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.3376559, 
+          24.98849
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-02-03 07:00:00", 
+        "address": "\u6843\u5712\u5e02\u9f9c\u5c71\u5340\u5e78\u798f\u4e8c\u5341\u4e5d\u885725\u865f2\u6a13 (\u842c\u6236\u7da0\u838a)", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150203/553524/", 
+        "approach": "\u4ed6\u6bba \u4e0b\u6bd2", 
+        "id": 5999
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.447379, 
+          25.0351841
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-02-02 18:00:00", 
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u4e2d\u6b63\u8def268\u865f\u9802\u6a13", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150202/553241/%E9%85%92%E5%BE%8C%E9%80%B2%E7%83%A4%E7%AE%B1SPA%E3%80%80%E7%94%B7%E7%8C%9D%E6%AD%BB%E6%9A%B4%E6%96%83", 
+        "approach": "\u610f\u5916 \u4e09\u6eab\u6696\u70e4\u6b7b", 
+        "id": 5994
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.4494321, 
+          25.0988237
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "1997-04-18 18:00:00", 
+        "address": "\u65b0\u5317\u5e02\u4e94\u80a1\u5340\u897f\u96f2\u8def287\u865f5F (\u767d\u66c9\u71d5\u547d\u6848)", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150202/552633/", 
+        "approach": "\u4ed6\u6bba \u51f6\u6bba", 
+        "id": 5992
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5002969, 
+          25.0031616
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-02-01 05:00:00", 
+        "address": "\u65b0\u5317\u5e02\u4e2d\u548c\u5340\u6c38\u548c\u8def8\u5df78\u865f5\u6a13", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/new/20150201/552379/", 
+        "approach": "\u610f\u5916 \u589c\u6a13", 
+        "id": 5991
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.4194233, 
+          24.9942529
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-01-31 15:00:00", 
+        "address": "\u65b0\u5317\u5e02\u6a39\u6797\u5340\u5927\u5b89\u8def287\u865f9\u6a13 (\u5927\u5b89\u5c0a\u90b8)", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150131/552204/%E3%80%90%E6%9B%B4%E6%96%B0%E3%80%91%E9%98%B2%E5%A2%9C%E7%B6%B2%E4%B9%9F%E6%95%91%E4%B8%8D%E4%BA%86%E3%80%80%E5%B0%91%E5%A5%B3%E9%9B%A2%E5%A5%87%E5%A2%9C%E6%A8%93%E4%BA%A1", 
+        "approach": "\u610f\u5916 \u589c\u6a13", 
+        "id": 5986
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5509667, 
+          24.9096318
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-01-30 12:00:00", 
+        "address": "\u65b0\u5317\u5e02\u65b0\u5e97\u5340\u65b0\u70cf\u8def\u4e8c\u6bb5378\u865f2\u6a13", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/new/20150130/551625/", 
+        "approach": "\u610f\u5916 \u9673\u5c4d", 
+        "id": 5985
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          120.6897059, 
+          24.130356
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-01-29 18:00:00", 
+        "address": "\u53f0\u4e2d\u5e02\u6771\u5340\u5efa\u5fb7\u8857153\u5df711\u865f4\u6a13 (\u900f\u5929\u539d)", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/new/20150129/551321/", 
+        "approach": "\u610f\u5916 \u706b\u707d", 
+        "id": 5981
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.743211, 
+          24.748847
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-01-29 15:00:00", 
+        "address": "\u5b9c\u862d\u7e23\u5b9c\u862d\u5e02\u5b9c\u4e2d\u8def129\u865f6F (\u6587\u5316\u5bf6\u5ea7)", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/new/20150129/551192/", 
+        "approach": "\u81ea\u6bba \u731d\u6b7b", 
+        "id": 5980
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          119.5, 
+          25.0
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-01-27 23:12:00", 
+        "address": "\u82d7\u6817\u7e23\u82d7\u6817\u5e02\u535a\u611b\u885711\u865f", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150127/549919/", 
+        "approach": "\u610f\u5916 \u706b\u707d", 
+        "id": 5974
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5530761, 
+          25.0246792
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-01-27 01:00:00", 
+        "address": "\u53f0\u5317\u5e02\u4fe1\u7fa9\u5340\u57fa\u9686\u8def\u4e8c\u6bb5201\u865f (\u9996\u5584\u947d\u77f3\u5927\u6a13)", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150127/549283/", 
+        "approach": "\u81ea\u6bba \u706b\u707d", 
+        "id": 5972
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5186989, 
+          25.0318243
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "1997-10-23 16:00:00", 
+        "address": "\u53f0\u5317\u5e02\u4e2d\u6b63\u5340\u7f85\u65af\u798f\u8def\u4e00\u6bb520\u865f4\u6a13 (\u5357\u9580\u5927\u5ec8\u3001\u767d\u66c9\u71d5\u547d\u6848\u76f8\u95dc)", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150126/548534/%E3%80%90%E5%87%B6%E5%AE%85%E6%89%93%E5%8D%A1%E3%80%91%E4%BA%BA%E9%9D%A2%E9%AD%94%E7%8D%B8--%E6%96%B9%E4%BF%9D%E8%8A%B3%E4%B8%89%E5%B1%8D%E5%91%BD%E6%A1%88", 
+        "approach": "\u4ed6\u6bba \u69cd\u6bba", 
+        "id": 5971
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5318959, 
+          25.2778469
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-01-08 15:00:00", 
+        "address": "\u65b0\u5317\u5e02\u77f3\u9580\u5340\u5d01\u5b50\u817358-9\u865f", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150109/539343/%E5%88%A5%E5%A2%85%E6%B5%B4%E7%BC%B8%E5%85%A7%E9%A9%9A%E8%A6%8B%E7%99%BD%E9%AA%A8%E3%80%80%E6%AD%BB%E8%80%85%E8%BA%AB%E5%88%86%E5%BE%85%E6%9F%A5", 
+        "approach": "\u81ea\u6bba \u71d2\u70ad", 
+        "id": 5918
       }
     }
   ]
