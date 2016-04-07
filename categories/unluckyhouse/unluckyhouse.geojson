@@ -2740,6 +2740,63 @@
       "geometry": {
         "type": "Point", 
         "coordinates": [
+          120.2852534, 
+          22.716603
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-01-24 10:00:00", 
+        "address": "\u9ad8\u96c4\u5e02\u6960\u6893\u5340\u8208\u6cf0\u885728\u5df79\u865f", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/new/20150124/547983/", 
+        "approach": "\u81ea\u6bba \u51f6\u6bba", 
+        "id": 5969
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.3009798, 
+          24.9936281
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-01-20 00:00:00", 
+        "address": "\u6843\u5712\u7e23\u65b0\u5c4b\u9109\u4e2d\u8208\u5317\u8def101\u865f (\u65b0\u5c4b\u4fdd\u9f61\u7403\u9928)", 
+        "news": "http://udn.com/news/story/2/653970", 
+        "approach": "\u610f\u5916 \u706b\u707d", 
+        "id": 5960
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          121.5243652, 
+          25.0666372
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2015-01-17 04:00:00", 
+        "address": "\u53f0\u5317\u5e02\u4e2d\u5c71\u5340\u96d9\u57ce\u885733\u865f", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20150117/543614/%E3%80%90%E6%9B%B4%E6%96%B0%E3%80%91%E7%96%91%E8%88%87%E7%94%B7%E5%8F%8B%E5%90%B5%E6%9E%B6%E6%83%B3%E4%B8%8D%E9%96%8B%E3%80%80%E5%A5%B3%E5%AD%90%E5%A2%9C%E6%A8%93%E7%88%86%E9%A0%AD%E4%BA%A1", 
+        "approach": "\u81ea\u6bba \u8df3\u6a13", 
+        "id": 5953
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
           121.5318959, 
           25.2778469
         ]
