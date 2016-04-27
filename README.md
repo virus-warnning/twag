@@ -6,8 +6,8 @@
 * 資料具有歷史考證價值
 
 ##### 資料蒐集標準
-* 通通變成 [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON)
-* 避免因果關係與評論，確保資料中立
+* 通通變成 SQLite，有效資料轉為 [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON)
+* 確保資料中立性，避免因果關係與評論
 * 描述僅限人事時地物與資料來源
 * 地，使用 WGS84 座標
 * 時，使用 ISO 8601 格式
