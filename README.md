@@ -6,8 +6,8 @@
 * 資料具有歷史考證價值
 
 ##### 資料蒐集標準
-* 通通變成 [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON)
-* 避免因果關係與評論，確保資料中立
+* 通通變成 SQLite，有效資料轉為 [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON)
+* 確保資料中立性，避免因果關係與評論
 * 描述僅限人事時地物與資料來源
 * 地，使用 WGS84 座標
 * 時，使用 ISO 8601 格式
@@ -19,6 +19,7 @@
 資料類型 | 資料來源 | 網址 | 授權
 ---- | ---- | ---- | ----
 非自然死亡 | 台灣凶宅網 | [HTML](http://unluckyhouse.com/showthread.php?t=7281) / [RSS 2.0](http://unluckyhouse.com/external.php) | ?
+台北市違反勞基法事業名單 | 台北市政府勞動局 | [CSV](http://bola.gov.taipei/ct.asp?xItem=94627869&ctNode=76327&mp=116003) |
 地籍資料 | 內政部 | [系統](http://easymap.land.moi.gov.tw/R02/Index) | ?
 實價登錄 | 內政部 | [CSV](http://plvr.land.moi.gov.tw/DownloadOpenData) | [政1](http://data.gov.tw/?q=principle)
 易發生婦幼被害犯罪地點 | 內政部 | [CSV](http://data.moi.gov.tw/MoiOD/Data/DataDetail.aspx?oid=DBB18796-8A89-4917-B4AB-D0AF26FAFEDC) | [政1](http://data.gov.tw/?q=principle)
