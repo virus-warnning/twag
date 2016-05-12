@@ -21,9 +21,9 @@ CREATE TABLE draft(
 ---- | ---- | ----
 exe_id | VARCHAR(25)| 處分字號
 corperation | VARCHAR(25) | 資方
+deatil | TEXT | 違反法規內容
+ref_law | TEXT | 違反勞基法條款
 boss | VARCHAR(10) | 事業單位代表人
 exe_date | DATE | 處分日期
-ref_law | TEXT | 違反勞基法條款
-deatil | TEXT | 違反法規內容
 lat | DOUBLE | 緯度
 lng | DOUBLE | 經度
