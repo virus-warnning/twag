@@ -15,10 +15,12 @@ CREATE TABLE draft(
   "備註" TEXT
 );
 ```
+* 其中處分字號可能重複，不要用來當主索引
 
 ### 目標格式
 欄位名稱 | 型態 | 欄位用途
 ---- | ---- | ----
+id | INTEGER | 主索引
 exe_id | VARCHAR(25)| 處分字號
 corperation | VARCHAR(25) | 資方
 deatil | TEXT | 違反法規內容
