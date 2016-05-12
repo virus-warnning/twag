@@ -1,5 +1,5 @@
 ### 轉檔
-```!sh
+```sh
 iconv -f CP950 -t UTF-8 6531343989.csv unluckylabor.csv
 sqlite3 -separator ',' unluckylabor.sqlite '.import unluckylabor.csv draft'
 sqlite3 unluckylabor.sqlite '.schema'
