@@ -399,7 +399,7 @@ def analyze(con, topic_id, soup):
 # 取得未處理清單
 # unluckyhouse.state=0
 ROW_LIMIT    = 100
-LATEST_LIMIT = 5979
+LATEST_LIMIT = 8000
 BASE_LIMIT   = 5900
 sql = 'SELECT id FROM unluckyhouse WHERE state=0 AND id>=? AND id<=? ORDER BY id DESC LIMIT ?'
 con = smart_dbapi.connect('unluckyhouse.sqlite')
