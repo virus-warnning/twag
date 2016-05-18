@@ -50,7 +50,7 @@ def geocode(address):
 
 # 簡易測試
 def main():
-	loc = geocode('台北市中山區南京東路二段2號')
+	loc = geocode('台北市內湖區內湖路一段591號')
 	if len(loc) == 2:
 		print('(%f, %f)' % loc)
 	else:
