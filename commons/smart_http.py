@@ -24,7 +24,7 @@ except ImportError:
 # text/xml         => lxml.etree._Element, xml.etree.ElementTree.Element
 # text/html        => bs4.BeautifulSoup, str
 # otherwise        => str
-def request(host, uri, params=None, method='GET'):
+def request(host, uri, params=None, method='GET', ctype=''):
 	content = False
 
 	try:
@@ -49,10 +49,15 @@ def request(host, uri, params=None, method='GET'):
 			conn.request(method, uri)
 
 		resp = conn.getresponse()
+
+		if DEBUG:
+			print(json.dumps(resp.getheaders(), indent=3))
+
 		if resp.status == 200:
 			content = resp.read()
 			if len(content)>0:
-				ctype = resp.getheader('Content-Type', 'text/plain; charset=UTF-8')
+				if ctype == '':
+					ctype = resp.getheader('Content-Type', 'text/plain; charset=UTF-8')
 				if '/json' in ctype:
 					content = json.loads(content)
 				if '/xml' in ctype:
