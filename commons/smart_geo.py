@@ -13,11 +13,17 @@ import urllib
 import requests
 import pyproj
 import re
+import json
 from bs4 import BeautifulSoup
 
 # TGOS 取得門牌座標
 def geocode(address):
 	pagekey = False
+	headers = {
+		'Origin': 'http://map.tgos.nat.gov.tw',
+		'Referer': 'http://map.tgos.nat.gov.tw/TGOSCLOUD/Web/Map/TGOSViewer_Map.aspx',
+		'X-Requested-With': 'XMLHttpRequest'
+	}
 
 	# 弄到 pagekey, cookies 產生合理狀態
 	# *   range: <script id='sircMessage1'>...</script>
@@ -30,25 +36,31 @@ def geocode(address):
 		script = node.get_text().strip()
 		m = re.search('window\.sircMessage\.sircPAGEKEY\s?=\s?\'([\w\+%]+)\';', script)
 		if m != None:
-			pagekey = m.group(1)
+			pagekey = urllib.unquote(m.group(1))
 			cookies = {}
 			for c in r.cookies:
 				cookies[c.name] = c.value
 
 	if pagekey == False: return False
 
+	# 查詢前的 Request (TGOS 介面上有，而實際上是多餘的動作)
+	'''
+	url = 'http://map.tgos.nat.gov.tw/TGOSCLOUD/Generic/Utility/UG_Handler.ashx?method=GetSessionID&pagekey=' + pagekey
+	r = requests.post(url, headers=headers, cookies=cookies)
+	if r.status_code != 200 or r.json()['success'] != 'true':
+		return False
+	'''
+
 	# 查詢精確位置 (TWD97)
-	# 注意!! 地址參數的 key 是 addrsss 不是 address
 	loc3826 = False
-	qs = urllib.urlencode({'pagekey': pagekey})
-	url = 'http://map.tgos.nat.gov.tw/TGOSCloud/Generic/Project/GHTGOSViewer_Map.ashx?%s' % qs
+	url = 'http://map.tgos.nat.gov.tw/TGOSCloud/Generic/Project/GHTGOSViewer_Map.ashx?pagekey=' + pagekey
 	params = {
-		'method':     'queryaddr',
+		'method': 'queryaddr',
 		'useoddeven': 'false',
-		'addrsss':    address,
-		'sid':        cookies['ASP.NET_SessionId']
+		'address': address,
+		'sid': cookies['ASP.NET_SessionId']
 	}
-	r = requests.post(url, data=params, cookies=cookies)
+	r = requests.post(url, data=params, cookies=cookies, headers=headers)
 	if r.status_code == 200 and 'AddressList' in r.json():
 		result  = r.json()['AddressList'][0]
 		loc3826 = (result['X'], result['Y'])
