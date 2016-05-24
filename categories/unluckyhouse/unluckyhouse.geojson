@@ -5,6 +5,25 @@
       "geometry": {
         "type": "Point", 
         "coordinates": [
+          121.542743, 
+          24.976611
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "marker-color": "#b00000", 
+        "marker-symbol": "danger", 
+        "datetime": "2016-04-19 22:00:00", 
+        "address": "\u65b0\u5317\u5e02\u65b0\u5e97\u5340\u5317\u65b0\u8def\u4e8c\u6bb5173\u865f12\u6a13", 
+        "news": "http://www.appledaily.com.tw/realtimenews/article/local/20160420/842661/applesearch/%E7%94%B7%E7%96%91%E4%B9%85%E7%97%85%E5%8E%AD%E4%B8%96%E3%80%80%E6%96%B0%E5%BA%97%E6%8D%B7%E9%81%8B%E4%B8%83%E5%BC%B5%E7%AB%99%E5%A2%9C%E6%A8%93%E4%BA%A1", 
+        "approach": "\u81ea\u6bba \u8df3\u6a13", 
+        "id": 7695
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
           120.1289093, 
           23.2480877
         ]

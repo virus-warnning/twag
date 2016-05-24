@@ -1,12 +1,18 @@
 #!../../../bin/python
 # coding: utf-8
 
+import os
+import sys
 import re
-import smart_http
-import smart_dbapi
-import zhtok
 from StringIO import StringIO
 from datetime import date, datetime, timedelta
+
+commons_path = os.path.realpath('../../commons')
+sys.path.insert(1, commons_path)
+
+import zhtok
+import smart_http
+import smart_dbapi
 
 ## 偵測死法
 def detect_approach(text):

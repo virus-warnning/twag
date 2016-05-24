@@ -1,11 +1,17 @@
 #!../../../bin/python
 # coding: utf-8
 
-import httplib
+import os
 import re
+import sys
+import httplib
+from xml.etree.ElementTree import ElementTree
+
+commons_path = os.path.realpath('../../commons')
+sys.path.insert(1, commons_path)
+
 import smart_http
 import smart_dbapi
-from xml.etree.ElementTree import ElementTree
 
 # 取得台灣凶宅網的最新討論串 id
 # http://unluckyhouse.com/external.php

@@ -2,6 +2,12 @@
 # coding: utf-8
 
 import json
+import os
+import sys
+
+commons_path = os.path.realpath('../../commons')
+sys.path.insert(1, commons_path)
+
 import smart_dbapi
 
 # 單筆資料轉 geojson 格式
