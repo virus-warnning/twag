@@ -19,8 +19,12 @@ for row in cur:
 	point = geojson.Point((row['lng'], row['lat']))
 	properties = {
 		'id': row['exe_id'],
+		'corperation': row['corperation'],
 		'detail': row['detail'],
-		'date': row['exe_date']
+		'date': row['exe_date'],
+		'ref_law': row['ref_law'],
+		'marker-color': '#b00000',
+		'marker-symbol': 'danger'
 	}
 	features.append(geojson.Feature(geometry=point, properties=properties))
 
@@ -28,4 +32,4 @@ cur.close()
 con.close()
 
 fc = geojson.FeatureCollection(features)
-print(geojson.dumps(fc, indent=3))
+print(geojson.dumps(fc, indent=2))
