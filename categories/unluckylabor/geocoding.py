@@ -12,8 +12,8 @@ import corp_utils
 import smart_dbapi
 from print_progress import print_progress
 
-BEGIN = 401
-LIMIT = 100
+BEGIN = 1001
+LIMIT = 1000
 
 rank = 0
 sql  = 'SELECT id,corperation FROM unluckylabor WHERE lat=0 AND lng=0 AND id>=? LIMIT ?'
