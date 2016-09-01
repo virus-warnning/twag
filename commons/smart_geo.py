@@ -4,71 +4,155 @@
 # @author 小璋丸 <virus.warnning@gmail.com>
 #
 
-# geocoder 套件
 import geocoder
 
-# 土炮
+# 土炮版相依套件
 import re
+import math
 import requests
-import pyproj
+
+cookies = False
+pagekey = False
+apikey  = 'USZWSgrBGpevjABqoXT3mLlUnkiR1Ruf8MWixp//eGc='
 
 # 使用 TGOS 定位
 def geocode(address):
-	return tgos_by_spider(address)
+	return tgos_by_geocoder(address)
 
-# TGOS 瀏覽器操作模擬
-def tgos_by_spider(address):
-	pagekey = 'Unknown'
-	cookies = {'ASP.NET_SessionId': 'Unknown'}
+# TGOS 取得圖台狀態
+# 取得 pagekey 與 session 值
+def tgos_get_state():
+	global cookies, pagekey
 
-	# 取得 pagekey 與 session id
-	# *   range: <script id='sircMessage1'>...</script>
-	# * pattern: window.sircMessage.sircPAGEKEY = '...';
+	if __name__ == '__main__':
+		print('取得圖台狀態')
+
+	# pagekey 取得途徑: window.sircMessage.sircPAGEKEY = '...';
 	r = requests.post('http://map.tgos.nat.gov.tw/TGOSCLOUD/Web/Map/TGOSViewer_Map.aspx')
 	if r.status_code == 200:
 		m = re.search('window\.sircMessage\.sircPAGEKEY\s?=\s?\'([\w\+%]+)\';', r.text)
 		if m != None:
+			cookies = {}
 			pagekey = m.group(1)
 			for c in r.cookies:
 				cookies[c.name] = c.value
+			if __name__ == '__main__':
+				print('pagekey="%s"' % pagekey)
 
-	# 取得 TWD 97 (EPSG 3826) 座標
-	url = 'http://map.tgos.nat.gov.tw/TGOSCloud/Generic/Project/GHTGOSViewer_Map.ashx?pagekey=' + pagekey
-	headers = {
-		'Origin': 'http://map.tgos.nat.gov.tw',
-		'Referer': 'http://map.tgos.nat.gov.tw/TGOSCLOUD/Web/Map/TGOSViewer_Map.aspx',
-		'X-Requested-With': 'XMLHttpRequest'
-	}
-	data = {
-		'method': 'querymoiaddr',
-		'address': address,
-		'useoddeven': False,
-		'sid': cookies['ASP.NET_SessionId']
-	}
-	r = requests.post(url, headers=headers, cookies=cookies, data=data)
-	if r.status_code == 200:
-		addinfo = r.json()['AddressList']
-		if len(addinfo) > 0:
-			# TWD 97 轉 WGS 84
-			epsg3826 = pyproj.Proj(init='EPSG:3826')
-			coord = epsg3826(addinfo[0]['X'], addinfo[0]['Y'], inverse=True)
-			return coord
+# TGOS 瀏覽器操作模擬
+def tgos_by_spider(address):
+	global cookies, pagekey
+
+	if pagekey == False:
+		tgos_get_state()
+
+	if pagekey != False:
+		# 取得 TWD 97 (EPSG 3826) 座標
+		url = 'http://map.tgos.nat.gov.tw/TGOSCloud/Generic/Project/GHTGOSViewer_Map.ashx'
+		params = {
+			'pagekey': pagekey,
+			'method': 'querymoiaddr',
+			'address': address,
+			'sid': cookies['ASP.NET_SessionId'],
+			'useoddeven': False
+		}
+		headers = {
+			'Origin': 'http://map.tgos.nat.gov.tw',
+			'Referer': 'http://map.tgos.nat.gov.tw/TGOSCLOUD/Web/Map/TGOSViewer_Map.aspx',
+			'X-Requested-With': 'XMLHttpRequest'
+		}
+		data = {
+			'method': 'querymoiaddr',
+			'address': address,
+			'sid': cookies['ASP.NET_SessionId'],
+			'useoddeven': False
+		}
+		kwargs = {
+			'params':  params,
+			'headers': headers,
+			'cookies': cookies,
+			'data': data
+		}
+		r = requests.post(url, **kwargs)
+		if r.status_code == 200:
+			addinfo = r.json()['AddressList']
+			if len(addinfo) > 0:
+				# 轉 WGS84 座標 (僅適用台灣本島，其他地方可能誤差稍大)
+				y = addinfo[0]['Y'] * 0.00000899823754
+				x = 121 + (addinfo[0]['X'] - 250000) * 0.000008983152841195214 / math.cos(math.radians(y))
+				return (x, y)
 
 	return False
 
-# TGOS API (被檔掉了)
+# TGOS API 方法1
+def tgos_by_api1(address):
+	global apikey
+
+	url  = 'http://gis.tgos.nat.gov.tw/TGLocator/TGLocator.ashx'
+	data = {
+		'format': 'json',
+		'input': address,
+		'srs': 'EPSG:4326',
+		'ignoreGeometry': False,
+		'pnum': 5,
+		'keystr': apikey
+	}
+
+	r = requests.post(url, data=data)
+	if r.status_code == 200:
+		resp = r.json()
+		if resp['status'] == 'OK' and resp['featureCount'] > 0:
+			loc = resp['results'][0]['geometry']
+			return (loc['x'], loc['y'])
+
+	return False
+
+# TGOS API 方法2
+def tgos_by_api2(address):
+	global apikey
+
+	url = 'http://gis.tgos.nat.gov.tw/TGAddress/TGAddress.aspx'
+	params = {
+		'oResultDataType': 'json',
+		'oAddress': address,
+		'oSRS': 'EPSG:4326',
+		'keystr': apikey
+	}
+
+	r = requests.get(url, params=params)
+	# TODO: ...
+
+	return False
+
+# TGOS API 方法3
+# http://tgos.nat.gov.tw/TGOS_WEB_API/Sample_Codes/TGOSQueryAddr/QueryAddrGoogleMap.aspx
+def tgos_by_api2(address):
+	# TODO
+	return False
+
+# TGOS API (被檔掉了，同 tgos_by_api1)
 def tgos_by_geocoder(address):
 	g = geocoder.tgos(address)
-	if g.parse.get('featureCount') > 0:
+	#g.debug()
+	if g.ok:
 		return (g.lat, g.lng)
 	return False
 
 # 簡易測試
 def main():
-	loc = geocode('台北市內湖區內湖路一段735號')
-
+	addr = '台北市內湖區內湖路一段735號'
+	loc  = geocode(addr)
 	if loc != False:
 		print('(%f, %f)' % loc)
+	else:
+		print('定位失敗')
+
+	addr = '高雄市苓雅區三多一路333號'
+	loc  = geocode(addr)
+	if loc != False:
+		print('(%f, %f)' % loc)
+	else:
+		print('定位失敗')
 
 if __name__ == '__main__':
 	main()
