@@ -37,7 +37,7 @@ lng | DOUBLE | 經度
 地方政府 | 格式 | 數目 | 秘訣
 ---- | ---- | ---- | ----
 [台北市政府](http://bola.gov.taipei/ct.asp?xItem=94627869&ctNode=76327&mp=116003) | PDF、CSV | >2000 |
-[新北市政府](http://www.labor.ntpc.gov.tw/content/?parent_id=10433) | PDF、Excel | | 網頁翻到最後一頁才有載點，id 會跳
+[新北市政府](http://www.labor.ntpc.gov.tw/content/?parent_id=10433) | PDF、Excel | | 網頁翻到最後一頁才有載點，id 會跳; 105Violation02.pdf 無法處理。
 [台南市政府](http://www.tainan.gov.tw/labor/page.asp?nsub=M2A400) | Excel | |
 [高雄市政府](http://labor.kcg.gov.tw/IllegalList.aspx?appname=IllegalList) | Excel | |
 [基隆市政府](http://social.klcg.gov.tw/news/info_view.php?sid=417&dept_id=5&serno=20151210141036&page_num=1) | Excel | |
