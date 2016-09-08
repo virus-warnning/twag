@@ -140,7 +140,7 @@ def tgos_by_geocoder(address):
 
 # 簡易測試
 def main():
-	addr = '台北市內湖區內湖路一段735號'
+	addr = '臺北市信義區興雅里松高路１號２８樓'
 	loc  = geocode(addr)
 	if loc != False:
 		print('(%f, %f)' % loc)

@@ -1,13 +1,16 @@
+#!../../bin/python
 # coding: utf-8
 
-import json
+import os
 import re
 import httplib
 import urllib
 import smart_http
 import smart_geo
+import smart_dbapi
 
-DEBUG = False
+DEBUG = True
+CODEPATH = os.path.dirname(os.path.abspath(__file__))
 
 ## 查詢公司統編
 #  - 利用 RonnyWang 的公司名稱查詢
@@ -44,35 +47,68 @@ def get_corp_id(name):
 
 	return corp_id
 
-## 查詢公司位置
-#  - 利用 RonnyWang 的公司資料 API
-#  - 取出 resp.data.公司所在地 或 resp.data.財政部.營業地址
-#  - 利用 Google geocoding 服務轉換成經緯度
-def get_corp_location(corp_query):
-	if re.match('\d{8}', corp_query) != None:
-		corp_id = corp_query
-	else:
-		corp_id = get_corp_id(corp_query)
-		if corp_id == False:
-			return False
+# 取得公司資訊
+def get_corp_info(name):
+	dbfile = '%s/corp_cache.sqlite' % CODEPATH
+	conn = smart_dbapi.connect(dbfile)
 
-	uri  = '/api/show/%s' % corp_id
-	resp = smart_http.request('company.g0v.ronny.tw', uri)
-	if resp != False:
-		if u'公司所在地' in resp['data']:
-			address = resp['data'][u'公司所在地']
-			return smart_geo.geocode(address)
+	sql = 'SELECT name,uid,boss,addr,lat,lng FROM corp_cache WHERE name=?'
+	cur = conn.execute(sql, (name,))
+	info = cur.fetchone()
+	cur.close()
 
-		# e.g. 財團法人中央通訊社
-		if u'營業地址' in resp['data'][u'財政部']:
-			address = resp['data'][u'財政部'][u'營業地址']
-			return smart_geo.geocode(address)
+	if info is None:
+		uid = get_corp_id(name)
+		if uid == False:
+			sql = 'INSERT INTO corp_cache(name,mtime) VALUES(?,DATETIME())'
+			conn.execute(sql, (name,))
+			conn.commit()
+			info = False
+		else:
+			uri  = '/api/show/%s' % uid
+			resp = smart_http.request('company.g0v.ronny.tw', uri)
+			boss = ''
+			addr = ''
+			lat  = 0.0
+			lng  = 0.0
+			loc  = False
 
-	return False
+			if resp != False:
+				if u'公司所在地' in resp['data']:
+					addr = resp['data'][u'公司所在地']
+					loc  = smart_geo.geocode(addr)
+
+				# e.g. 財團法人中央通訊社
+				if u'營業地址' in resp['data'][u'財政部']:
+					addr = resp['data'][u'財政部'][u'營業地址']
+					loc  = smart_geo.geocode(addr)
+
+				if loc != False:
+					(lat, lng) = loc
+
+				if u'代表人姓名' in resp['data']:
+					boss = resp['data'][u'代表人姓名']
+
+			sql = 'INSERT INTO corp_cache(name,uid,boss,addr,lat,lng,mtime) VALUES(?,?,?,?,?,?,DATETIME())'
+			conn.execute(sql, (name, uid, boss, addr, lat, lng))
+			conn.commit()
+
+			info = {
+				'name': name,
+				'uid':  uid,
+				'boss': boss,
+				'addr': addr,
+				'lat':  lat,
+				'lng':  lng
+			}
+
+	conn.close()
+
+	return info
 
 ## 簡易測試
 def main():
-	print(get_corp_location(u'台灣奧蜜思股份有限公司'))
+	print(get_corp_info(u'廣全科技股份有限公司'))
 
 if __name__ == "__main__":
 	main()

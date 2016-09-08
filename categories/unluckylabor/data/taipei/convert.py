@@ -31,7 +31,7 @@ def taipei_filter(row = None, ignore_error = True):
     boss = row[4]
     corporation = row[3]
     if boss is '':
-        m = re.match('(.+)[〈（\(]即?(.+)[\)）〉]?', row[3])
+        m = re.match('(.+)[〈（\(]即?(.+)[\)）〉]', row[3])
         if m is not None:
             boss = m.group(1)
             corporation = m.group(2)
