@@ -1,3 +1,4 @@
+.~lock.*
 *.sqlite-journal
 *.pyc
 test.py
