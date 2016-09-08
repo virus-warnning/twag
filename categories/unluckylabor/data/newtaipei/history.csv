@@ -1,4 +1,4 @@
-date,doc_id,corporation,boss,law,action_cnt,rule_cnt
+dt_exe,doc_id,corp,boss,law,cnt_action,cnt_rule
 2013-11-15,北府勞條字第1023076834號函,正隆股份有限公司,,32-2,1,1
 2013-11-15,北府勞條字第10230768341號函,正隆股份有限公司,,36,0,1
 2013-11-05,北府勞條字第1023006073號函,宏普科技股份有限公司,,24,1,1

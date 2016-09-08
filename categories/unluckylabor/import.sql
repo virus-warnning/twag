@@ -2,13 +2,14 @@
 CREATE TABLE IF NOT EXISTS unluckylabor (
    id         INTEGER PRIMARY KEY, -- 流水號
    gov        VARCHAR(5),          -- 地方政府代碼
-   exe_id     VARCHAR(25),         -- 公文編號
-   exe_date   DATE,                -- 執行日期
-   law_id     VARCHAR(25),         -- 法條編號
-   law_detail TEXT,                -- 法條內容
+   doc_id     VARCHAR(25),         -- 公文編號 (會重複!!)
+   dt_exe     DATE,                -- 執行日期
+   law        VARCHAR(25),         -- 法條編號
    corp       VARCHAR(25),         -- 公司名稱
-   corp_addr  VARCHAR(100),        -- 公司地址
-   corp_boss  VARCHAR(25),         -- 負責人
+   addr       VARCHAR(100),        -- 公司地址
+   boss       VARCHAR(25),         -- 負責人
+   cnt_action INTEGER,             -- 稽查行動計數
+   cnt_rule   INTEGER,             -- 觸犯法條計數
    lat        DOUBLE DEFAULT 0.0,  -- 緯度
    lng        DOUBLE DEFAULT 0.0   -- 經度
 );
@@ -24,4 +25,14 @@ DROP TABLE IF EXISTS newtaipei;
 .import data/newtaipei/history.csv newtaipei
 
 -- 合併各行政區資料
+INSERT INTO unluckylabor (
+   gov, doc_id, dt_exe, law, corp, boss, cnt_action, cnt_rule
+) SELECT
+   'taipei', doc_id, dt_exe, law, corp, boss, cnt_action, cnt_rule
+FROM taipei;
 
+INSERT INTO unluckylabor (
+   gov, doc_id, dt_exe, law, corp, boss, cnt_action, cnt_rule
+) SELECT
+   'newtaipei', doc_id, dt_exe, law, corp, boss, cnt_action, cnt_rule
+FROM newtaipei;

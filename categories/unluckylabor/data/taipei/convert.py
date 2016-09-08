@@ -8,7 +8,7 @@ import csv
 ## 台北市專用的列資料過濾器
 def taipei_filter(row = None, ignore_error = True):
     if row is None:
-        return ['date', 'doc_id', 'corporation', 'boss', 'law', 'action_cnt', 'rule_cnt']
+        return ['dt_exe', 'doc_id', 'corp', 'boss', 'law', 'cnt_action', 'cnt_rule']
 
     # 日期格式轉西元
     m = re.match('(\d+)/(\d+)/(\d+)', row[1])
