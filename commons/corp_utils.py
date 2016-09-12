@@ -83,11 +83,13 @@ def get_corp_info(name, boss='', gov=''):
 	# 找不到再從 API 查公司
 	if corp_list == False:
 		corp_list = list_corp_from_api(name)
-		conn = get_conn()
-		for e in corp_list:
-			sql = 'INSERT INTO corp_cache(uid, name, boss, addr, regat, status, mtime) VALUES (?,?,?,?,?,?,DATETIME())'
-			conn.execute(sql, (e['uid'], e['name'], e['boss'], e['addr'], e['regat'], e['status']))
-		conn.commit()
+		if corp_list != False:
+			# API 查到的結果寫入快取
+			conn = get_conn()
+			for e in corp_list:
+				sql = 'INSERT INTO corp_cache(uid, name, boss, addr, regat, status, mtime) VALUES (?,?,?,?,?,?,DATETIME())'
+				conn.execute(sql, (e['uid'], e['name'], e['boss'], e['addr'], e['regat'], e['status']))
+			conn.commit()
 
 	# 選取吻合度最高的公司
 	if corp_list != False:
