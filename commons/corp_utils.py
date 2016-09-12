@@ -3,6 +3,7 @@
 
 import os
 import json
+import time
 import smart_http
 import smart_geo
 import smart_dbapi
@@ -75,7 +76,11 @@ def list_corp_from_api(name):
 	return False
 
 ## 查詢公司資訊，傳回相似度最接近的一筆
-# 
+#
+# @param name 公司名稱
+# @param boss 負責人
+# @param gov  登記機關
+#
 def get_corp_info(name, boss='', gov=''):
 	# 先從快取查公司
 	corp_list = list_corp_from_cache(name)
@@ -125,6 +130,7 @@ def get_corp_info(name, boss='', gov=''):
 				conn = get_conn()
 				conn.execute(sql, (corp_info['lat'], corp_info['lng'], corp_info['uid']))
 				conn.commit()
+			time.sleep(0.5)
 
 		return corp_info
 

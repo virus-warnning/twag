@@ -20,40 +20,34 @@ import corp_utils
 import smart_dbapi
 from print_progress import print_progress
 
-BEGIN = 899
-LIMIT = 1000
+BEGIN = 3001
+END   = 4000
 
 rank = 0
 sql  = 'SELECT id,corp,boss,gov FROM unluckylabor WHERE lat=0 AND id>=? AND id<=?'
 conn = smart_dbapi.connect('unluckylabor.sqlite')
-curr = conn.execute(sql, (BEGIN, BEGIN+LIMIT-1))
+rows = conn.execute(sql, (BEGIN, END)).fetchall()
 
 # 蒐集要修改項目
-cnt = 0
-changeset = {}
-for row in curr:
+total    = len(rows)
+modified = 0
+visited  = 0
+for row in rows:
 	info = corp_utils.get_corp_info(row['corp'], row['boss'], row['gov'])
-	rank = rank + 1
+	visited = visited + 1
 	if info != False:
 		if row['boss'] != '' and info['lat'] != 0:
-			changeset[row['id']] = info
-			cnt = cnt + 1
+			sql  = 'UPDATE unluckylabor SET addr=?, lat=?, lng=? WHERE id=?'
+			conn.execute(sql, (info['addr'], info['lat'], info['lng'], row['id']))
+			sql  = 'UPDATE unluckylabor SET boss=? WHERE id=? AND boss=\'\''
+			conn.execute(sql, (info['boss'], row['id']))
+			conn.commit()
+			modified = modified + 1
 
-	msg = u'處理中 #%d %s (%d/%d) 需要更新 %d 項 ...\n' % (row['id'], row['corp'], rank, LIMIT, cnt)
+	msg = u'處理中 #%d %s (%d/%d) 已更新 %d 項 ...' % (row['id'], row['corp'], visited, total, modified)
 	print_progress(msg)
 	sys.stdout.flush()
-	time.sleep(0.5)
 
-# 更新
-print('\n更新資料庫')
-for id in changeset:
-	info = changeset[id]
-	sql  = 'UPDATE unluckylabor SET addr=?, lat=?, lng=? WHERE id=?'
-	conn.execute(sql, (info['addr'], info['lat'], info['lng'], id))
-	sql  = 'UPDATE unluckylabor SET boss=? WHERE id=? AND boss=\'\''
-	conn.execute(sql, (info['boss'], id))
-
-conn.commit()
 conn.close()
 
 print(u'完成')

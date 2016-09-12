@@ -10,6 +10,7 @@ import geocoder
 import re
 import math
 import requests
+from simplejson.scanner import JSONDecodeError
 
 TRACE = False
 
@@ -80,12 +81,21 @@ def tgos_by_spider(address):
 		}
 		r = requests.post(url, **kwargs)
 		if r.status_code == 200:
-			addinfo = r.json()['AddressList']
-			if len(addinfo) > 0:
-				# 轉 WGS84 座標 (僅適用台灣本島，其他地方可能誤差稍大)
-				y = addinfo[0]['Y'] * 0.00000899823754
-				x = 121 + (addinfo[0]['X'] - 250000) * 0.000008983152841195214 / math.cos(math.radians(y))
-				return (y, x)
+			'''
+			這裡有可能會爆掉
+			The conversion of the nvarchar value '183185187189' overflowed an int column.
+			...
+			The statement has been terminated.
+			'''
+			try:
+				addinfo = r.json()['AddressList']
+				if len(addinfo) > 0:
+					# 轉 WGS84 座標 (僅適用台灣本島，其他地方可能誤差稍大)
+					y = addinfo[0]['Y'] * 0.00000899823754
+					x = 121 + (addinfo[0]['X'] - 250000) * 0.000008983152841195214 / math.cos(math.radians(y))
+					return (y, x)
+			except JSONDecodeError as e:
+				print('無法處理地址定位 %s' % address);
 
 	return False
 
