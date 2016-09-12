@@ -11,20 +11,22 @@ import re
 import math
 import requests
 
+TRACE = False
+
 cookies = False
 pagekey = False
 apikey  = 'USZWSgrBGpevjABqoXT3mLlUnkiR1Ruf8MWixp//eGc='
 
 # 使用 TGOS 定位
 def geocode(address):
-	return tgos_by_geocoder(address)
+	return tgos_by_spider(address)
 
 # TGOS 取得圖台狀態
 # 取得 pagekey 與 session 值
 def tgos_get_state():
 	global cookies, pagekey
 
-	if __name__ == '__main__':
+	if TRACE:
 		print('取得圖台狀態')
 
 	# pagekey 取得途徑: window.sircMessage.sircPAGEKEY = '...';
@@ -36,8 +38,11 @@ def tgos_get_state():
 			pagekey = m.group(1)
 			for c in r.cookies:
 				cookies[c.name] = c.value
-			if __name__ == '__main__':
+			if TRACE:
 				print('pagekey="%s"' % pagekey)
+	else:
+		if TRACE:
+			print('無法取得 pagekey')
 
 # TGOS 瀏覽器操作模擬
 def tgos_by_spider(address):
@@ -80,7 +85,7 @@ def tgos_by_spider(address):
 				# 轉 WGS84 座標 (僅適用台灣本島，其他地方可能誤差稍大)
 				y = addinfo[0]['Y'] * 0.00000899823754
 				x = 121 + (addinfo[0]['X'] - 250000) * 0.000008983152841195214 / math.cos(math.radians(y))
-				return (x, y)
+				return (y, x)
 
 	return False
 
@@ -103,7 +108,7 @@ def tgos_by_api1(address):
 		resp = r.json()
 		if resp['status'] == 'OK' and resp['featureCount'] > 0:
 			loc = resp['results'][0]['geometry']
-			return (loc['x'], loc['y'])
+			return (loc['y'], loc['x'])
 
 	return False
 
@@ -141,6 +146,13 @@ def tgos_by_geocoder(address):
 # 簡易測試
 def main():
 	addr = '臺北市信義區興雅里松高路１號２８樓'
+	loc  = geocode(addr)
+	if loc != False:
+		print('(%f, %f)' % loc)
+	else:
+		print('定位失敗')
+
+	addr = '雲林縣元長鄉鹿南村後建八號'
 	loc  = geocode(addr)
 	if loc != False:
 		print('(%f, %f)' % loc)

@@ -3,7 +3,6 @@
 
 import os
 import json
-import sys
 import smart_http
 import smart_geo
 import smart_dbapi
@@ -11,165 +10,136 @@ import smart_dbapi
 DEBUG = True
 CODEPATH = os.path.dirname(os.path.abspath(__file__))
 
-## 查詢公司資訊
-# 取統編、名稱、負責人、地址、登記機關五個欄位
-def get_corp_info(name, boss, gov):
-	corp_info = False
+_conn = None
 
-	try:
-		if type(name) is unicode:
-			name = name.encode('utf-8')
-
-		# http://company.g0v.ronny.tw/api/search?q=
-		resp = smart_http.request('company.g0v.ronny.tw', '/api/search', {'q': name})
-		if resp != False and resp['found'] > 0:
-			# 計算每筆資料的相似度績分
-			# 名稱 5
-			# 負責人 2
-			# 註冊單位 1
-			# 核准設立 1
-			score_list = []
-			for e in resp['data']:
-				score = 0
-
-				# 名稱
-				if u'商業名稱' in e and e[u'商業名稱'] == name:
-					score = score + 5
-
-				# 負責人
-				#if u'負責人姓名' in e and e[u'負責人姓名'] == boss:
-				#	score = score + 2
-
-				# 註冊單位
-				#if u'登記機關' in e and e[u'登記機關'] == gov:
-				#	score = score + 1
-
-				# 核准設立
-				if u'現況' in e and e[u'現況'] == u'核准設立':
-					score = score + 1
-
-				uid = e[u'統一編號']
-				print(u'%s %s: 積分 %d' % (uid, name, score))
-				score_list.append(score)
-			'''
-			if resp['found'] == 1:
-				corp_info = resp['data'][0] # [u'統一編號']
-			else:
-				# TODO: 出現同名公司，依下列順序選取一項
-				# 1. 負責人姓名吻合
-				# 2. 註冊單位吻合
-				# 3. 核准設立
-				for e in resp['data']:
-					if u'公司狀況' in e and e[u'公司狀況'] == u'核准設立':
-						corp_info = e # [u'統一編號']
-					if u'現況' in e and e[u'現況'] == u'核准設立':
-						corp_info = e # [u'統一編號']
-			'''
-
-	except Exception:
-		if DEBUG:
-			errln = sys.exc_info()[-1].tb_lineno
-			print('第 %d 行發生錯誤' % errln)
-
-	return corp_info
-
-## 取得公司資訊
+## 不固定屬性名稱讀取
 #
-# @param name 事業名稱
-# @param boss 負責人姓名
-# @param gov  登記機關
+# @param dict 字典
+# @param keys 接受的鍵值，排前面的優先採用
 #
-'''
-def get_corp_info(name, boss='', gov=''):
+def get_attr(dict, keys):
+	for k in keys:
+		v = dict.get(k)
+		if v is not None:
+			return v
+	return None
+
+## 取得資料庫連線
+#
+def get_conn():
+	global _conn
+	if _conn is None:
+		dbfile = '%s/corp_cache.sqlite' % CODEPATH
+		_conn = smart_dbapi.connect(dbfile)
+	return _conn
+
+## 從快取查詢公司
+#
+# @param name 公司名稱
+#
+def list_corp_from_cache(name):
 	dbfile = '%s/corp_cache.sqlite' % CODEPATH
-	conn = smart_dbapi.connect(dbfile)
+	conn = get_conn()
+	sql  = 'SELECT * FROM corp_cache WHERE name=?'
+	cur  = conn.execute(sql, [name])
+	corp_list = []
+	for row in cur:
+		corp_list.append(row)
+	if len(corp_list) > 0:
+		return corp_list
+	return False
 
-	sql = 'SELECT name,uid,boss,addr,lat,lng,mtime FROM corp_cache WHERE name=?'
-	cur = conn.execute(sql, (name,))
-	# TODO: 如果快取出現多筆，依下列順序選取一項
-	# 1. 負責人姓名吻合
-	# 2. 註冊單位吻合
-	# 3. 其他
-	info = cur.fetchone()
-	cur.close()
+## 從 API 查詢公司
+#
+# @param name 公司名稱
+#
+def list_corp_from_api(name):
+	resp = smart_http.request('company.g0v.ronny.tw', '/api/search', {'q': name})
+	if resp != False and resp['found'] > 0:
+		corp_list = []
+		for e in resp['data']:
+			fullname = get_attr(e, ['公司名稱', '商業名稱'])
+			if fullname == name:
+				corp_list.append({
+					'uid':    e['統一編號'],
+					'name':   name,
+					'boss':   get_attr(e, ['代表人姓名', '負責人姓名']),
+					'addr':   get_attr(e, ['公司所在地', '地址']),
+					'regat':  e['登記機關'],
+					'status': get_attr(e, ['公司狀況', '現況']),
+					'lat':    0,
+					'lng':    0
+				})
+		if len(corp_list) > 0:
+			return corp_list
+	return False
 
-	# TODO: 如果 lat = 0.0 七天後再試一次
-	#       如果 lat > 0.0 一年後再試一次
+## 查詢公司資訊，傳回相似度最接近的一筆
+# 
+def get_corp_info(name, boss='', gov=''):
+	# 先從快取查公司
+	corp_list = list_corp_from_cache(name)
 
-	# 先用暴力法刪除有公司無地址項目，強迫重新查一次
-	if info is not None and (info['addr'] == None or info['addr'] == ''):
-		conn.execute('DELETE FROM corp_cache WHERE name=?', [name])
+	# 找不到再從 API 查公司
+	if corp_list == False:
+		corp_list = list_corp_from_api(name)
+		conn = get_conn()
+		for e in corp_list:
+			sql = 'INSERT INTO corp_cache(uid, name, boss, addr, regat, status, mtime) VALUES (?,?,?,?,?,?,DATETIME())'
+			conn.execute(sql, (e['uid'], e['name'], e['boss'], e['addr'], e['regat'], e['status']))
 		conn.commit()
-		info = None
 
-	# 沒有快取資料可以用，用 API 查一下
-	if info is None:
-		uid = get_corp_id(name, boss, gov)
-		if uid == False:
-			sql = 'INSERT INTO corp_cache(name,mtime) VALUES(?,DATETIME())'
-			conn.execute(sql, (name,))
-			conn.commit()
-			info = False
-		else:
-			uri  = '/api/show/%s' % uid
-			resp = smart_http.request('company.g0v.ronny.tw', uri)
-			boss = ''
-			addr = ''
-			lat  = 0.0
-			lng  = 0.0
-			loc  = False
+	# 選取吻合度最高的公司
+	if corp_list != False:
+		# 計算吻合度積分
+		score_list = []
 
-			if resp != False:
-				if u'公司所在地' in resp['data']:
-					addr = resp['data'][u'公司所在地']
-					loc  = smart_geo.geocode(addr)
+		for e in corp_list:
+			score = 0
+			if boss != '' and e['boss'] == boss:
+				score = score + 3
+			if gov in e['regat']:
+				score = score + 1
+			if e['status'] == '核准設立':
+				score = score + 1
+			score_list.append(score)
 
-				# e.g. 財團法人中央通訊社
-				if u'營業地址' in resp['data'][u'財政部']:
-					addr = resp['data'][u'財政部'][u'營業地址']
-					loc  = smart_geo.geocode(addr)
+		# 選取積分最高的公司
+		best_score = -1
+		best_index = -1
+		for i in range(len(score_list)):
+			if best_score < score_list[i]:
+				best_score = score_list[i]
+				best_index = i
+		corp_info = corp_list[best_index]
 
-				if loc != False:
-					(lat, lng) = loc
+		# 填滿地理座標
+		if corp_info['lat'] == 0:
+			loc = smart_geo.geocode(corp_info['addr'])
+			if loc != False:
+				corp_info['lat'] = loc[0]
+				corp_info['lng'] = loc[1]
+				sql = 'UPDATE corp_cache SET lat=?, lng=? WHERE uid=?'
+				conn = get_conn()
+				conn.execute(sql, (corp_info['lat'], corp_info['lng'], corp_info['uid']))
+				conn.commit()
 
-				if u'代表人姓名' in resp['data']:
-					boss = resp['data'][u'代表人姓名']
+		return corp_info
 
-				print(addr)
-
-				if addr != '' and loc == False:
-					print('有地址卻定位失敗，可能是 TGOS 禁止存取: %s' % addr)
-					exit(0)
-			else:
-				print('Ronny API return False')
-
-			# 紀錄到快取
-			sql = 'INSERT INTO corp_cache(name,uid,boss,addr,lat,lng,mtime) VALUES(?,?,?,?,?,?,DATETIME())'
-			conn.execute(sql, (name, uid, boss, addr, lat, lng))
-			conn.commit()
-
-			info = {
-				'name': name,
-				'uid':  uid,
-				'boss': boss,
-				'addr': addr,
-				'lat':  lat,
-				'lng':  lng
-			}
-
-	conn.close()
-
-	return info
-'''
+	return False
 
 ## 簡易測試
 def main():
-	#print(get_corp_id(u'興富發建設股份有限公司'))
-	print(json.dumps(get_corp_info(u'萬相企業社', '', ''),ensure_ascii=False,indent=2))
-	print(json.dumps(get_corp_info(u'萬相企業社', '郭同會', '桃園縣政府'),ensure_ascii=False,indent=2))
-	print(json.dumps(get_corp_info(u'萬相企業社', '洪美英', '桃園縣政府'),ensure_ascii=False,indent=2))
-	#print(get_corp_id(u'去你爸股份有限公司'))
-	#print(get_corp_info(u'廣全科技股份有限公司'))
+	#print(get_corp_info('興富發建設股份有限公司','',''))
+	#print(json.dumps(get_corp_info(u'萬相企業社', '', ''),ensure_ascii=False,indent=2))
+	#print(get_corp_info('萬相企業社', '郭同會', '桃園縣政府'))
+	#print(get_corp_info('去你爸股份有限公司'))
+	#print(list_corp_from_api('廣全科技股份有限公司'))
+	#print(get_corp_info('萬相企業社'))
+	#print(get_corp_info('萬相企業社', '洪美英', '桃園縣政府'))
+	print(get_corp_info('樺達奶茶', '', '臺北市'))
+	print(get_corp_info('樺達奶茶', '', '新北市'))
+	print(get_corp_info('樺達奶茶', '', '高雄市'))
 
 if __name__ == "__main__":
 	main()

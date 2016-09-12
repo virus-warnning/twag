@@ -18,11 +18,10 @@ features = []
 for row in cur:
 	point = geojson.Point((row['lng'], row['lat']))
 	properties = {
-		'id': row['exe_id'],
-		'corperation': row['corperation'],
-		'detail': row['detail'],
-		'date': row['exe_date'],
-		'ref_law': row['ref_law'],
+		'doc_id': row['doc_id'],
+		'corp':   row['corp'],
+		'dt_exe': row['dt_exe'],
+		'law':    row['law'],
 		'marker-color': '#b00000',
 		'marker-symbol': 'danger'
 	}

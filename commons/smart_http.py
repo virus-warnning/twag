@@ -1,7 +1,7 @@
 # coding: utf-8
 
-import httplib
-import urllib
+import http.client
+import urllib.parse
 import json
 
 DEBUG = False
@@ -9,7 +9,7 @@ DEBUG = False
 try:
 	from bs4 import BeautifulSoup
 	BS4_INSTALLED = True
-except ImportError, e:
+except ImportError:
 	BS4_INSTALLED = False
 
 try:
@@ -28,19 +28,15 @@ def request(host, uri, params=None, method='GET', ctype=''):
 	content = False
 
 	try:
-		conn = httplib.HTTPConnection(host)
+		conn = http.client.HTTPConnection(host)
 		if type(params) is dict:
 			# 避免使用 unicode 型態的字串，可能導致 urllib 跳出 Exception
 			np = {}
-			for k, v in params.iteritems():
-				if type(k) is unicode:
-					k = k.encode('utf-8')
-				if type(v) is unicode:
-					v = v.encode('utf-8')
+			for k, v in params.items():
 				np[k] = v
 
 			# 參數編碼後送出
-			payloads = urllib.urlencode(np)
+			payloads = urllib.parse.urlencode(np)
 			if method == 'GET':
 				conn.request(method, uri + '?' + payloads)
 			else:
@@ -51,10 +47,10 @@ def request(host, uri, params=None, method='GET', ctype=''):
 		resp = conn.getresponse()
 
 		if DEBUG:
-			print(json.dumps(resp.getheaders(), indent=3))
+			print(json.dumps(resp.getheaders(), indent=2, ensure_ascii=False))
 
 		if resp.status == 200:
-			content = resp.read()
+			content = resp.read().decode('utf-8')
 			if len(content)>0:
 				if ctype == '':
 					ctype = resp.getheader('Content-Type', 'text/plain; charset=UTF-8')

@@ -2,13 +2,13 @@
 欄位名稱 | 型態 | 欄位用途
 ---- | ---- | ----
 id         | INTEGER | 流水號
-gov        | VARCHAR(5) | 地方政府
 doc_id     | VARCHAR(25) | 公文編號
 dt_exe     | DATE | 執行日期
 law        | VARCHAR(25) | 法條編號
 corp       | VARCHAR(25) | 公司名稱
 addr       | VARCHAR(100) | 公司地址
 boss       | VARCHAR(25) | 負責人
+gov        | VARCHAR(5) | 地方政府
 cnt_action | INTEGER | 稽查行動計數
 cnt_rule   | INTEGER | 觸犯法條計數
 lat        | DOUBLE | 緯度
@@ -22,9 +22,9 @@ lng        | DOUBLE | 經度
 地方政府 | 格式 | 數目 | 灌水 | 秘訣
 ---- | ---- | ---- | ---- | ----
 [台北市政府](http://bola.gov.taipei/ct.asp?xItem=94627869&ctNode=76327&mp=116003) | CSV、PDF | 2419 | 無 | 單一檔案，格式非常好
-[新北市政府](http://www.labor.ntpc.gov.tw/content/?parent_id=10433) | Excel、PDF | 1181 | 有 | 105Violation02.pdf 無法處理，PDF 部分有點難搞
+[新北市政府](http://www.labor.ntpc.gov.tw/content/?parent_id=10433) | Excel、PDF | 1181 | 有 | 105Violation02.pdf 無法處理，PDF 部分有點難搞，窗口態度消極
 [台南市政府](http://www.tainan.gov.tw/labor/page.asp?nsub=M2A400) | Excel | | |
-[高雄市政府](http://labor.kcg.gov.tw/IllegalList.aspx?appname=IllegalList) | Excel | | | 格式不錯，只是分散了點
+[高雄市政府](http://labor.kcg.gov.tw/IllegalList.aspx?appname=IllegalList) | Excel | | | 格式不錯，只是分散了點 (正在與勞工局接洽中)
 [基隆市政府](http://social.klcg.gov.tw/news/info_view.php?sid=417&dept_id=5&serno=20151210141036&page_num=1) | Excel | | |
 [嘉義市政府](http://www.chiayi.gov.tw/web/social/post.asp) | Excel | | |
 [宜蘭縣政府](http://labor.e-land.gov.tw/cp.aspx?n=A727524B27DA3181) | Excel | | |
@@ -41,7 +41,7 @@ lng        | DOUBLE | 經度
 [經濟部加工出口區總管理局](http://www.epza.gov.tw/list.aspx?pageid=4e5364e49d5b5094) | Excel | | |
 [新竹科學工業園區管理局](http://www.sipa.gov.tw/home.jsp?mserno=201001210016&serno=201001210016&menud%20ata=ChineseMenu&contlink=ap/download_view.jsp&dataserno=201504240001) | Calc | | |
 [桃園市政府](http://lhrb.tycg.gov.tw/home.jsp?id=373&parentpath=0%2C14%2C372&mcustomize=onemessages_view.jsp&dataserno=201509090001&aplistdn=ou=data,ou=lhrb4,ou=chlhr,ou=ap_root,o=tycg,c=tw&toolsflag=Y) | PDF | | |
-[台中市政府](http://www.labor.taichung.gov.tw/ct.asp?xItem=55333&ctNode=23053&mp=117010) | PDF | | |
+[台中市政府](http://www.labor.taichung.gov.tw/ct.asp?xItem=55333&ctNode=23053&mp=117010) | PDF | | | 窗口態度消極
 [新竹市政府](http://dep-labor.hccg.gov.tw/web/SelfPageSetup?command=display&pageID=21875&FP=D20000002106000002_2) | PDF | | |
 [澎湖縣政府](http://www.penghu.gov.tw/society/home.jsp?serno3=201302220001&mserno=201110140003&serno=201112150003&contlink=content/20130222113242.jsp&level2=Y) | Web | | |
 [中部科學園區管理局](http://www.ctsp.gov.tw/chinese/01news/10statistics_view.aspx?v=1&fr=529&no=538&sn=1198) | Web | | |
