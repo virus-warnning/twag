@@ -25,7 +25,7 @@ import corp_utils
 import smart_dbapi
 from print_progress import print_progress
 
-BEGIN = 2201
+BEGIN = 3370
 END   = 4150
 
 script_begin = datetime.now()
@@ -69,6 +69,9 @@ for row in rows:
 	sys.stdout.flush()
 
 conn.close()
-elapsed = str(datetime.now() - script_begin)
+script_end = datetime.now()
+elapsed = str(script_end - script_begin)
 print()
+print('-' * 50)
+print('結束時間 %s' % script_end.isoformat(' '))
 print('消耗時間 %s' % elapsed)
