@@ -13,7 +13,9 @@ def console_strlen(msg):
 
 def print_progress(msg):
 	global prev_len
-	print('\r' + ' ' * prev_len),
-	prev_len = console_strlen(msg)
-	print('\r' + msg),
-	sys.stdout.flush()
+	
+	curr_len = console_strlen(msg)
+	spaces   = ' ' * (prev_len-curr_len)
+	print('\r%s%s' % (msg, spaces), end='')
+	prev_len = curr_len
+	sys.stdout.flush()	

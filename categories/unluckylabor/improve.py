@@ -20,8 +20,8 @@ import corp_utils
 import smart_dbapi
 from print_progress import print_progress
 
-BEGIN = 3001
-END   = 4000
+BEGIN = 2501
+END   = 2600
 
 rank = 0
 sql  = 'SELECT id,corp,boss,gov FROM unluckylabor WHERE lat=0 AND id>=? AND id<=?'
@@ -29,22 +29,22 @@ conn = smart_dbapi.connect('unluckylabor.sqlite')
 rows = conn.execute(sql, (BEGIN, END)).fetchall()
 
 # 蒐集要修改項目
-total    = len(rows)
 modified = 0
 visited  = 0
+total    = len(rows)
+
 for row in rows:
 	info = corp_utils.get_corp_info(row['corp'], row['boss'], row['gov'])
-	visited = visited + 1
 	if info != False:
-		if row['boss'] != '' and info['lat'] != 0:
-			sql  = 'UPDATE unluckylabor SET addr=?, lat=?, lng=? WHERE id=?'
-			conn.execute(sql, (info['addr'], info['lat'], info['lng'], row['id']))
-			sql  = 'UPDATE unluckylabor SET boss=? WHERE id=? AND boss=\'\''
-			conn.execute(sql, (info['boss'], row['id']))
-			conn.commit()
-			modified = modified + 1
+		sql  = 'UPDATE unluckylabor SET addr=?, lat=?, lng=? WHERE id=?'
+		conn.execute(sql, (info['addr'], info['lat'], info['lng'], row['id']))
+		sql  = 'UPDATE unluckylabor SET boss=? WHERE id=? AND boss=\'\''
+		conn.execute(sql, (info['boss'], row['id']))
+		conn.commit()
+		modified = modified + 1
 
-	msg = u'處理中 #%d %s (%d/%d) 已更新 %d 項 ...' % (row['id'], row['corp'], visited, total, modified)
+	visited = visited + 1
+	msg = '處理中 #%d %s (%d/%d) 已更新 %d 項 ...' % (row['id'], row['corp'], visited, total, modified)
 	print_progress(msg)
 	sys.stdout.flush()
 
