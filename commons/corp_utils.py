@@ -121,7 +121,12 @@ def get_corp_info(name, boss='', gov=''):
 		corp_info = corp_list[best_index]
 
 		# 填滿地理座標
-		if corp_info['lat'] == 0:
+		#
+		# 地址欄會出現一些特殊情況
+		# * '臺北市資料空白'
+		# * ' ' (不確定數目的少許空白字元)
+		# 暫時先檔掉 8 個字以下的地址，這些無意義地址會耗費 delay 時間
+		if corp_info['lat'] == 0 and len(corp_info['addr']) > 8:
 			loc = smart_geo.geocode(corp_info['addr'])
 			if loc != False:
 				corp_info['lat'] = loc[0]

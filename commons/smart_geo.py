@@ -108,7 +108,8 @@ def tgos_by_spider(address):
 					(x, y) = pyproj.transform(twd97, wgs84, addinfo[0]['X'], addinfo[0]['Y'])
 					return (y, x)
 			except JSONDecodeError as e:
-				print('無法處理地址定位 %s' % address);
+				# print('無法處理地址定位 %s' % address)
+				pass
 
 	return False
 
