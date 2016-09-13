@@ -42,6 +42,7 @@ for row in cur:
 		'dt_exe': row['dt_exe'],
 		'law':    law_desc,
 		'boss':   row['boss'],
+		'addr':   row['addr'],
 		'marker-color': '#b00000',
 		'marker-symbol': 'danger'
 	}
