@@ -18,6 +18,14 @@ cookies = False
 pagekey = False
 apikey  = 'USZWSgrBGpevjABqoXT3mLlUnkiR1Ruf8MWixp//eGc='
 
+# TWD97 轉 WGS84 的轉換比率
+#
+#        90
+# -----------------
+# 地球極半徑 * PI / 2
+#
+TY = 180 / (6356752.3 * math.pi)
+
 # 使用 TGOS 定位
 def geocode(address):
 	return tgos_by_spider(address)
@@ -91,7 +99,7 @@ def tgos_by_spider(address):
 				addinfo = r.json()['AddressList']
 				if len(addinfo) > 0:
 					# 轉 WGS84 座標 (僅適用台灣本島，其他地方可能誤差稍大)
-					y = addinfo[0]['Y'] * 0.00000899823754
+					y = addinfo[0]['Y'] * TY
 					x = 121 + (addinfo[0]['X'] - 250000) * 0.000008983152841195214 / math.cos(math.radians(y))
 					return (y, x)
 			except JSONDecodeError as e:
