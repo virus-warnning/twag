@@ -25,7 +25,8 @@ import corp_utils
 import smart_dbapi
 from print_progress import print_progress
 
-BEGIN = 3370
+ABORT_IF_ERROR = False
+BEGIN = 1
 END   = 4150
 
 script_begin = datetime.now()
@@ -52,7 +53,7 @@ for row in rows:
 		else:
 			error_cnt = 0
 
-		if error_cnt > 5:
+		if error_cnt > 5 and ABORT_IF_ERROR:
 			print('定位失敗次數過多，中止資料庫更新')
 			break
 

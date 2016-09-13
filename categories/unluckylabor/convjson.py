@@ -53,7 +53,11 @@ con.close()
 
 fc = geojson.FeatureCollection(features)
 
+f = open('unluckylabor.geojson', 'w')
+
 if DEBUG:
-	print(geojson.dumps(fc, indent=2, ensure_ascii=False))
+	f.write(geojson.dumps(fc, indent=2, ensure_ascii=False))
 else:
-	print(geojson.dumps(fc))
+	f.write(geojson.dumps(fc))
+
+f.close()
