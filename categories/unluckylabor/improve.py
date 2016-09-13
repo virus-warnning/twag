@@ -20,8 +20,8 @@ import corp_utils
 import smart_dbapi
 from print_progress import print_progress
 
-BEGIN = 2501
-END   = 2600
+BEGIN = 3001
+END   = 5000
 
 rank = 0
 sql  = 'SELECT id,corp,boss,gov FROM unluckylabor WHERE lat=0 AND id>=? AND id<=?'
