@@ -9,6 +9,7 @@ import geocoder
 # 土炮版相依套件
 import re
 import math
+import pyproj
 import requests
 from simplejson.scanner import JSONDecodeError
 
@@ -21,10 +22,13 @@ apikey  = 'USZWSgrBGpevjABqoXT3mLlUnkiR1Ruf8MWixp//eGc='
 # TWD97 轉 WGS84 的轉換比率
 #
 #        90
-# -----------------
-# 地球極半徑 * PI / 2
+# ----------------
+# 地球半徑 * PI / 2
 #
-TY = 180 / (6356752.3 * math.pi)
+TY = 90 / (6356000 * math.pi / 2)
+
+twd97 = pyproj.Proj(init='EPSG:3826')
+wgs84 = pyproj.Proj(init='EPSG:4326')
 
 # 使用 TGOS 定位
 def geocode(address):
@@ -98,9 +102,10 @@ def tgos_by_spider(address):
 			try:
 				addinfo = r.json()['AddressList']
 				if len(addinfo) > 0:
-					# 轉 WGS84 座標 (僅適用台灣本島，其他地方可能誤差稍大)
-					y = addinfo[0]['Y'] * TY
-					x = 121 + (addinfo[0]['X'] - 250000) * 0.000008983152841195214 / math.cos(math.radians(y))
+					# 轉 WGS84 座標，目前採用 TY 換算會南偏，先用可靠度較高的 pyproj 套件
+					#y = addinfo[0]['Y'] * TY
+					#x = 121 + (addinfo[0]['X'] - 250000) * 0.000008983152841195214 / math.cos(math.radians(y))
+					(x, y) = pyproj.transform(twd97, wgs84, addinfo[0]['X'], addinfo[0]['Y'])
 					return (y, x)
 			except JSONDecodeError as e:
 				print('無法處理地址定位 %s' % address);
