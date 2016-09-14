@@ -26,8 +26,8 @@ import smart_dbapi
 from print_progress import print_progress
 
 ABORT_IF_ERROR = False
-BEGIN = 1
-END   = 4150
+BEGIN = 4151
+END   = 4441
 
 script_begin = datetime.now()
 
