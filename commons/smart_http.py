@@ -1,21 +1,24 @@
-# coding: utf-8
-
-import http.client
-import urllib.parse
 import json
+import requests
+import urllib.parse
+import logging.config
 
-DEBUG = False
+logger = logging.getLogger(__name__)
 
+# 偵測 bs4 是否已安裝
 try:
 	from bs4 import BeautifulSoup
 	BS4_INSTALLED = True
 except ImportError:
+	logging.warn('bs4 is not installed.')
 	BS4_INSTALLED = False
 
+# 選擇 etree
 try:
 	from lxml import etree
 	LXML_INSTALLED = True
 except ImportError:
+	logging.warn('lxml is not installed.')
 	import xml.etree.ElementTree as etree
 	LXML_INSTALLED = False
 
@@ -24,56 +27,46 @@ except ImportError:
 # text/xml         => lxml.etree._Element, xml.etree.ElementTree.Element
 # text/html        => bs4.BeautifulSoup, str
 # otherwise        => str
-def request(host, uri, params=None, method='GET', ctype=''):
+def get(url, params=None):
 	content = False
 
 	try:
-		conn = http.client.HTTPConnection(host)
-		if type(params) is dict:
-			# 避免使用 unicode 型態的字串，可能導致 urllib 跳出 Exception
-			np = {}
-			for k, v in params.items():
-				np[k] = v
+		resp = requests.get(url, params=params)
+		logger.debug('HTTP Response: {}'.format(resp.status_code))
+		for (k, v) in resp.headers.items():
+			logger.debug('>> {}: {}'.format(k, v))
 
-			# 參數編碼後送出
-			payloads = urllib.parse.urlencode(np)
-			if method == 'GET':
-				conn.request(method, uri + '?' + payloads)
-			else:
-				conn.request(method, uri, payloads)
-		else:
-			conn.request(method, uri)
+		if resp.status_code == 200:
+			ctype = resp.headers['Content-Type']
 
-		resp = conn.getresponse()
-
-		if DEBUG:
-			print(json.dumps(resp.getheaders(), indent=2, ensure_ascii=False))
-
-		if resp.status == 200:
-			content = resp.read().decode('utf-8')
-			if len(content)>0:
-				if ctype == '':
-					ctype = resp.getheader('Content-Type', 'text/plain; charset=UTF-8')
-				if '/json' in ctype:
-					content = json.loads(content)
+			# text/*
+			if ctype.startswith('text/'):
+				# text/xml
 				if '/xml' in ctype:
-					content = etree.fromstring(content)
-				if BS4_INSTALLED:
-					if '/html' in ctype:
+					content = etree.fromstring(resp.text)
+
+				# text/html
+				if '/html' in ctype and BS4_INSTALLED:
+					if len(resp.text) > 0:
 						if LXML_INSTALLED:
-							content = BeautifulSoup(content, 'lxml')
+							content = BeautifulSoup(resp.text, 'lxml')
 						else:
-							content = BeautifulSoup(content, 'html.parser')
-			else:
-				content = False
-				if DEBUG: print('Response 200 OK but content is empty.')
+							content = BeautifulSoup(resp.text, 'html.parser')
+
+				# otherwise
+				if not content and len(resp.text) > 0:
+					content = resp.text
+
+			# application/json
+			if ctype == 'application/json':
+				content = resp.json()
 		else:
-			if DEBUG: print('Response Code: %d' % resp.status)
-
-		conn.close()
-	except Exception as e:
-		if DEBUG: print(e)
-
-	if DEBUG: print('%s.%s' % (type(content).__module__, type(content).__name__))
+			logger.error('Cannot get URL {}.'.format(url))
+	except Exception as ex:
+		logger.error(ex)
 
 	return content
+
+if __name__ == '__main__':
+	resp = get('https://unluckyhouse.com/external.php')
+	print(type(resp))

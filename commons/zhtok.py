@@ -1,8 +1,6 @@
-# coding: utf-8
-
+import io
 import re
 import json
-from StringIO import StringIO
 
 # 偵測結果
 LCHR_FOUND         = 0 # 找到中文數值
@@ -18,14 +16,14 @@ TYPE_YM       = 5 # 元(月/日)
 
 # 中文對應指數
 EXP_OF_CHAR = {
-	u'兆': 12, u'億': 8, u'萬': 4,
-	u'千':  3, u'百': 2, u'十': 1,
-	u'仟':  3, u'佰': 2, u'拾': 1
+	'兆': 12, '億': 8, '萬': 4,
+	'千':  3, '百': 2, '十': 1,
+	'仟':  3, '佰': 2, '拾': 1
 }
 
 ## 中文數字轉阿拉伯數字
 def convert_arabic_numerals(text):
-	strout = StringIO()
+	strout = io.StringIO()
 	tlen   = len(text)
 	offset = 0
 	result = detect_value(text, offset)
@@ -42,7 +40,7 @@ def convert_arabic_numerals(text):
 		elif vtype == TYPE_XTY:
 			astr = convert_xty_value(vstr)
 		elif vtype == TYPE_YM:
-			astr = u'1'
+			astr = '1'
 		else:
 			astr = vstr
 
@@ -50,10 +48,10 @@ def convert_arabic_numerals(text):
 		strout.write(astr)
 		offset = end
 
-		if offset<tlen and text[offset] == u'兩':
-			strout.write(u'兩')
+		if offset<tlen and text[offset] == '兩':
+			strout.write('兩')
 			offset = offset + 1
-		
+
 		result = detect_value(text, offset)
 
 	if offset < tlen:
@@ -107,14 +105,14 @@ def detect_value(text, offset = 0):
 def detect_value_prefix(text, offset = 0):
 	# 開頭字元分組，從這裡擴充或停用偵測功能
 	categories = (
-		u'零〇一二三四五六七八九', # 純數值開頭
-		u'兩十',                # 朗讀開頭
-		u'壹貳參肆伍陸柒捌玖',   # 金融開頭
-		u'廿卅卌',              # 20~49 縮寫開頭
-		u'元',                 # 元(月/日)開頭
+		'零〇一二三四五六七八九', # 純數值開頭
+		'兩十',                # 朗讀開頭
+		'壹貳參肆伍陸柒捌玖',   # 金融開頭
+		'廿卅卌',              # 20~49 縮寫開頭
+		'元',                 # 元(月/日)開頭
 	)
 
-	pattern = re.compile(u'[%s]' % u''.join(categories))
+	pattern = re.compile('[%s]' % ''.join(categories))
 	m = pattern.search(text, offset)
 	if m is None:
 		return (LCHR_NOTFOUND, 0, 0)
@@ -128,16 +126,16 @@ def detect_value_prefix(text, offset = 0):
 	# 3.金融：壹貳參肆伍陸柒捌玖
 	# 4.幾十：廿卅卌
 	# 5.年月：元
-	if u'零〇'.find(ch1) >= 0:
+	if '零〇'.find(ch1) >= 0:
 		return (LCHR_FOUND, begin, TYPE_DIGITS)
 
-	if u'十'.find(ch1) >= 0:
+	if '十'.find(ch1) >= 0:
 		return (LCHR_FOUND, begin, TYPE_SPEAKING)
 
-	if u'壹貳參肆伍陸柒捌玖'.find(ch1) >= 0:
+	if '壹貳參肆伍陸柒捌玖'.find(ch1) >= 0:
 		return (LCHR_FOUND, begin, TYPE_FINANCE)
 
-	if u'廿卅卌'.find(ch1) >= 0:
+	if '廿卅卌'.find(ch1) >= 0:
 		return (LCHR_FOUND, begin, TYPE_XTY)
 
 	# 第二字可識別的數字類型
@@ -145,20 +143,20 @@ def detect_value_prefix(text, offset = 0):
 		# 第一字是 [數字、元、兩]，而且有第二字可以判斷
 		ch2 = text[begin+1]
 
-		if u'元' == ch1:
-			if u'年月'.find(ch2) >= 0:
+		if '元' == ch1:
+			if '年月'.find(ch2) >= 0:
 				return (LCHR_FOUND, begin, TYPE_YM)
 			else:
 				# 第二個字確認不是中文數值
 				return (LCHR_MISUNDERSTOOD, begin, 0)
 		else:
-			if u'兆億萬千百十'.find(ch2) >= 0:
+			if '兆億萬千百十'.find(ch2) >= 0:
 				return (LCHR_FOUND, begin, TYPE_SPEAKING)
 			else:
 				return (LCHR_FOUND, begin, TYPE_DIGITS)
 	else:
 		# 第一字是 [數字、元、兩]，而且是全文的最後一字
-		if u'零〇一二三四五六七八九'.find(ch1) >= 0:
+		if '零〇一二三四五六七八九'.find(ch1) >= 0:
 			return (LCHR_FOUND, begin, TYPE_DIGITS)
 
 	return (LCHR_NOTFOUND, 0, 0)
@@ -167,7 +165,7 @@ def detect_value_prefix(text, offset = 0):
 def end_of_digits_value(text, begin):
 	imax = min(len(text), begin + 16)
 	next = begin + 1
-	while next < imax and u'零〇一二三四五六七八九'.find(text[next]) != -1:
+	while next < imax and '零〇一二三四五六七八九'.find(text[next]) != -1:
 		next = next + 1
 	return next
 
@@ -175,11 +173,11 @@ def end_of_digits_value(text, begin):
 def end_of_speaking_value(text, begin):
 	# 連接規則
 	JUNCTION_RULES = {
-		u'一二三四五六七八九兩': u'兆億萬千百十',
-		u'兆億萬': u'零一二三四五六七八九兩',
-		u'千': u'零一二三四五六七八九兆億萬兩',
-		u'百十': u'零一二三四五六七八九兆億萬',
-		u'零': u'一二三四五六七八九'
+		'一二三四五六七八九兩': '兆億萬千百十',
+		'兆億萬': '零一二三四五六七八九兩',
+		'千': '零一二三四五六七八九兆億萬兩',
+		'百十': '零一二三四五六七八九兆億萬',
+		'零': '一二三四五六七八九'
 	}
 
 	exp4 = 16
@@ -191,7 +189,7 @@ def end_of_speaking_value(text, begin):
 		next_chr = text[next]
 
 		# 兆億萬指數遞減檢查
-		if u'兆億萬'.find(next_chr) != -1:
+		if '兆億萬'.find(next_chr) != -1:
 			exp = EXP_OF_CHAR[next_chr]
 			if exp < exp4:
 				exp4 = exp
@@ -201,7 +199,7 @@ def end_of_speaking_value(text, begin):
 				return next - 1
 
 		# 千百十指數遞減檢查
-		if u'千百十'.find(next_chr) != -1:
+		if '千百十'.find(next_chr) != -1:
 			exp = EXP_OF_CHAR[next_chr]
 			if exp < exp1:
 				exp1 = exp
@@ -231,10 +229,10 @@ def end_of_speaking_value(text, begin):
 def end_of_finance_value(text, begin):
 	# 連接規則
 	JUNCTION_RULES = {
-		u'壹貳參肆伍陸柒捌玖': u'兆億萬仟佰拾',
-		u'兆億萬': u'零壹貳參肆伍陸柒捌玖',
-		u'仟佰拾': u'零壹貳參肆伍陸柒捌玖兆億萬',
-		u'零': u'壹貳參肆伍陸柒捌玖'
+		'壹貳參肆伍陸柒捌玖': '兆億萬仟佰拾',
+		'兆億萬': '零壹貳參肆伍陸柒捌玖',
+		'仟佰拾': '零壹貳參肆伍陸柒捌玖兆億萬',
+		'零': '壹貳參肆伍陸柒捌玖'
 	}
 
 	exp4 = 16
@@ -246,7 +244,7 @@ def end_of_finance_value(text, begin):
 		next_chr = text[next]
 
 		# 兆億萬指數遞減檢查
-		if u'兆億萬'.find(next_chr) != -1:
+		if '兆億萬'.find(next_chr) != -1:
 			exp = EXP_OF_CHAR[next_chr]
 			if exp < exp4:
 				exp4 = exp
@@ -256,7 +254,7 @@ def end_of_finance_value(text, begin):
 				return next - 1
 
 		# 千百十指數遞減檢查
-		if u'仟佰拾'.find(next_chr) != -1:
+		if '仟佰拾'.find(next_chr) != -1:
 			exp = EXP_OF_CHAR[next_chr]
 			if exp < exp1:
 				exp1 = exp
@@ -286,21 +284,21 @@ def end_of_finance_value(text, begin):
 def end_of_xty_value(text, begin):
 	tlen = len(text)
 	next = begin + 1
-	if next < tlen and u'一二三四五六七八九'.find(text[next]) != -1:
+	if next < tlen and '一二三四五六七八九'.find(text[next]) != -1:
 		return next + 1
 	else:
 		return next
 
 # 中文數字轉阿拉伯數字
 def convert_digits_value(vstr):
-	CDIGITS = u'〇一二三四五六七八九'
-	ADIGITS = u'0123456789'
+	CDIGITS = '〇一二三四五六七八九'
+	ADIGITS = '0123456789'
 
 	# 零 => 〇
-	vstr = vstr.replace(u'零', u'〇')
+	vstr = vstr.replace('零', '〇')
 
 	# 轉換
-	astr = u''
+	astr = ''
 	for d in vstr:
 		v = CDIGITS.find(d)
 		astr = astr + ADIGITS[v]
@@ -309,37 +307,37 @@ def convert_digits_value(vstr):
 
 # 中文朗讀轉阿拉伯數字
 def convert_speaking_value(vstr):
-	CHAR_POS = {u'千': 0, u'百': 1, u'十': 2}
-	CDIGITS  = u'零一二三四五六七八九'
-	ADIGITS  = u'0123456789'
+	CHAR_POS = {'千': 0, '百': 1, '十': 2}
+	CDIGITS  = '零一二三四五六七八九'
+	ADIGITS  = '0123456789'
 
-	vstr = vstr.replace(u'兩', u'二')
+	vstr = vstr.replace('兩', '二')
 
-	d = u'1'
-	tstr = [u'0', u'0', u'0', u'0']
-	astr = u''
+	d = '1'
+	tstr = ['0', '0', '0', '0']
+	astr = ''
 	exp4 = -1
 
 	for c in vstr:
-		if u'萬億兆'.find(c) != -1:
+		if '萬億兆'.find(c) != -1:
 			# 兆 => 萬 的情況補零
 			exp = EXP_OF_CHAR[c]
 			if (exp4 - exp) == 8:
-				astr = astr + u'0000'
+				astr = astr + '0000'
 			exp4 = exp
 
 			# 轉換 4n 次方 (n>1)
-			if d != u'':
+			if d != '':
 				tstr[3] = d
 
 			astr = astr + ''.join(tstr)
-			tstr = [u'0', u'0', u'0', u'0']
-			d = u''
-		elif u'千百十'.find(c) != -1:
+			tstr = ['0', '0', '0', '0']
+			d = ''
+		elif '千百十'.find(c) != -1:
 			# 轉換非 4n 次方
 			pos = CHAR_POS[c]
 			tstr[pos] = d
-			d = u''
+			d = ''
 		else:
 			# 轉換數字
 			v = CDIGITS.find(c)
@@ -347,14 +345,14 @@ def convert_speaking_value(vstr):
 
 	# 兆、億 => 個位數 的情況補零
 	if exp4 > 4:
-		astr = astr + u'0' * (exp4 - 4)
-	
+		astr = astr + '0' * (exp4 - 4)
+
 	# 合併 1~3 次方
 	astr = astr + ''.join(tstr)
-	astr = astr.lstrip(u'0')
+	astr = astr.lstrip('0')
 
 	# 轉換最後一個數字
-	if d != u'':
+	if d != '':
 		# 最後一個數字可能不是個位數
 		# * 兩萬二 22000 --- 3 次方、字串位置 -4
 		# * 兩千二 2200 ---- 2 次方、字串位置 -3
@@ -362,7 +360,7 @@ def convert_speaking_value(vstr):
 		# * 兩萬零二 20002 - 0 次方、字串位置 -1
 		# * 二 ------------ 0 次方、字串位置 -1
 
-		if len(vstr) > 1 and u'百千萬億'.find(vstr[-2]) != -1:
+		if len(vstr) > 1 and '百千萬億'.find(vstr[-2]) != -1:
 			idx = -(EXP_OF_CHAR[vstr[-2]] - 1) - 1
 			astr = astr[0:idx] + d + astr[idx+1:]
 		else:
@@ -373,14 +371,14 @@ def convert_speaking_value(vstr):
 # 金融數值轉阿拉伯數字
 def convert_finance_value(vstr):
 	CHAR_MAP = {
-		u'壹': u'一', u'貳': u'二', u'參': u'三',
-		u'肆': u'四', u'伍': u'五', u'陸': u'六',
-		u'柒': u'七', u'捌': u'八', u'玖': u'九',
-		u'拾': u'十', u'佰': u'百', u'仟': u'千'
+		'壹': '一', '貳': '二', '參': '三',
+		'肆': '四', '伍': '五', '陸': '六',
+		'柒': '七', '捌': '八', '玖': '九',
+		'拾': '十', '佰': '百', '仟': '千'
 	}
 
 	# 金融字元轉朗讀字元
-	for (fc, sc) in CHAR_MAP.iteritems():
+	for (fc, sc) in CHAR_MAP.items():
 		vstr = vstr.replace(fc, sc)
 
 	# 用朗讀法轉換
@@ -388,14 +386,14 @@ def convert_finance_value(vstr):
 
 # 20~49 縮寫轉阿拉伯數字
 def convert_xty_value(vstr):
-	CDIGITS = u'..廿卅卌'
-	ADIGITS = u'..234'
+	CDIGITS = '..廿卅卌'
+	ADIGITS = '..234'
 
 	v = CDIGITS.find(vstr[0])
 	astr = ADIGITS[v]
 
 	if len(vstr) == 1:
-		astr = astr + u'0'
+		astr = astr + '0'
 	else:
 		astr = astr + convert_digits_value(vstr[1])
 
@@ -404,8 +402,8 @@ def convert_xty_value(vstr):
 ## 內文日期轉 ISO 8601
 def convert_iso_date(text):
 	offset  = 0
-	strout  = StringIO()
-	pattern = re.compile(u'(\d{2,4})[年/](\d{1,2})[月/](\d{1,2})日?')
+	strout  = io.StringIO()
+	pattern = re.compile('(\d{2,4})[年/](\d{1,2})[月/](\d{1,2})日?')
 
 	m = pattern.search(text)
 	while m is not None:
@@ -414,7 +412,7 @@ def convert_iso_date(text):
 		dd = int(m.group(3))
 		if yy < 1000:
 			yy = yy + 1911
-		
+
 		strout.write(text[offset:m.start(0)])
 		strout.write('%04d-%02d-%02d' % (yy, mm, dd))
 		offset = m.end(0)
@@ -430,8 +428,8 @@ def convert_iso_date(text):
 
 ## 阿拉伯數字轉中文數字
 def convert_chinese_numerals(text):
-	strout = StringIO()
-	chdigits = u'零一二三四五六七八九'
+	strout = io.StringIO()
+	chdigits = '零一二三四五六七八九'
 
 	for c in text:
 		if re.match('\d', c) is not None:

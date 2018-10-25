@@ -1,9 +1,3 @@
-#!../../bin/python
-# coding: utf-8
-#
-# @author 小璋丸 <virus.warnning@gmail.com>
-#
-
 import geocoder
 
 # 土炮版相依套件
